@@ -1,0 +1,29 @@
+// Custom Variables 
+$navigation-bottom-line: 1px solid $gray-300;
+$navigation-button-size: 0.875rem;
+
+.navbar {
+	background: white;
+}
+
+.fixed-navigation-width {
+	width: 100%;
+}
+
+// Bootstrap Class
+nav {
+	&{
+		border-bottom: $navigation-bottom-line;
+	}
+	.nav-link{
+		font-size: $navigation-button-size;
+		font-weight: normal;
+		-ms-flex-item-align: center;
+		align-self: center;
+	}
+}
+
+// Brand
+h1 {
+	margin-bottom: 0;
+}

@@ -1,0 +1,11 @@
+@if $enable-grid-classes {
+    .container-360 {
+        @include make-container-360();
+    }
+    .container-400 {
+        @include make-container-400();
+    }
+    .container-1200 {
+        @include make-container-1200();
+    }
+}

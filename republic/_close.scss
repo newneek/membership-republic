@@ -1,0 +1,8 @@
+.close {
+    text-shadow: none;
+    opacity: 1;
+    @include hover-focus {
+        opacity: 1;
+    }
+}
+

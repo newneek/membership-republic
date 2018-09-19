@@ -1,0 +1,12 @@
+// Buttons
+.btn {
+    &.closed {
+        background-color: $gray-600;
+        color: $white;
+        border-color: $gray-600;
+    }
+}
+
+.btn-sm {
+  @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $font-size-sm, $btn-line-height-sm, $btn-border-radius-sm);
+}

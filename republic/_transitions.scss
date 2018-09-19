@@ -1,0 +1,17 @@
+
+.alert {
+    &.show {
+        animation: alert-show 0.5s;
+    }
+}
+
+@keyframes alert-show {
+    0% {
+        opacity: 0;
+        margin-top: 3rem;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 1rem;
+    }
+}

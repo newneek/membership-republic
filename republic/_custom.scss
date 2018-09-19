@@ -1,0 +1,74 @@
+//임시 클래스(bs 모달이 아닌 모달에서 배경 스크롤이 안되게 하기 위해 만든 클래스)
+body.modal-opened {
+    overflow-y: hidden;
+}
+
+
+// for pagination
+a.page-link {
+    color: $gray-500;
+    font-weight: normal;
+}
+.page-link:hover, .page-link:focus {
+    color: $primary;
+    background-color: #FFF1EE;
+}
+.page-item.active .page-link {
+    color: white;
+    background-color: $primary;
+    border-color: $primary;
+    pointer-events: none;
+}
+.page-item.disabled {
+    .page-link {
+        color: white;
+        background-color: $primary;
+        border-color: $primary;
+    }
+    .page-link.pagination__arrow {
+        background: white;
+        color: #AAAAAA;
+        border-color: #ddd;
+        span.arrow.--primary {
+            border: solid #AAAAAA;
+            border-width: 0 2px 2px 0;
+        }
+    }
+}
+
+// form 에서 쓰는 CSS
+.form-control-lg {
+    padding: 0.75rem 0.625rem;
+    height: 45px;
+}
+.form-control{
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+.form-control:focus {
+    outline:none;
+    border-color: rgba(0,0,0,0.15);
+}
+.form-control::-webkit-input-placeholder {
+    color: #ddd;
+}
+.form-control-select {
+    height: 45px !important;
+    padding: 6px;
+
+    -webkit-appearance:none;
+}
+textarea.form-control {
+    padding:10px 10px;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #f1f1f1;
+}
+
+// carousel
+.carousel-control-prev,
+.carousel-control-next {
+    cursor: pointer;
+}

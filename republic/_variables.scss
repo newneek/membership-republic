@@ -1,0 +1,204 @@
+//
+// Color system
+//
+$white: #ffffff;
+$gray-100: #fbfbfb;
+$gray-200: #eeeeee;
+$gray-300: #dbdbdb;
+$gray-400: #c7c7c7;
+$gray-500: #aaaaaa;
+$gray-600: #999999;
+$gray-700: #777777;
+$gray-800: #555555;
+$gray-900: #333333;
+
+$primary:   #ed6653;
+$secondary: $gray-700;
+$light:     $gray-100;
+$dark:      $gray-900;
+
+$medium:    $gray-300;
+
+$teal: #0b4d58;
+
+
+$theme-colors: ();
+$theme-colors: map-merge((
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "light":      $light,
+  "dark":       $dark,
+  "medium" :    $medium,
+  "info":       $teal,
+), $theme-colors);
+
+
+//
+// Buttons
+//
+$btn-padding-y: 0px;
+$btn-padding-x: 16px;
+$border-radius: 3px;
+$border-color: $gray-200;
+$btn-line-height: 3;
+//// btn-sm
+$line-height-sm: 2.5;
+$btn-padding-y-sm: 0px;
+$btn-padding-x-sm: 16px;
+$font-size-sm: 1rem;
+
+// The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
+
+$yiq-contrasted-threshold:  154;
+
+
+// Spacing
+
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge((
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3:  $spacer,
+  35: ($spacer * 1.5),
+  4: ($spacer * 2),
+  45: ($spacer * 2.5),
+  5: ($spacer * 3),
+  7: ($spacer * 3.5),
+  6: ($spacer * 3.25),
+  8: ($spacer * 5),
+  9: ($spacer * 6),
+  12: ($spacer * 9.5),
+  nega-0: 0,
+  nega-1: (-$spacer * .25),
+  nega-2: (-$spacer * .5),
+  nega-3:  -$spacer,
+  nega-35: (-$spacer * 1.5),
+  nega-4: (-$spacer * 2),
+  nega-45: (-$spacer * 2.5),
+  nega-5: (-$spacer * 3),
+  nega-6: (-$spacer * 3.25),
+  nega-7: (-$spacer * 3.5),
+  nega-8: (-$spacer * 5),
+  nega-9: (-$spacer * 6),
+  nega-12: (-$spacer * 9.5),
+), $spacers);
+
+
+// This variable affects the `.h-*` and `.w-*` classes.
+
+$sizes: () !default;
+$sizes: map-merge((
+        10: 10%,
+        15: 15%,
+        25: 25%,
+        35: 35%,
+        31: 31.6%,
+        50: 50%,
+        66: 66.7%,
+        75: 75%,
+        100: 100%,
+        auto: auto
+), $sizes);
+
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+  xs: 0,
+  md: 768px,
+  lg: 960px,
+  xl: 1200px
+);
+
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints);
+
+
+// Links
+//
+// Style anchor elements.
+
+$link-hover-decoration: none;
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+
+$line-height-sm: 2.5;
+$border-radius: 3px;
+$border-color: $gray-200;
+
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-weight-light: 200;
+$font-weight-light-semi: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+
+$small-font-size: 88%;
+$ex-small-font-size: 77%;
+
+$headings-font-weight: $font-weight-bold;
+
+$text-muted: $gray-400;
+
+
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background, and border color.
+
+$btn-padding-y: 0rem;
+$btn-padding-x: 1rem;
+$btn-line-height: 3;
+
+$btn-padding-y-sm: 0rem;
+$btn-padding-x-sm: 1rem;
+
+// Forms
+
+$input-line-height: 2;
+$input-color: $dark;
+$input-border-color: $medium;
+$form-group-margin-bottom: 0;
+
+$link-hover-decoration: none;
+
+$yiq-contrasted-threshold:  154;
+
+
+// Navigation
+$navbar-padding-x: 15px;
+$navbar-padding-y: 0;
+$nav-link-padding-y: 0.5rem;
+$nav-link-padding-x: 0.75rem;
+$navbar-light-color: $gray-900;
+$navbar-light-hover-color: $gray-900;
+$navbar-nav-link-padding-x: 0.75rem;
+
+
+// Cards
+$card-spacer-x: 0.75rem;
+
+// Close
+$close-font-weight: $font-weight-normal;
+
+// Dropdowns
+$dropdown-border-radius: $border-radius; 
+$dropdown-spacer: -0.1rem;
+$dropdown-link-active-bg: $secondary;
+
+
+
+
+
+
