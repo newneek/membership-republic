@@ -171,6 +171,14 @@ $input-color: $dark;
 $input-border-color: $medium;
 $form-group-margin-bottom: 0;
 
+$component-active-color:      $white !default;
+$custom-control-gutter:                 1.625rem;
+$custom-control-indicator-size:         1.125rem;
+$custom-control-indicator-bg-size:      70% 70%;
+$custom-control-indicator-active-color:         $component-active-color !default;
+$custom-control-indicator-checked-color:        $component-active-color !default;
+$custom-checkbox-indicator-icon-checked:        str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 12'%3E%3Cpath fill='#{$custom-control-indicator-checked-color}' d='M5.59 8.426L12.47.592l1.451 1.516-7.437 8.721-.873 1.066L.528 5.683l1.559-1.352 3.502 4.095z'/%3E%3C/svg%3E"), "#", "%23") !default;
+
 $link-hover-decoration: none;
 
 $yiq-contrasted-threshold:  154;
