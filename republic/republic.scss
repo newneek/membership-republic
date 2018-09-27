@@ -13,11 +13,12 @@
 @import "buttons";
 @import "grid";
 @import "nav";
-@import "./utility/text";
 @import "card";
 @import "alert";
 @import "close";
 @import "transitions";
 
-
+// utilities
+@import "./utilities/text";
+@import "./utilities/borders";
 
