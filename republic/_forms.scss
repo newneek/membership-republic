@@ -30,6 +30,8 @@ textarea.form-control {
 }
 
 .form-control {
-	//will be deprecated
+	padding-top:0;
+	padding-bottom:0;
 	height: 3rem;
+	line-height: 3rem;
 }
