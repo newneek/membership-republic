@@ -167,8 +167,6 @@ $btn-padding-x-sm: 1rem;
 $input-height: 2.125rem;
 $input-line-height: 2.125rem;
 
-$input-height:                          calc(#{$input-height-inner} + #{$input-height-border}) !default;
-
 $input-color: $dark;
 $input-border-color: $medium;
 $input-group-addon-bg: $light;

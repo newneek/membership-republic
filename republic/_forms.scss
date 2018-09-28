@@ -30,5 +30,6 @@ textarea.form-control {
 }
 
 .form-control {
-	height: $input-height;
+	//will be deprecated
+	height: 3rem;
 }
