@@ -36,37 +36,6 @@ a.page-link {
     }
 }
 
-// form 에서 쓰는 CSS
-.form-control-lg {
-    padding: 0.75rem 0.625rem;
-    height: 45px;
-}
-.form-control{
-    font-weight: 400;
-    font-size: 1rem;
-    border-radius: 3px;
-}
-.form-control:focus {
-    outline:none;
-    border-color: rgba(0,0,0,0.15);
-}
-.form-control::-webkit-input-placeholder {
-    color: #ddd;
-}
-.form-control-select {
-    height: 45px !important;
-    padding: 6px;
-
-    -webkit-appearance:none;
-}
-textarea.form-control {
-    padding:10px 10px;
-}
-
-.form-control:disabled, .form-control[readonly] {
-    background-color: #f1f1f1;
-}
-
 // carousel
 .carousel-control-prev,
 .carousel-control-next {

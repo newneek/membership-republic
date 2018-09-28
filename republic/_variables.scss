@@ -152,7 +152,6 @@ $headings-font-weight: $font-weight-bold;
 $text-muted: $gray-400;
 
 
-
 // Buttons
 //
 // For each of Bootstrap's buttons, define text, background, and border color.
@@ -167,6 +166,8 @@ $btn-padding-x-sm: 1rem;
 // Forms
 $input-height: 2.125rem;
 $input-line-height: 2.125rem;
+
+$input-height:                          calc(#{$input-height-inner} + #{$input-height-border}) !default;
 
 $input-color: $dark;
 $input-border-color: $medium;
