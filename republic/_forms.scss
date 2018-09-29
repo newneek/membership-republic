@@ -23,6 +23,9 @@
 }
 textarea.form-control {
     padding:10px 10px;
+    // will be deprecated along with form contorl
+    line-height: 1.5;
+    height: auto;
 }
 
 .form-control:disabled, .form-control[readonly] {
