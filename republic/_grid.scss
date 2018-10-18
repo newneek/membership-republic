@@ -9,3 +9,19 @@
         @include make-container-1200();
     }
 }
+
+// Container
+.container-960 {
+	padding: 0 15px;
+	@media only screen and (min-width: 960px) {
+		width: 960px;
+		margin: 0 auto;
+	}
+}
+.container-720 {
+	padding: 0 15px;
+	@media only screen and (min-width: 960px) {
+		width: 720px;
+		margin: 0 auto;
+	}
+}
