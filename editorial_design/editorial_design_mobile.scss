@@ -7,6 +7,21 @@ body {
 	word-wrap: break-word;
 	word-break: keep-all;
 }
+// to be moved other place
+// modal mobile
+$max-modal-dialog-size: 420px;
+$horizontal-margin: 15px + 15px;
+.modal {
+    .modal-dialog {
+        @media (max-width: $max-modal-dialog-size + $horizontal-margin) {
+            margin-top: 15px;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 
 
