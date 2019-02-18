@@ -1,59 +1,3 @@
-// Fonts
-@import url(/static/fonts/SpoqaHanSans-kr.css);
-* { font-family: 'Spoqa Han Sans', sans-serif; }
-
-// to be moved
-body {
-	word-wrap: break-word;
-	word-break: keep-all;
-}
-// to be moved other place
-// modal mobile
-$max-modal-dialog-size: 420px;
-$horizontal-margin: 15px + 15px;
-.modal {
-    .modal-dialog {
-        @media (max-width: $max-modal-dialog-size + $horizontal-margin) {
-            margin-top: 15px;
-            margin-left: 15px;
-            margin-right: 15px;
-        }
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-// to be moved other place
-// for reset
-ol,ul {list-style: none;}
-ol,ul {padding: 0;}
-button {border: 0;background: none;}
-
-// to be moved other place
-// for placeholder animation
-@keyframes placeHolderShimmer{
-    0%{
-        background-position: -468px 0
-    }
-    100%{
-        background-position: 468px 0
-    }
-}
-.animated-background {
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-name: placeHolderShimmer;
-    animation-timing-function: linear;
-    background: #f6f7f8;
-    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
-    background-size: 960px 104px;
-    height: 140px;
-    position: relative;
-}
-
-
-
 .body-text {
 	& {font-size: 1.0625rem;}
 	iframe{width:100% !important}
@@ -80,6 +24,20 @@ button {border: 0;background: none;}
 	ul li q{padding:0;margin:0;border:0;color:#333}
 	.img-explain{display:block;margin:5px 0 45px;color:#999;font-size:0.875em}
 	.img-explain:before{display:inline-block;width:3px;height:11px;margin-right:5px;background-color:#cdcdcd;content:''}
+	figcaption {
+		margin: 0.25rem 0 2.5rem;
+		color: #999;
+		font-size: 0.875rem;
+		line-height: 1.5;
+		&::before {
+			display: inline-block;
+			width: 0.25rem;
+			height: 0.6875rem;
+			margin-right: 0.5rem;
+			background-color: #cdcdcd;
+			content: '';
+		}
+	}
 	big{display:block;margin-bottom:40px;line-height:1.417em;font-size:1.5em}
 	hr{display:block;width:30px;height:2px;margin:50px 0 15px;background-color:#000;text-align:left}
 	t{display:block;padding:30px 30px;margin:35px 0 25px;color:#333;background:#f7f7f7}
@@ -132,6 +90,20 @@ button {border: 0;background: none;}
 	.img-explain{display:block;margin:5px 0 40px;color:#999;font-size:14px;line-height:21px}
 	.img-explain:before{display:inline-block;width:3px;height:11px;margin-right:5px;background-color:#cdcdcd;content:''}
 	.img-explain img{margin:70px 0 0}
+	figcaption {
+		margin: 0.25rem 0 2.5rem;
+		color: #999;
+		font-size: 0.875rem;
+		line-height: 1.5;
+		&::before {
+			display: inline-block;
+			width: 0.25rem;
+			height: 0.6875rem;
+			margin-right: 0.5rem;
+			background-color: #cdcdcd;
+			content: '';
+		}
+	}
 	t{display:block;padding:30px 30px;margin:35px 0 25px;color:#333;background:#f7f7f7}
 }
 
