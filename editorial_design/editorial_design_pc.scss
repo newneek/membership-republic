@@ -53,7 +53,11 @@
             content: '';
         }
     }
-    t{display:block;padding:30px 30px;margin:35px 0 25px;color:#333;background:#f7f7f7}
+    .editorial-comment {
+        color: #7f8c8d;
+        font-size: 14px;
+        margin-top: 0.3rem;
+    }
 }
 
 @media only screen and (min-width : 960px){
