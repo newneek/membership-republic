@@ -40,7 +40,6 @@
 	}
 	big{display:block;margin-bottom:40px;line-height:1.417em;font-size:1.5em}
 	hr{display:block;width:30px;height:2px;margin:50px 0 15px;background-color:#000;text-align:left}
-	t{display:block;padding:30px 30px;margin:35px 0 25px;color:#333;background:#f7f7f7}
 	p span[style*="background-color"] {padding: 3px 0;}
 }
 
@@ -104,7 +103,11 @@
 			content: '';
 		}
 	}
-	t{display:block;padding:30px 30px;margin:35px 0 25px;color:#333;background:#f7f7f7}
+	.editorial-comment {
+		color: #7f8c8d;
+		font-size: 14px;
+		margin-top: 0.3rem;
+	}
 }
 
 // for tablet
