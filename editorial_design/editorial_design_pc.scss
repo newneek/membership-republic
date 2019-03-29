@@ -1,3 +1,5 @@
+@import "editorial_design_common";
+
 .web-viewer .article-body{padding:0 15px;font-size: 1.125rem;}
 .web-viewer .article-body {
     .part{padding-top:10px}
@@ -60,6 +62,26 @@
     }
     .editorial-interview-question {
         color: #2980b9;
+    }
+    /*
+    Using custom style because of ckeditor and bootstrap css class .media(display:flex) conflict
+    Using duplicate code from '@ckeditor/ckeditor5-media-embed/theme/mediaembed.css
+     */
+    .media {
+        /* Don't allow floated content overlap the media.
+        https://github.com/ckeditor/ckeditor5-media-embed/issues/53 */
+        clear: both;
+
+        /* Make sure there is some space between the content and the media. */
+        margin: 1em 0;
+
+        /* Make sure media is not overriden with Bootstrap default `flex` value.
+        See: https://github.com/ckeditor/ckeditor5/issues/1373. */
+        display: block;
+
+        /* Give the media some minimal width in the content to prevent them
+        from being "squashed" in tight spaces, e.g. in table cells (#44) */
+        min-width: 15em;
     }
 }
 
