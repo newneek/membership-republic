@@ -68,11 +68,6 @@ $spacers: map-merge((
   6: ($spacer * 2),
   7: ($spacer * 2.5),
   8: ($spacer * 3),
-  9: ($spacer * 3.25),
-  10: ($spacer * 3.5),
-  11: ($spacer * 5),
-  12: ($spacer * 6),
-  13: ($spacer * 9.5),
   nega-0: 0,
   nega-1: (-$spacer * .25),
   nega-2: (-$spacer * .5),
@@ -82,11 +77,6 @@ $spacers: map-merge((
   nega-6: (-$spacer * 2),
   nega-7: (-$spacer * 2.5),
   nega-8: (-$spacer * 3),
-  nega-9: (-$spacer * 3.25),
-  nega-10: (-$spacer * 3.5),
-  nega-11: (-$spacer * 5),
-  nega-12: (-$spacer * 6),
-  nega-13: (-$spacer * 9.5),
 ), $spacers);
 
 
