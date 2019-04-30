@@ -4,8 +4,7 @@
 @import "fvm";
 @import "bootstrap_all_without_fvm";
 
-
-// 재사용하는 클래스들
+//
 @import "custom";
 @import "modal";
 @import "buttons";
@@ -18,8 +17,4 @@
 @import "close";
 @import "transitions";
 @import "forms";
-
-// utilities
-@import "./utilities/text";
-@import "./utilities/borders";
-
+@import "utilities";
