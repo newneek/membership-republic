@@ -107,6 +107,13 @@ $sizes: map-merge((
 
 $link-hover-decoration: none;
 
+// Paragraphs
+//
+// Style p element.
+
+$paragraph-margin-bottom: 0; // should be fixed later!
+
+
 // Grid breakpoints
 //
 // Define the minimum dimensions at which your layout will change,

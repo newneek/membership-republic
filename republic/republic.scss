@@ -5,16 +5,19 @@
 @import "bootstrap_all_without_fvm";
 
 //
-@import "custom";
-@import "modal";
-@import "buttons";
+@import "reboot";
 @import "type";
 @import "buttons";
 @import "grid";
+@import "forms";
+@import "buttons";
 @import "nav";
+@import "transitions";
 @import "card";
+@import "pagination";
 @import "alert";
 @import "close";
-@import "transitions";
-@import "forms";
+@import "modal";
+@import "carousel";
 @import "utilities";
+@import "custom";
