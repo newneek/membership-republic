@@ -34,15 +34,20 @@ $theme-colors: map-merge((
   "info":       $teal,
 ), $theme-colors);
 
+// The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
+$yiq-contrasted-threshold:  154;
 
-//
 // Buttons
 //
+// For each of Bootstrap's buttons, define text, background, and border color.
+
 $btn-padding-y: 0px;
 $btn-padding-x: 16px;
+$btn-line-height: 3;
+
 $border-radius: 3px;
 $border-color: $gray-200;
-$btn-line-height: 3;
+
 //// btn-sm
 $line-height-sm: 2.5;
 $btn-padding-y-sm: 0px;
@@ -96,6 +101,11 @@ $sizes: map-merge((
         auto: auto
 ), $sizes);
 
+// Links
+//
+// Style anchor elements.
+
+$link-hover-decoration: none;
 
 // Grid breakpoints
 //
@@ -112,39 +122,39 @@ $grid-breakpoints: (
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 @include _assert-starts-at-zero($grid-breakpoints);
 
-
-// Links
-//
-// Style anchor elements.
-
-$link-hover-decoration: none;
-
 // Components
 //
 // Define common padding and border radius sizes and more.
-
 $line-height-sm: 2.5;
 $border-radius: 3px;
+
 $border-color: $gray-200;
 
+$component-active-color:      $white !default;
 
 // Fonts
 //
 // Font, line-height, and color for body text, headings, and more.
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
 
 $font-weight-light: 200;
 $font-weight-light-semi: 300;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
 
-
-$small-font-size: 88%;
-$ex-small-font-size: 77%;
+$h1-font-size:                $font-size-base * 2 !default;
+$h2-font-size:                $font-size-base * 1.75 !default;
+$h3-font-size:                $font-size-base * 1.5 !default;
+$h4-font-size:                $font-size-base * 1.25 !default;
+$h5-font-size:                $font-size-base * 1.125 !default;
+$h6-font-size:                $font-size-base !default;
 
 $headings-font-weight: $font-weight-bold;
 
-$text-muted: $gray-400;
+$small-font-size: 88%;
 
+$text-muted: $gray-400;
 
 // Buttons
 //
@@ -165,31 +175,35 @@ $input-color: $dark;
 $input-border-color: $medium;
 $input-group-addon-bg: $light;
 
-
-
-
-$component-active-color:      $white !default;
 $custom-control-gutter:                 1.625rem;
 $custom-control-indicator-size:         1.125rem;
 $custom-control-indicator-bg-size:      70% 70%;
-$custom-control-indicator-active-color:         $component-active-color !default;
 $custom-control-indicator-checked-color:        $component-active-color !default;
+$custom-control-indicator-active-color:         $component-active-color !default;
 $custom-checkbox-indicator-icon-checked:        str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 12'%3E%3Cpath fill='#{$custom-control-indicator-checked-color}' d='M5.59 8.426L12.47.592l1.451 1.516-7.437 8.721-.873 1.066L.528 5.683l1.559-1.352 3.502 4.095z'/%3E%3C/svg%3E"), "#", "%23") !default;
 
-$link-hover-decoration: none;
+// Dropdowns
+//
+// Dropdown menu container and contents.
 
-$yiq-contrasted-threshold:  154;
+$dropdown-spacer: -0.1rem;
+$dropdown-border-radius: $border-radius;
+$dropdown-link-active-bg: $secondary;
 
+// Navs
 
-
-// Navigation
-$navbar-padding-x: 15px;
-$navbar-padding-y: 0;
 $nav-link-padding-y: 0.5rem;
 $nav-link-padding-x: 0.75rem;
+
+// Navbar
+
+$navbar-padding-y: 0;
+$navbar-padding-x: 15px;
+
+$navbar-nav-link-padding-x: 0.75rem;
+
 $navbar-light-color: $gray-900;
 $navbar-light-hover-color: $gray-900;
-$navbar-nav-link-padding-x: 0.75rem;
 
 
 // Cards
@@ -197,12 +211,6 @@ $card-spacer-x: 0.75rem;
 
 // Close
 $close-font-weight: $font-weight-normal;
-
-// Dropdowns
-$dropdown-border-radius: $border-radius; 
-$dropdown-spacer: -0.1rem;
-$dropdown-link-active-bg: $secondary;
-
 
 
 
