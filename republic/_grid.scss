@@ -1,29 +1,19 @@
-@if $enable-grid-classes {
-    .container-360 {
-        @include make-container-360();
-    }
-    .container-400 {
-        @include make-container-400();
-    }
-    .container-1200 {
-        @include make-container-1200();
-    }
+.fixed-container-xlarge {
+	@include make-container();
+	width: 1200px;
 }
 
-// Container
-.container-960 {
-	padding: 0 15px;
-	@media only screen and (min-width: 960px) {
-		padding: 0;
-		width: 960px;
-		margin: 0 auto;
-	}
+.fixed-container-large {
+	@include make-container();
+	width: 992px;
 }
-.container-720 {
-	padding: 0 15px;
-	@media only screen and (min-width: 960px) {
-		padding: 0;
-		width: 720px;
-		margin: 0 auto;
-	}
+
+.fixed-container-medium {
+	@include make-container();
+	width: 768px;
+}
+
+.fixed-container-small {
+	@include make-container();
+	width: 576px;
 }
