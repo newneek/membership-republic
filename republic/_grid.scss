@@ -19,5 +19,5 @@
 }
 
 .min-width-large {
-	width: map-get($grid-breakpoints, "lg");
+	min-width: map-get($grid-breakpoints, "lg");
 }
