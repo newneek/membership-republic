@@ -1,19 +1,23 @@
 .fixed-container-xlarge {
 	@include make-container();
-	width: 1200px;
+	width: map-get($grid-breakpoints, "xl");
 }
 
 .fixed-container-large {
 	@include make-container();
-	width: 992px;
+	width: map-get($grid-breakpoints, "lg");
 }
 
 .fixed-container-medium {
 	@include make-container();
-	width: 768px;
+	width: map-get($grid-breakpoints, "md");
 }
 
 .fixed-container-small {
 	@include make-container();
-	width: 576px;
+	width: map-get($grid-breakpoints, "sm");
+}
+
+.min-width-large {
+	width: map-get($grid-breakpoints, "lg");
 }
