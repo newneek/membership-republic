@@ -90,35 +90,3 @@
     }
   }
 }
-
-
-
-@mixin make-container-400() {
-  width: 400px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@mixin make-container-360() {
-  width: 360px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@mixin make-container-720() {
-  width: 720px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@mixin make-container-960() {
-  width: 960px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@mixin make-container-1200() {
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-}

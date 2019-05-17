@@ -1,29 +1,23 @@
-@if $enable-grid-classes {
-    .container-360 {
-        @include make-container-360();
-    }
-    .container-400 {
-        @include make-container-400();
-    }
-    .container-1200 {
-        @include make-container-1200();
-    }
+.fixed-container-xlarge {
+	@include make-container();
+	width: map-get($grid-breakpoints, "xl");
 }
 
-// Container
-.container-960 {
-	padding: 0 15px;
-	@media only screen and (min-width: 960px) {
-		padding: 0;
-		width: 960px;
-		margin: 0 auto;
-	}
+.fixed-container-large {
+	@include make-container();
+	width: map-get($grid-breakpoints, "lg");
 }
-.container-720 {
-	padding: 0 15px;
-	@media only screen and (min-width: 960px) {
-		padding: 0;
-		width: 720px;
-		margin: 0 auto;
-	}
+
+.fixed-container-medium {
+	@include make-container();
+	width: map-get($grid-breakpoints, "md");
+}
+
+.fixed-container-small {
+	@include make-container();
+	width: map-get($grid-breakpoints, "sm");
+}
+
+.min-width-large {
+	min-width: map-get($grid-breakpoints, "lg");
 }
