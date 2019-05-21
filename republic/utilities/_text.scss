@@ -1,4 +1,33 @@
-// Weight and italics
+// Text Ellipsis
+@mixin text-truncate($lines) {
+  display: -webkit-box;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+}
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .text-truncate#{$infix}-0 {
+      @include text-truncate(unset);
+    }
+    .text-truncate#{$infix}-1 {
+      @include text-truncate(1);
+    }
+    .text-truncate#{$infix}-2 {
+      @include text-truncate(2);
+    }
+    .text-truncate#{$infix}-3 {
+      @include text-truncate(3);
+    }
+  }
+}
+
 .font-weight-light-semi  {
   font-weight: $font-weight-light-semi
 }
