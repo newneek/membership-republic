@@ -73,16 +73,16 @@ $spacers: map-merge((
   7: ($spacer * 2),
   8: ($spacer * 2.5),
   9: ($spacer * 3),
-  nega-0: 0,
-  nega-1: (-$spacer * .25),
-  nega-2: (-$spacer * .5),
-  nega-3: (-$spacer * 0.75),
-  nega-4:  -$spacer,
-  nega-5: (-$spacer * 1.25),
-  nega-6: (-$spacer * 1.5),
-  nega-7: (-$spacer * 2),
-  nega-8: (-$spacer * 2.5),
-  nega-9: (-$spacer * 3),
+  n0: 0,
+  n1: (-$spacer * .25),
+  n2: (-$spacer * .5),
+  n: (-$spacer * 0.75),
+  n4:  -$spacer,
+  n5: (-$spacer * 1.25),
+  n6: (-$spacer * 1.5),
+  n7: (-$spacer * 2),
+  n8: (-$spacer * 2.5),
+  n9: (-$spacer * 3),
 ), $spacers);
 
 
@@ -159,8 +159,8 @@ $btn-padding-y-sm: 0rem;
 $btn-padding-x-sm: 1rem;
 
 // Forms
-$input-height: 2.125rem;
-$input-line-height: 2.125rem;
+//$input-height: 2.125rem;
+//$input-line-height: 2.125rem;
 
 $input-color: $dark;
 $input-border-color: $medium;
