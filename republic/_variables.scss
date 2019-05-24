@@ -22,16 +22,16 @@ $medium:    $gray-300;
 
 $teal: #0b4d58;
 
-
 $theme-colors: ();
 $theme-colors: map-merge((
-  "primary":    $primary,
-  "davy-gray":  $davy-gray,
-  "secondary":  $secondary,
-  "light":      $light,
-  "dark":       $dark,
-  "medium" :    $medium,
-  "info":       $teal,
+  "primary": $primary,
+  "davy-gray": $davy-gray,
+  "secondary": $secondary,
+  "light": $light,
+  "dark": $dark,
+  "medium": $medium,
+  "info": $teal,
+  "gray-600": $gray-600
 ), $theme-colors);
 
 // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
