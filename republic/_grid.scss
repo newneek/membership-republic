@@ -18,6 +18,11 @@
 	width: map-get($grid-breakpoints, "sm");
 }
 
+.fixed-container-xsmall {
+	@include make-container();
+	width: 390px;
+}
+
 .min-width-large {
 	min-width: map-get($grid-breakpoints, "lg");
 }
