@@ -14,3 +14,19 @@ strong {
 }
 // stylelint-enable font-weight-notation
 
+// from legacy reset. should be re-considered about default button styling
+button {
+  border:0;background:none;
+}
+
+// from legacy reset. should be re-considered about default list styling
+ol, ul, dl {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+
+// from legacy reset. should be re-considered about default em styling
+em {
+  font-style:normal
+}
