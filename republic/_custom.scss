@@ -30,3 +30,15 @@ body.modal-opened {
     height: 140px;
     position: relative;
 }
+
+// this is needed to fix nanocss(css minification) bug: https://github.com/cssnano/cssnano/issues/712
+// if the bug is fixed, this code should be removed.
+@each $state, $data in $form-validation-states {
+    .form-control {
+        .was-validated &:#{$state}, &.is-#{$state} {
+            @if $enable-validation-icons {
+                background-position: right $input-height-inner-quarter center;
+            }
+        }
+    }
+}
