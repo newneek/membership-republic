@@ -12,18 +12,27 @@ $gray-700: #777777;
 $gray-800: #555555;
 $gray-900: #333333;
 
-$primary:   #ed6653;
-$davy-gray: $gray-800;
-$secondary: $gray-700;
+// deprecated. now we use just gray-100, gray-200, ...
 $light:     $gray-100;
+$medium:    $gray-300;
+$secondary: $gray-700;
+$davy-gray: $gray-800;
 $dark:      $gray-900;
 
-$medium:    $gray-300;
+$primary-100: #ffedee;
+$primary-200: #f39c90;
+$primary-300: #ef7b6a;
+$primary-400: #ed6653;
+$primary: $primary-400;
 
 $teal: #0b4d58;
 
 $theme-colors: ();
 $theme-colors: map-merge((
+  "primary-100": $primary-100,
+  "primary-200": $primary-200,
+  "primary-300": $primary-300,
+  "primary-400": $primary-400,
   "primary": $primary,
   "davy-gray": $davy-gray,
   "secondary": $secondary,
@@ -31,7 +40,15 @@ $theme-colors: map-merge((
   "dark": $dark,
   "medium": $medium,
   "info": $teal,
-  "gray-600": $gray-600
+  "gray-100": $gray-100,
+  "gray-200": $gray-200,
+  "gray-300": $gray-300,
+  "gray-400": $gray-400,
+  "gray-500": $gray-500,
+  "gray-600": $gray-600,
+  "gray-700": $gray-700,
+  "gray-800": $gray-800,
+  "gray-900": $gray-900
 ), $theme-colors);
 
 // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
@@ -44,8 +61,6 @@ $yiq-contrasted-threshold:  154;
 $btn-padding-y: 0px;
 $btn-padding-x: 16px;
 $btn-line-height: 3;
-
-$border-radius: 3px;
 
 //// btn-sm
 $line-height-sm: 2.5;
