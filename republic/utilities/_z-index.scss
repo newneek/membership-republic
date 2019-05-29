@@ -1,0 +1,27 @@
+.z-dropdown {
+  z-index: $zindex-dropdown
+}
+
+.z-sticky {
+  z-index: $zindex-sticky
+}
+
+.z-fixed {
+  z-index: $zindex-fixed
+}
+
+.z-modal-backdrop {
+  z-index: $zindex-modal-backdrop
+}
+
+.z-modal {
+  z-index: $zindex-modal
+}
+
+.z-popover {
+  z-index: $zindex-popover
+}
+
+.z-tooltip {
+  z-index: $zindex-tooltip
+}
