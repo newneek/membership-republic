@@ -25,6 +25,12 @@
     .text-truncate#{$infix}-3 {
       @include text-truncate(3);
     }
+    .text-truncate#{$infix}-4 {
+      @include text-truncate(4);
+    }
+    .text-truncate#{$infix}-5 {
+      @include text-truncate(5);
+    }
   }
 }
 
