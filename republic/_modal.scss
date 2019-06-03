@@ -17,7 +17,6 @@
     padding: 20px;
     .btn {
         width: 50%;
-        padding: 0;
     }
 }
 
@@ -25,10 +24,6 @@
 	border-radius: 2px;
 	border: none;
 	box-shadow: 0 8px 64px rgba(0,0,0,0.2), 0 2px 8px rgba(0,0,0,0.2);
-}
-
-.modal-body__spinner {
-	margin-top: 1rem;
 }
 
 .modal__secondary-button {
