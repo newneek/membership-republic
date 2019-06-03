@@ -33,3 +33,12 @@ em {
 
 // later search input should be refactored to use cancel button
 input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}
+
+// Opinionated: add "hand" cursor to non-disabled button elements.
+@if $enable-pointer-cursor-for-buttons {
+  .btn {
+    &:not(:disabled) {
+      cursor: pointer;
+    }
+  }
+}
