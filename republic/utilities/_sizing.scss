@@ -14,6 +14,7 @@
   @include media-breakpoint-up($breakpoint) {
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
+    .max-width#{$infix}-xsmall { max-width: 20rem !important; }
     .max-width#{$infix}-small { max-width: 24rem !important; }
     .max-width#{$infix}-medium { max-width: 28rem !important; }
     .max-width#{$infix}-large { max-width: 32rem !important; }
