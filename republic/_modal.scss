@@ -1,6 +1,7 @@
 .modal-dialog {
     max-width: 420px;
 }
+
 .modal-header {
     padding: 20px;
     border-bottom: transparent;
@@ -24,11 +25,6 @@
 	border-radius: 2px;
 	border: none;
 	box-shadow: 0 8px 64px rgba(0,0,0,0.2), 0 2px 8px rgba(0,0,0,0.2);
-}
-
-.modal__secondary-button {
-	border: transparent;
-	box-shadow: 0 1px 4px rgba(131,131,131,0.5);
 }
 
 .modal-title {
@@ -97,123 +93,4 @@
 	   		transform:rotate(450deg);
 	 	}
 	}
-}
-
-.spinner__container {
-	$offset: 187;
-	$duration: 1.4s;
-
-	.spinner {
-	  	animation: rotator $duration linear infinite;
-	}
-
-	@keyframes rotator {
-	  	0% { transform: rotate(0deg); }
-	  	100% { transform: rotate(270deg); }
-	}
-
-	.path {
-	  	stroke-dasharray: $offset;
-		stroke-dashoffset: 0;
-	  	transform-origin: center;
-	  	animation:
-			dash $duration ease-in-out infinite,
-			colors ($duration*4) ease-in-out infinite;
-	}
-
-	@keyframes colors {
-		0% { stroke: $primary; }
-		25% { stroke: $primary; }
-		50% { stroke: $primary; }
-		75% { stroke: $primary; }
-	  	100% { stroke: $primary; }
-	}
-
-	@keyframes dash {
-	 	0% { stroke-dashoffset: $offset; }
-	 	50% {
-	   		stroke-dashoffset: $offset/4;
-	   		transform:rotate(135deg);
-	 	}
-	 	100% {
-	   		stroke-dashoffset: $offset;
-	   		transform:rotate(450deg);
-	 	}
-	}
-}
-
-.simple-spinner__container {
-	$background: white;
-	$foreground: $primary;
-
-	.load3 {
-
-	  .loader {
-	    font-size:10px;
-	    margin:0 auto;
-	    text-indent:-9999em;
-	    width:2rem;
-	    height:2rem;
-	    border-radius:50%;
-	    background: $foreground;
-	    background: -moz-linear-gradient(left,  rgba($foreground,1) 10%, rgba($foreground,0) 42%);
-	    background: -webkit-linear-gradient(left,  rgba($foreground,1) 10%,rgba($foreground,0) 42%);
-	    background: -o-linear-gradient(left,  rgba($foreground,1) 10%,rgba($foreground,0) 42%);
-	    background: -ms-linear-gradient(left,  rgba($foreground,1) 10%,rgba($foreground,0) 42%);
-	    background: linear-gradient(to right,  rgba($foreground,1) 10%,rgba($foreground,0) 42%);
-	    position: relative;
-	    -webkit-animation:load3 0.7s infinite linear;
-	    animation:load3 0.7s infinite linear;
-	    -webkit-transform: translateZ(0);
-	    -ms-transform: translateZ(0);
-	    transform: translateZ(0);
-
-	    &:before {
-	      width:50%;
-	      height:50%;
-	      background: $foreground;
-	      border-radius: 100% 0 0 0;
-	      position:absolute;
-	      top:0;
-	      left:0;
-	      content:'';
-	    }
-
-	    &:after {
-	      background:$background;
-	      width:80%;
-	      height:80%;
-	      border-radius:50%;
-	      content:'';
-	      margin:auto;
-	      position: absolute;
-	      top: 0; left: 0; bottom: 0; right: 0;
-	    }
-
-	  }
-
-	}
-
-	@mixin load3-frames() {
-
-	  0% {
-	  	-webkit-transform:rotate(0deg);
-	  	transform:rotate(0deg);
-	  }
-
-	  100% {
-	  	-webkit-transform:rotate(360deg);
-	  	transform:rotate(360deg);
-	  }
-
-	}
-
-	@-webkit-keyframes load3 {@include load3-frames;}
-	@keyframes load3 {@include load3-frames;}
-
-}
-
-.ios-modal-prevent-scrolling {
-	position: fixed !important;
-	width: 100% !important;
 }
