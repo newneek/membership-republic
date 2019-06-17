@@ -1,8 +1,16 @@
-// Buttons
+// deprecated
 .btn {
     &.closed {
         background-color: $gray-600;
         color: $white;
         border-color: $gray-600;
     }
+}
+
+//
+// Button Sizes
+//
+
+.btn-xl {
+    @include button-size($btn-padding-y-xl, $btn-padding-x-xl, $btn-font-size-xl, $btn-line-height-xl, $btn-border-radius-xl);
 }
