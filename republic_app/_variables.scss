@@ -1,0 +1,264 @@
+//
+// Color system
+//
+$black: #000000;
+$white: #ffffff;
+$gray-100: #f7f7f7;
+$gray-200: #eeeeee;
+$gray-300: #dbdbdb;
+$gray-400: #c7c7c7;
+$gray-500: #aaaaaa;
+$gray-600: #999999;
+$gray-700: #777777;
+$gray-800: #555555;
+$gray-900: #333333;
+
+$light: $gray-100;
+$medium: $gray-300;
+$secondary: $gray-700;
+$davy-gray: $gray-800;
+$dark: $gray-900;
+
+$primary-100: #ffedee;
+$primary-200: #f39c90;
+$primary-300: #ef7b6a;
+$primary-400: #ed6653;
+$primary: $primary-400;
+
+$teal-100: #d5f4f2;
+$teal-200: #9fd8d4;
+$teal-300: #007871;
+$teal-400: #0b4b58;
+$teal: $teal-400;
+
+$theme-colors: ();
+$theme-colors: map-merge((
+        "primary-100": $primary-100,
+        "primary-200": $primary-200,
+        "primary-300": $primary-300,
+        "primary-400": $primary-400,
+        "primary": $primary,
+        "teal-100": $teal-100,
+        "teal-200": $teal-200,
+        "teal-300": $teal-300,
+        "teal-400": $teal-400,
+        "davy-gray": $davy-gray,
+        "secondary": $secondary,
+        "light": $light,
+        "dark": $dark,
+        "medium": $medium,
+        "info": $teal,
+        "gray-100": $gray-100,
+        "gray-200": $gray-200,
+        "gray-300": $gray-300,
+        "gray-400": $gray-400,
+        "gray-500": $gray-500,
+        "gray-600": $gray-600,
+        "gray-700": $gray-700,
+        "gray-800": $gray-800,
+        "gray-900": $gray-900
+), $theme-colors);
+
+// The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
+$yiq-contrasted-threshold: 154;
+
+// Spacing
+
+$spacer: 1rem;
+$spacers: ();
+$spacers: map-merge((
+        0: 0,
+        1: ($spacer * .25),
+        2: ($spacer * .5),
+        3: ($spacer * .75),
+        4: $spacer,
+        5: ($spacer * 1.25),
+        6: ($spacer * 1.5),
+        7: ($spacer * 2),
+        8: ($spacer * 2.5),
+        9: ($spacer * 3)
+), $spacers);
+
+
+// This variable affects the `.h-*` and `.w-*` classes.
+$sizes: ();
+$sizes: map-merge((
+        10: 10%,
+        15: 15%,
+        25: 25%,
+        35: 35%,
+        31: 31.6%,
+        50: 50%,
+        66: 66.7%,
+        75: 75%,
+        100: 100%,
+        auto: auto
+), $sizes);
+
+// Links
+//
+// Style anchor elements.
+
+$link-hover-decoration: none;
+
+// Paragraphs
+//
+// Style p element.
+
+$paragraph-margin-bottom: 0; // should be fixed later!
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+
+$line-height-xl: 1.5;
+
+$border-radius: 0.25rem; // default
+$border-radius-lg: .3rem; // default
+$border-radius-xl: .3rem;
+
+$box-shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$box-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+$box-shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+$component-active-color: $white;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+
+$font-weight-light: 200;
+$font-weight-light-semi: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$h1-font-size: $font-size-base * 2;
+$h2-font-size: $font-size-base * 1.75;
+$h3-font-size: $font-size-base * 1.5;
+$h4-font-size: $font-size-base * 1.25;
+$h5-font-size: $font-size-base * 1.125;
+$h6-font-size: $font-size-base;
+
+$headings-font-weight: $font-weight-bold;
+$headings-line-height: 1.5;
+
+$small-font-size: 88%;
+
+$text-muted: $gray-400;
+
+// Buttons + Forms
+//
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+$input-btn-padding-y-sm: .3125rem;
+$input-btn-font-size-sm: $font-size-base * .75;
+
+$input-btn-padding-y: .4375rem;
+$input-btn-font-size: $font-size-base * .875;
+
+$input-btn-padding-y-lg: .6875rem;
+$input-btn-font-size-lg: $font-size-base;
+
+$input-btn-padding-y-xl: .9375rem;
+$input-btn-font-size-xl: $font-size-base;
+$input-btn-line-height-xl: $line-height-xl;
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background, and border color.
+$btn-padding-x-sm: .6875rem;
+
+$btn-padding-x: .9375rem;
+
+$btn-padding-x-lg: 1.0375rem;
+
+$btn-padding-y-xl: $input-btn-padding-y-xl;
+$btn-padding-x-xl: 1.9375rem;
+$btn-font-size-xl: $input-btn-font-size-xl;
+$btn-line-height-xl: $input-btn-line-height-xl;
+
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius-xl: $border-radius-xl;
+
+
+// Forms
+
+$input-padding-x-sm: .3125rem;
+$input-padding-x: .4375rem;
+$input-padding-x-lg: .6875rem;
+
+$input-color: $dark;
+$input-border-color: $medium;
+$input-group-addon-bg: $light;
+
+$custom-control-indicator-size: 1.125rem;
+$custom-control-indicator-bg-size: 70% 70%;
+$custom-control-indicator-checked-color: $component-active-color;
+$custom-control-indicator-active-color: $component-active-color;
+
+$custom-checkbox-indicator-icon-checked: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 12'%3E%3Cpath fill='#{$custom-control-indicator-checked-color}' d='M5.59 8.426L12.47.592l1.451 1.516-7.437 8.721-.873 1.066L.528 5.683l1.559-1.352 3.502 4.095z'/%3E%3C/svg%3E"), "#", "%23");
+
+$custom-select-border-radius-lg: $border-radius-lg;
+
+
+// Dropdowns
+//
+// Dropdown menu container and contents.
+
+$dropdown-spacer: -0.1rem;
+$dropdown-border-radius: $border-radius;
+$dropdown-link-active-bg: $secondary;
+
+
+// Navs
+
+$nav-link-padding-y: 0.5rem;
+$nav-link-padding-x: 0.75rem;
+
+
+// Navbar
+
+$navbar-padding-y: 0;
+$navbar-padding-x: 15px;
+
+$navbar-nav-link-padding-x: 0.75rem;
+
+$navbar-light-color: $gray-900;
+$navbar-light-hover-color: $gray-900;
+
+
+// Cards
+$card-spacer-x: 0.75rem;
+
+
+// Close
+$close-font-weight: $font-weight-normal;
+
+// Utilities
+
+$overflows: auto, hidden, visible, scroll;
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+) !default;
+
+$border-width: 1px;
+$border-color: $gray-300;
+
+$border-radius: .25rem;
+$border-radius-lg: .3rem;
+$border-radius-sm: .2rem;
+
+$rounded-pill: 50rem;
+
+$box-shadow-sm: 0 .125rem .25rem rgba($black, .075);
+$box-shadow: 0 .5rem 1rem rgba($black, .15);
+$box-shadow-lg: 0 1rem 3rem rgba($black, .175);
