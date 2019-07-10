@@ -22,3 +22,10 @@ nav {
 		align-self: center;
 	}
 }
+
+.nav-tabs {
+	.nav-link:hover,
+	.nav-link.active {
+		font-weight:bold;
+	}
+}
