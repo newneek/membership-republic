@@ -24,8 +24,15 @@ nav {
 }
 
 .nav-tabs {
-	.nav-link:hover,
 	.nav-link.active {
 		font-weight:bold;
+		color: #333333;
+		border-color: #ef7b6a;
 	}
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+	border: none;
+	font-weight:none;
 }
