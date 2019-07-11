@@ -39,7 +39,9 @@ nav {
 		}
 	}
 
-	.nav-link.active {
+	.nav-link.active,
+	.nav-item.show .nav-link {
+		border-color: $nav-tabs-link-active-border-color;
 		font-weight:bold;
 	}
 }
