@@ -229,9 +229,10 @@ $navbar-nav-link-padding-x: 0.75rem;
 $navbar-light-color: $gray-900;
 $navbar-light-hover-color: $gray-900;
 
-$nav-tabs-link-hover-border-color: $primary-300;
+$nav-tabs-link-hover-border-color: transparent;
 $nav-tabs-link-active-border-color: $primary-300;
-$nav-tabs-border-width: 2px;
+$nav-tabs-link-active-color: $gray-900;
+$nav-tabs-border-width: 3px;
 
 // Cards
 $card-spacer-x: 0.75rem;
