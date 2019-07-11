@@ -24,8 +24,24 @@ nav {
 }
 
 .nav-tabs {
-	.nav-link:hover,
-	.nav-link.active {
-		font-weight:bold;
+	border-bottom: 1px solid $gray-300;
+
+	.nav-item {
+		margin-bottom: -1px;
+	}
+
+	.nav-link {
+		border: none;
+		border-bottom: $nav-tabs-border-width solid transparent;
+
+		@include hover-focus {
+			border-color: $nav-tabs-link-hover-border-color;
+		}
+	}
+
+	.nav-link.active,
+	.nav-item.show .nav-link {
+		border-color: $nav-tabs-link-active-border-color;
+		font-weight: bold;
 	}
 }
