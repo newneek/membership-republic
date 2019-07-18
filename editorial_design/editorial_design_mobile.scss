@@ -108,9 +108,16 @@
 		font-size: 14px;
 		margin-top: 0.3rem;
 	}
+
 	.editorial-interview-question {
 		color: #2980b9;
 	}
+
+	.editorial-image-interviewee {
+		width: 250px;
+		height: 250px;
+	}
+
 	/*
 	Using custom style because of ckeditor and bootstrap css class .media(display:flex) conflict
 	Using duplicate code from '@ckeditor/ckeditor5-media-embed/theme/mediaembed.css
@@ -206,8 +213,14 @@
 		font-size: 14px;
 		margin-top: 0.3rem;
 	}
+
 	.editorial-interview-question {
 		color: #2980b9;
+	}
+
+	.editorial-image-interviewee {
+		width: 250px;
+		height: 250px;
 	}
 	/*
 	Using custom style because of ckeditor and bootstrap css class .media(display:flex) conflict
