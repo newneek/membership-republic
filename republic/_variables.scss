@@ -18,6 +18,12 @@ $secondary: $gray-700;
 $davy-gray: $gray-800;
 $dark:      $gray-900;
 
+$coral-100: #ffedee;
+$coral-400: #f39c90;
+$coral-500: #ef7b6a;
+$coral-600: #ed6653;
+$coral-800: #be1e08;
+
 $primary-100: #ffedee;
 $primary-200: #f39c90;
 $primary-300: #ef7b6a;
@@ -25,10 +31,10 @@ $primary-400: #ed6653;
 $primary: $primary-400;
 
 $teal-100: #d5f4f2;
-$teal-200: #9fd8d4;
-$teal-300: #007871;
-$teal-400: #0b4b58;
-$teal: $teal-400;
+$teal-400: #9fd8d4;
+$teal-800: #007871;
+$teal-900: #0b4b58;
+$teal: $teal-800;
 
 $theme-colors: ();
 $theme-colors: map-merge((
@@ -37,10 +43,15 @@ $theme-colors: map-merge((
         "primary-300": $primary-300,
         "primary-400": $primary-400,
         "primary": $primary,
+        "coral-100": $coral-100,
+        "coral-400": $coral-400,
+        "coral-500": $coral-500,
+        "coral-600": $coral-600,
+        "coral-800": $coral-800,
         "teal-100": $teal-100,
-        "teal-200": $teal-200,
-        "teal-300": $teal-300,
         "teal-400": $teal-400,
+        "teal-800": $teal-800,
+        "teal-900": $teal-900,
         "davy-gray": $davy-gray,
         "secondary": $secondary,
         "light": $light,
