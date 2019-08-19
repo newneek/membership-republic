@@ -1,0 +1,14 @@
+.pill{
+  padding: 4px 12px;
+  font-size: 0.75rem;
+  border: 1px solid;
+  border-radius: 15px;
+  text-align: center;
+}
+
+@each $color, $value in $theme-colors {
+  .pill-#{$color} {
+    color: $value;
+    border-color: $value;
+  }
+}

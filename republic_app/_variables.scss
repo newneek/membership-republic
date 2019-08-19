@@ -72,28 +72,23 @@ $theme-colors: map-merge((
 ), $theme-colors);
 
 // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
-$yiq-contrasted-threshold:  154;
-
-// Options
-//
-// Quickly modify global styling by enabling or disabling optional features.
-$enable-validation-icons:                     false !default;
+$yiq-contrasted-threshold: 154;
 
 // Spacing
 
 $spacer: 1rem;
 $spacers: ();
 $spacers: map-merge((
-  0: 0,
-  1: ($spacer * .25),
-  2: ($spacer * .5),
-  3: ($spacer * .75),
-  4:  $spacer,
-  5: ($spacer * 1.25),
-  6: ($spacer * 1.5),
-  7: ($spacer * 2),
-  8: ($spacer * 2.5),
-  9: ($spacer * 3)
+        0: 0,
+        1: ($spacer * .25),
+        2: ($spacer * .5),
+        3: ($spacer * .75),
+        4: $spacer,
+        5: ($spacer * 1.25),
+        6: ($spacer * 1.5),
+        7: ($spacer * 2),
+        8: ($spacer * 2.5),
+        9: ($spacer * 3)
 ), $spacers);
 
 
@@ -123,12 +118,6 @@ $link-hover-decoration: none;
 // Style p element.
 
 $paragraph-margin-bottom: 0; // should be fixed later!
-
-// Grid columns
-//
-// Set the number of columns and specify the width of the gutters.
-
-$grid-gutter-width:           32px !default;
 
 // Components
 //
@@ -196,7 +185,7 @@ $btn-padding-x-sm: .6875rem;
 
 $btn-padding-x: .9375rem;
 
-$btn-padding-x-lg: 1.4375rem;
+$btn-padding-x-lg: 1.0375rem;
 
 $btn-padding-y-xl: $input-btn-padding-y-xl;
 $btn-padding-x-xl: 1.9375rem;
@@ -214,9 +203,8 @@ $input-padding-x-sm: .3125rem;
 $input-padding-x: .4375rem;
 $input-padding-x-lg: .6875rem;
 
-$input-color: $gray-900;
-$input-border-color: $gray-300;
-$input-placeholder-color: $gray-500;
+$input-color: $dark;
+$input-border-color: $medium;
 $input-group-addon-bg: $light;
 
 $custom-control-indicator-size: 1.125rem;
@@ -228,8 +216,6 @@ $custom-checkbox-indicator-icon-checked: str-replace(url("data:image/svg+xml;cha
 
 $custom-select-border-radius-lg: $border-radius-lg;
 
-// Form validation
-$form-feedback-invalid-color:       $coral-800 !default;
 
 // Dropdowns
 //
@@ -256,10 +242,6 @@ $navbar-nav-link-padding-x: 0.75rem;
 $navbar-light-color: $gray-900;
 $navbar-light-hover-color: $gray-900;
 
-$nav-tabs-link-hover-border-color: transparent;
-$nav-tabs-link-active-border-color: $coral-600;
-$nav-tabs-link-active-color: $gray-900;
-$nav-tabs-border-width: 3px;
 
 // Cards
 $card-spacer-x: 0.75rem;
@@ -271,3 +253,24 @@ $close-font-weight: $font-weight-normal;
 // Utilities
 
 $overflows: auto, hidden, visible, scroll;
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+) !default;
+
+$border-width: 1px;
+$border-color: $gray-300;
+
+$border-radius: .25rem;
+$border-radius-lg: .3rem;
+$border-radius-sm: .2rem;
+
+$rounded-pill: 50rem;
+
+$box-shadow-sm: 0 .125rem .25rem rgba($black, .075);
+$box-shadow: 0 .5rem 1rem rgba($black, .15);
+$box-shadow-lg: 0 1rem 3rem rgba($black, .175);
