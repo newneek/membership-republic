@@ -37,13 +37,6 @@
       }
     }
   }
-  &:not(:disabled):not(.disabled):active,
-  &:not(:disabled):not(.disabled).active,
-  .show > .btn-group-toggle {
-    background-color: $coral-100;
-    text-decoration-color: $coral-600;
-    font-weight: bold;
-  }
 }
 
 
