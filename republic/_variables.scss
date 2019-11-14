@@ -27,6 +27,7 @@ $primary: $primary-400;
 
 $teal-100: #d5f4f2;
 $teal-400: #9fd8d4;
+$teal-700: #45ADA6;
 $teal-800: #007871;
 $teal-900: #0b4b58;
 $teal: $teal-800;
@@ -61,6 +62,7 @@ $theme-colors: map-merge((
         "primary": $primary,
         "teal-100": $teal-100,
         "teal-400": $teal-400,
+        "teal-700": $teal-700,
         "teal-800": $teal-800,
         "teal-900": $teal-900,
         "davy-gray": $davy-gray,
