@@ -39,11 +39,11 @@
 }
 
 .text-keep{
-  word-break: keep-all;
-  overflow-wrap: break-word;
+  word-break: keep-all !important;
+  word-wrap: break-word !important;
 }
 
 .text-break {
-  word-break: break-all;
-  overflow-wrap: break-word;
+  word-break: break-all !important;
+  word-wrap: break-word !important;
 }
