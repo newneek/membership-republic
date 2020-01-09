@@ -58,6 +58,18 @@
         font-size: 14px;
         margin-top: 0.3rem;
     }
+
+    // TODO: 미디어 주석으로 사용하기 위해 임시로 추가한 클래스
+    //  나중에 figcaption 으로 대체 해야한다.
+    .media-comment {
+        color: #7f8c8d;
+        font-size: 0.875rem;
+        line-height: 1.5;
+        margin: -1rem 3rem 2.5rem;
+        text-align: center;
+        max-width: 736px;
+    }
+
     .editorial-interview-question {
         color: #2980b9;
     }
