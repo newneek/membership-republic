@@ -18,17 +18,13 @@ git submodule add --name react-native-republic --force git@bitbucket.org:publypr
 
 ### 관련 패키지 추가
 
-- npm
+React Native 프로젝트 루트에서 아래 명령 실행
 
 ~~~sh
+# npm
 npm install eslint-plugin-import eslint-import-resolver-alias --save-dev
-~~~
 
-
-
-- yarn
-
-~~~sh
+#yarn
 yarn add eslint-plugin-import eslint-import-resolver-alias --dev
 ~~~
 
