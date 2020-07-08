@@ -2,6 +2,7 @@ import Variables from './variables';
 
 type fontStyleType = { fontSize: number };
 
+// TODO: Deprecated
 export default {
   leadingNone(fontStyle: fontStyleType) {
     return {

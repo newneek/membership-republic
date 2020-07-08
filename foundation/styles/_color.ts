@@ -29,4 +29,5 @@ keyValuePairs.push([`textWhite`, { color: Variables.white }]);
 keyValuePairs.push([`textWhite50`, { color: `rgba(255, 255, 255, 0.5)` }]);
 keyValuePairs.push([`textBlack50`, { color: `rgba(0, 0, 0, 0.5)` }]);
 
+// TODO: Deprecated
 export default StyleSheet.create(_.fromPairs(keyValuePairs) as { [key: string]: object });

@@ -1,6 +1,7 @@
 import { StyleSheet } from 'react-native';
 import Variables from './variables';
 
+// TODO: Deprecated
 const backwardCompatibility = StyleSheet.create({
   fontSize5XLarge: {
     fontSize: Variables.baseFontSize * Variables.fontSizes.fontSize5XLarge,
