@@ -47,7 +47,7 @@ const backwardCompatibility = StyleSheet.create({
   },
 
   borderRight0: {
-    borderLeftWidth: 0,
+    borderRightWidth: 0,
   },
 
   borderWhite: {
@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
   },
 
   right0: {
-    borderLeftWidth: 0,
+    borderRightWidth: 0,
   },
 
   white: {
