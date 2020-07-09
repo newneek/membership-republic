@@ -1,7 +1,8 @@
 import { StyleSheet } from 'react-native';
 import Variables from './variables';
 
-export default StyleSheet.create({
+// TODO: Deprecated
+const backwardCompatibility = StyleSheet.create({
   // border
   border: {
     borderWidth: Variables.borderWidth,
@@ -103,3 +104,58 @@ export default StyleSheet.create({
   //   borderRadius: Variables.roundedCircle,
   // },
 });
+
+const styles = StyleSheet.create({
+  border: {
+    borderWidth: Variables.borderWidth,
+    borderColor: Variables.borderColor,
+  },
+
+  border0: {
+    borderWidth: Variables.borderWidth,
+  },
+
+  top: {
+    borderTopWidth: Variables.borderWidth,
+    borderTopColor: Variables.borderColor,
+  },
+
+  bottom: {
+    borderBottomWidth: Variables.borderWidth,
+    borderBottomColor: Variables.borderColor,
+  },
+
+  left: {
+    borderLeftWidth: Variables.borderWidth,
+    borderLeftColor: Variables.borderColor,
+  },
+
+  right: {
+    borderLeftWidth: Variables.borderWidth,
+    borderRightColor: Variables.borderColor,
+  },
+
+  top0: {
+    borderTopWidth: 0,
+  },
+
+  bottom0: {
+    borderBottomWidth: 0,
+  },
+
+  left0: {
+    borderLeftWidth: 0,
+  },
+
+  right0: {
+    borderLeftWidth: 0,
+  },
+
+  white: {
+    borderColor: Variables.white,
+  },
+});
+
+const { border, ...borderExcluded } = styles;
+
+export default { ...backwardCompatibility, ...border, ...borderExcluded };

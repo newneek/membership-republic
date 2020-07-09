@@ -119,6 +119,6 @@ export default class Variables {
   static borderRadius = Variables.baseFontSize * 0.25;
   static borderRadiusLarge = Variables.baseFontSize * 0.3;
 
-  static roundedCircle = Variables.baseFontSize * 0.5;
-  static roundedPill = Variables.baseFontSize * 50;
+  static roundedCircle = Variables.baseFontSize * 1000;
+  static roundedPill = Variables.baseFontSize * 1000;
 }
