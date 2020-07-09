@@ -1,7 +1,11 @@
 export default class Variables {
   // Color system
   static black = '#000000';
+  static black50 = 'rgba(0, 0, 0, 0.5)';
+  static black60 = 'rgba(0, 0, 0, 0.6)';
+
   static white = '#ffffff';
+  static white50 = 'rgba(255, 255, 255, 0.5)';
 
   static gray100 = '#f7f7f7';
   static gray200 = '#eeeeee';
@@ -28,7 +32,10 @@ export default class Variables {
 
   static themeColors = {
     black: Variables.black,
+    black50: Variables.black50,
+    black60: Variables.black60,
     white: Variables.white,
+    white50: Variables.white50,
     gray100: Variables.gray100,
     gray200: Variables.gray200,
     gray300: Variables.gray300,
