@@ -1,3 +1,4 @@
+import bg from './_background';
 import _border from './_border';
 import color from './_color';
 import font from './_font';
@@ -15,6 +16,7 @@ const { rounded0, ...rounded } = _rounded;
 export default { border: _border, color, font, leading, sizing, spacing, text, tracking, util };
 
 export {
+  bg,
   border,
   border0,
   color,

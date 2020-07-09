@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import { StyleSheet } from 'react-native';
 import Variables from './variables';
 
@@ -156,6 +157,10 @@ const styles = StyleSheet.create({
   },
 });
 
+const color = StyleSheet.create({
+  ..._.mapValues(Variables.themeColors, value => ({ borderColor: value })),
+});
+
 const { border, ...borderExcluded } = styles;
 
-export default { ...backwardCompatibility, ...border, ...borderExcluded };
+export default { ...backwardCompatibility, ...border, ...borderExcluded, color };
