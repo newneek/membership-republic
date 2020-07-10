@@ -51,22 +51,22 @@ const backwardCompatibility = StyleSheet.create({
 });
 
 const size = StyleSheet.create({
-  '5xlarge': {
+  xxxxxlarge: {
     fontSize: Variables.baseFontSize * Variables.fontSizes.fontSize5XLarge,
     lineHeight:
       Variables.baseFontSize * Variables.baseLineHeight * Variables.fontSizes.fontSize5XLarge,
   },
-  '4xlarge': {
+  xxxxlarge: {
     fontSize: Variables.baseFontSize * Variables.fontSizes.fontSize4XLarge,
     lineHeight:
       Variables.baseFontSize * Variables.baseLineHeight * Variables.fontSizes.fontSize4XLarge,
   },
-  '3xlarge': {
+  xxxlarge: {
     fontSize: Variables.baseFontSize * Variables.fontSizes.fontSize3XLarge,
     lineHeight:
       Variables.baseFontSize * Variables.baseLineHeight * Variables.fontSizes.fontSize3XLarge,
   },
-  '2xlarge': {
+  xxlarge: {
     fontSize: Variables.baseFontSize * Variables.fontSizes.fontSize2XLarge,
     lineHeight:
       Variables.baseFontSize * Variables.baseLineHeight * Variables.fontSizes.fontSize2XLarge,
@@ -101,15 +101,15 @@ const size = StyleSheet.create({
 const weight = StyleSheet.create({
   bold: { fontWeight: 'bold' },
   normal: { fontWeight: 'normal' },
-  '100': { fontWeight: '100' },
-  '200': { fontWeight: '200' },
-  '300': { fontWeight: '300' },
-  '400': { fontWeight: '400' },
-  '500': { fontWeight: '500' },
-  '600': { fontWeight: '600' },
-  '700': { fontWeight: '700' },
-  '800': { fontWeight: '800' },
-  '900': { fontWeight: '900' },
+  // '100': { fontWeight: '100' },
+  // '200': { fontWeight: '200' },
+  // '300': { fontWeight: '300' },
+  // '400': { fontWeight: '400' },
+  // '500': { fontWeight: '500' },
+  // '600': { fontWeight: '600' },
+  // '700': { fontWeight: '700' },
+  // '800': { fontWeight: '800' },
+  // '900': { fontWeight: '900' },
 });
 
 export default { ...backwardCompatibility, size, weight };
