@@ -4,9 +4,11 @@ import _border from './_border';
 import color from './_color';
 import _flex from './_flex';
 import font from './_font';
+import img from './_image';
 import items from './_items';
 import justify from './_justify';
 import leading from './_leading';
+import overflow from './_overflow';
 import _rounded from './_rounded';
 import sizing from './_sizing';
 import spacing from './_spacing';
@@ -30,9 +32,11 @@ export {
   flex2,
   flex3,
   font,
+  img,
   items,
   justify,
   leading,
+  overflow,
   rounded,
   rounded0,
   sizing,

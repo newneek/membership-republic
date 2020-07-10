@@ -1,4 +1,4 @@
-import Variables from './variables';
+import Variables from './Variables';
 
 type fontStyleType = { fontSize: number };
 

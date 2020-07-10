@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import Variables from './variables';
+import Variables from './Variables';
 
 // TODO: Deprecated
 const backwardCompatibility = StyleSheet.create({
