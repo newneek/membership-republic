@@ -26,7 +26,7 @@ const backwardCompatibility = StyleSheet.create({
   },
 
   borderRight: {
-    borderLeftWidth: Variables.borderWidth,
+    borderRightWidth: Variables.borderWidth,
     borderRightColor: Variables.borderColor,
   },
 
@@ -92,18 +92,13 @@ const backwardCompatibility = StyleSheet.create({
     borderBottomRightRadius: Variables.borderRadius,
   },
 
+  roundedCircle: {
+    borderRadius: Variables.roundedCircle,
+  },
+
   roundedPill: {
     borderRadius: Variables.roundedPill,
   },
-
-  // TODO : 수치가 50%로 적용되어야 하는데 제대로 적용되고 있는지 확인해봐야 한다
-  //   제대로 작동하지 않고있다
-  //   .rounded-circle {
-  //     border-radius: 50%;
-  //   }
-  // roundedCircle: {
-  //   borderRadius: Variables.roundedCircle,
-  // },
 });
 
 const styles = StyleSheet.create({

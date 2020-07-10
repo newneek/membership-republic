@@ -17,4 +17,4 @@ _.forEach(paddingDirections, (dirValue, dirKey) => {
   );
 });
 
-export default StyleSheet.create(_.fromPairs(keyValuePairs) as { [key: string]: object });
+export default StyleSheet.create(_.fromPairs(keyValuePairs));
