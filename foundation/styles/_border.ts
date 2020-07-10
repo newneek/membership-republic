@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
   },
 
   right: {
-    borderLeftWidth: Variables.borderWidth,
+    borderRightWidth: Variables.borderWidth,
     borderRightColor: Variables.borderColor,
   },
 
