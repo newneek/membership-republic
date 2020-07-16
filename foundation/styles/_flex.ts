@@ -9,11 +9,9 @@ const flex = StyleSheet.create({
 const direction = StyleSheet.create({
   row: {
     flexDirection: 'row',
-    ...StyleSheet.create({ reverse: { flexDirection: 'row-reverse' } }),
   },
   column: {
     flexDirection: 'column',
-    ...StyleSheet.create({ reverse: { flexDirection: 'column-reverse' } }),
   },
 });
 
@@ -22,7 +20,7 @@ const grow = StyleSheet.create({
 });
 
 const wrap = StyleSheet.create({
-  wrap: { flexWrap: 'wrap', ...StyleSheet.create({ reverse: { flexWrap: 'wrap-reverse' } }) },
+  wrap: { flexWrap: 'wrap' },
   nowrap: { flexWrap: 'nowrap' },
 });
 
