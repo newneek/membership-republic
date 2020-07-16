@@ -50,6 +50,12 @@ const backwardCompatibility = StyleSheet.create({
   },
 });
 
+const fontFamily = StyleSheet.create({
+  sans: {
+    fontFamily: 'SpoqaHanSans',
+  },
+});
+
 const size = StyleSheet.create({
   xxxxxlarge: {
     fontSize: Variables.baseFontSize * Variables.fontSizes.fontSize5XLarge,
@@ -112,4 +118,4 @@ const weight = StyleSheet.create({
   // '900': { fontWeight: '900' },
 });
 
-export default { ...backwardCompatibility, size, weight };
+export default { ...backwardCompatibility, ...fontFamily, size, weight };
