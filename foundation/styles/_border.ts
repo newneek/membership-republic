@@ -102,13 +102,18 @@ const backwardCompatibility = StyleSheet.create({
 });
 
 const styles = StyleSheet.create({
-  border: {
+  border0: {
+    borderWidth: Variables.borderWidth,
+  },
+
+  border1: {
     borderWidth: Variables.borderWidth,
     borderColor: Variables.borderColor,
   },
 
-  border0: {
+  borderAll: {
     borderWidth: Variables.borderWidth,
+    borderColor: Variables.borderColor,
   },
 
   top: {
@@ -156,6 +161,4 @@ const color = StyleSheet.create({
   ..._.mapValues(Variables.themeColors, value => ({ borderColor: value })),
 });
 
-const { border, ...borderExcluded } = styles;
-
-export default { ...backwardCompatibility, ...border, ...borderExcluded, color };
+export default { ...backwardCompatibility, ...styles, color };

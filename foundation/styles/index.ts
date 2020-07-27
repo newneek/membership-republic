@@ -16,8 +16,8 @@ import text from './_text';
 import tracking from './_tracking';
 import util from './_util';
 
-const { border0, ...border } = _border;
-const { flex1, flex2, flex3, ...flex } = _flex;
+const { border0, border1, borderAll, ...border } = _border;
+const { flex1, flex2, flex3, flex4, flex5, ...flex } = _flex;
 const { rounded0, ...rounded } = _rounded;
 
 /* TODO: 2020.07.24 Typescript에서 object spread export 를 지원하지 않음
@@ -276,10 +276,14 @@ export {
   bg,
   border,
   border0,
+  border1,
+  borderAll,
   flex,
   flex1,
   flex2,
   flex3,
+  flex4,
+  flex5,
   font,
   img,
   items,
