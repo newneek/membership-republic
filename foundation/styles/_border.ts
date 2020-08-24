@@ -158,7 +158,13 @@ const styles = StyleSheet.create({
 });
 
 const color = StyleSheet.create({
-  ..._.mapValues(Variables.themeColors, value => ({ borderColor: value })),
+  ..._.mapValues(Variables.themeColors, value => ({
+    borderColor: value,
+    borderTopColor: value,
+    borderLeftColor: value,
+    borderRightColor: value,
+    borderBottomColor: value,
+  })),
 });
 
 export default { ...backwardCompatibility, ...styles, color };
