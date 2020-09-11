@@ -8,6 +8,10 @@ const backwardCompatibility = StyleSheet.create({
   border: {
     borderWidth: Variables.borderWidth,
     borderColor: Variables.borderColor,
+    borderTopColor: Variables.borderColor,
+    borderLeftColor: Variables.borderColor,
+    borderRightColor: Variables.borderColor,
+    borderBottomColor: Variables.borderColor,
   },
 
   borderTop: {
@@ -52,6 +56,10 @@ const backwardCompatibility = StyleSheet.create({
 
   borderWhite: {
     borderColor: Variables.white,
+    borderTopColor: Variables.white,
+    borderLeftColor: Variables.white,
+    borderRightColor: Variables.white,
+    borderBottomColor: Variables.white,
   },
 
   // BorderRadius
@@ -109,11 +117,19 @@ const styles = StyleSheet.create({
   border1: {
     borderWidth: Variables.borderWidth,
     borderColor: Variables.borderColor,
+    borderTopColor: Variables.borderColor,
+    borderLeftColor: Variables.borderColor,
+    borderRightColor: Variables.borderColor,
+    borderBottomColor: Variables.borderColor,
   },
 
   borderAll: {
     borderWidth: Variables.borderWidth,
     borderColor: Variables.borderColor,
+    borderTopColor: Variables.borderColor,
+    borderLeftColor: Variables.borderColor,
+    borderRightColor: Variables.borderColor,
+    borderBottomColor: Variables.borderColor,
   },
 
   top: {
