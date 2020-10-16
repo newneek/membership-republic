@@ -14,22 +14,24 @@ $gray-800: #555555;
 $gray-900: #333333;
 
 $coral-100: #ffedee;
-$coral-400: #f39c90;
+$coral-400: #F39B8E;
 $coral-500: #ef7b6a;
 $coral-600: #ed6653;
+$coral-700: #E1432E;
 $coral-800: #be1e08;
 
 $primary-100: #ffedee;
-$primary-200: #f39c90;
+$primary-200: #F39B8E;
 $primary-300: #ef7b6a;
 $primary-400: #ed6653;
 $primary: $primary-400;
 
 $teal-100: #d5f4f2;
 $teal-400: #9fd8d4;
-$teal-700: #45ADA6;
-$teal-800: #007871;
-$teal-900: #0b4b58;
+$teal-500: #6DC5BF;
+$teal-600: #45ADA6;
+$teal-700: #007871;
+$teal-800: #0E6371;
 $teal: $teal-800;
 
 $light:     $gray-100;
@@ -37,7 +39,34 @@ $medium:    $gray-300;
 $secondary: $gray-700;
 $davy-gray: $gray-800;
 $dark:      $gray-900;
-$red: $coral-800;
+
+$red-100: #FFE9EE;
+$red-600: #E95769;
+$red-700: #D64040;
+
+$green-100: #E7F5E9;
+$green-600: #49AF5A;
+$green-700: #1C792F;
+
+$yellow-100: #FDF5E3;
+$yellow-600: #DCA416;
+$yellow-700: #AE851E;
+
+$blue-100: #E4F2FD;
+$blue-600: #2C98F0;
+$blue-700: #0D66D0;
+
+$indigo-100: #E9E9FB;
+$indigo-600: #675DDD;
+$indigo-700: #5144E0;
+
+$purple-100: #EDE7F6;
+$purple-600: #8D5BC0;
+$purple-700: #743DAB;
+
+$magenta-100: #FFEAF6;
+$magenta-600: #D83790;
+$magenta-700: #C31075;
 
 $theme-colors: ();
 $theme-colors: map-merge((
@@ -54,6 +83,7 @@ $theme-colors: map-merge((
         "coral-400": $coral-400,
         "coral-500": $coral-500,
         "coral-600": $coral-600,
+        "coral-700": $coral-700,
         "coral-800": $coral-800,
         "primary-100": $primary-100,
         "primary-200": $primary-200,
@@ -62,15 +92,37 @@ $theme-colors: map-merge((
         "primary": $primary,
         "teal-100": $teal-100,
         "teal-400": $teal-400,
+        "teal-500": $teal-500,
+        "teal-600": $teal-600,
         "teal-700": $teal-700,
         "teal-800": $teal-800,
-        "teal-900": $teal-900,
         "davy-gray": $davy-gray,
         "secondary": $secondary,
         "light": $light,
         "dark": $dark,
         "medium": $medium,
         "info": $teal,
+        "red-100": $red-100,
+        "red-600": $red-600,
+        "red-700": $red-700,
+        "green-100": $green-100,
+        "green-600": $green-600,
+        "green-700": $green-700,
+        "yellow-100": $yellow-100,
+        "yellow-600": $yellow-600,
+        "yellow-700": $yellow-700,
+        "blue-100": $blue-100,
+        "blue-600": $blue-600,
+        "blue-700": $blue-700,
+        "indigo-100": $indigo-100,
+        "indigo-600": $indigo-600,
+        "indigo-700": $indigo-700,
+        "purple-100": $purple-100,
+        "purple-600": $purple-600,
+        "purple-700": $purple-700,
+        "magenta-100": $magenta-100,
+        "magenta-600": $magenta-600,
+        "magenta-700": $magenta-700,
 ), $theme-colors);
 
 // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
