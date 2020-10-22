@@ -327,4 +327,13 @@ $close-font-weight: $font-weight-normal;
 $overflows: auto, hidden, visible, scroll;
 
 // Badge
-$badge-font-size: 14px;
+$badge-font-size: $font-size-base * .75 !default;
+$badge-font-weight: $font-weight-normal !default;
+$badge-padding-y: .1875rem !default;
+$badge-padding-x: .6875rem !default;
+$badge-border-radius: .9375rem !default;
+
+$badge-pill-padding-x: .6em !default;
+// Use a higher than normal value to ensure completely rounded edges when
+// customizing padding or font-size on labels.
+$badge-pill-border-radius: 10rem !default;
