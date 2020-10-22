@@ -1,0 +1,46 @@
+// Base class
+//
+// Requires one of the contextual, color modifier classes for `color` and
+// `background-color`.
+
+.tag {
+  display: inline-block;
+  padding: $tag-padding-y $tag-padding-x;
+  @include font-size($tag-font-size);
+  font-weight: $tag-font-weight;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border: 0.0625rem solid;
+  @include border-radius($tag-border-radius);
+
+  @at-root a#{&} {
+    @include hover-focus {
+      text-decoration: none;
+    }
+  }
+
+  // Empty tags collapse automatically
+  &:empty {
+    display: none;
+  }
+}
+
+// Quick fix for tags in buttons
+.btn .tag {
+  position: relative;
+  top: -1px;
+}
+
+// Colors
+//
+// Contextual variations (linked tags get darker on :hover).
+
+@each $color in map-keys($tag-bg-colors) {
+  .tag-#{$color} {
+    background-color: map-get($tag-bg-colors, $color);
+    border-color: map-get($tag-bg-colors, $color);
+    color: map-get($tag-text-colors, $color);
+  }
+}
