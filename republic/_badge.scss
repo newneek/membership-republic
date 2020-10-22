@@ -12,6 +12,7 @@
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
+  border: 0.0625rem solid;
   @include border-radius($badge-border-radius);
   @include transition($badge-transition);
 
@@ -47,8 +48,16 @@
 //
 // Contextual variations (linked badges get darker on :hover).
 
-@each $color, $value in $theme-colors {
-  .badge-#{$color} {
-    @include badge-variant($value);
+@each $color-key in map-keys($badge-solid-colors) {
+  .badge-#{$color-key} {
+    background-color: map-get($badge-solid-colors, $color-key);
+    color: $white;
+  }
+}
+
+@each $color-key in map-keys($badge-ghost-colors) {
+  .badge-ghost-#{$color-key} {
+    border-color: map-get($badge-ghost-colors, $color-key);
+    color: map-get($badge-ghost-colors, $color-key);
   }
 }

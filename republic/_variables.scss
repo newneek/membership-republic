@@ -337,3 +337,29 @@ $badge-pill-padding-x: .6em !default;
 // Use a higher than normal value to ensure completely rounded edges when
 // customizing padding or font-size on labels.
 $badge-pill-border-radius: 10rem !default;
+
+$badge-solid-colors: (
+    "gray": $gray-600,
+    "red": $red-600,
+    "coral": $coral-600,
+    "yellow": $yellow-600,
+    "green": $green-600,
+    "teal": $teal-600,
+    "blue": $blue-600,
+    "indigo": $indigo-600,
+    "purple": $purple-600,
+    "magenta": $magenta-600,
+);
+
+$badge-ghost-colors: (
+    "gray": $gray-700,
+    "red": $red-700,
+    "coral": $coral-700,
+    "yellow": $yellow-700,
+    "green": $green-700,
+    "teal": $teal-700,
+    "blue": $blue-700,
+    "indigo": $indigo-700,
+    "purple": $purple-700,
+    "magenta": $magenta-700,
+);
