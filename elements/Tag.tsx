@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import { bg, border, font, px3, py1, text } from '../foundation/styles';
+import { bg, border, font, px2, py1, text } from '../foundation/styles';
 import { TextBold } from './text';
 
 const textColors: ColorTable = {
@@ -37,7 +37,7 @@ export default function Tag(props: React.PropsWithChildren<Props>) {
   const { color, children } = props;
 
   return (
-    <View style={[{ alignSelf: 'flex-start' }, border.rounded, backgroundColors[color], px3, py1]}>
+    <View style={[{ alignSelf: 'flex-start' }, border.rounded, backgroundColors[color], px2, py1]}>
       <TextBold style={[font.size.small, textColors[color]]}>{children}</TextBold>
     </View>
   );
