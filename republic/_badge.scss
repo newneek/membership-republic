@@ -8,7 +8,6 @@
   padding: $badge-padding-y $badge-padding-x;
   @include font-size($badge-font-size);
   font-weight: $badge-font-weight;
-  line-height: 1;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -49,7 +48,7 @@
 // Contextual variations (linked badges get darker on :hover).
 
 @each $color-key in map-keys($badge-solid-colors) {
-  .badge-#{$color-key} {
+  .badge-solid-#{$color-key} {
     background-color: map-get($badge-solid-colors, $color-key);
     color: $white;
   }
