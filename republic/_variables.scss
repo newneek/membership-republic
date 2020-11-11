@@ -325,3 +325,74 @@ $close-font-weight: $font-weight-normal;
 // Utilities
 
 $overflows: auto, hidden, visible, scroll;
+
+// Badge
+$badge-font-size: $font-size-base * .75 !default;
+$badge-font-weight: $font-weight-normal !default;
+$badge-padding-y: .1875rem !default;
+$badge-padding-x: .6875rem !default;
+$badge-border-radius: .9375rem !default;
+
+$badge-pill-padding-x: .6em !default;
+// Use a higher than normal value to ensure completely rounded edges when
+// customizing padding or font-size on labels.
+$badge-pill-border-radius: 10rem !default;
+
+$badge-solid-colors: (
+    "gray": $gray-600,
+    "red": $red-600,
+    "coral": $coral-600,
+    "yellow": $yellow-600,
+    "green": $green-600,
+    "teal": $teal-600,
+    "blue": $blue-600,
+    "indigo": $indigo-600,
+    "purple": $purple-600,
+    "magenta": $magenta-600,
+);
+
+$badge-ghost-colors: (
+    "gray": $gray-700,
+    "red": $red-700,
+    "coral": $coral-700,
+    "yellow": $yellow-700,
+    "green": $green-700,
+    "teal": $teal-700,
+    "blue": $blue-700,
+    "indigo": $indigo-700,
+    "purple": $purple-700,
+    "magenta": $magenta-700,
+);
+
+// Tag
+$tag-font-size: $font-size-base * .75 !default;
+$tag-font-weight: $font-weight-normal !default;
+$tag-padding-y: .1875rem !default;
+$tag-padding-x: .4375rem !default;
+$tag-border-radius: .25rem !default;
+
+$tag-bg-colors: (
+    "gray": $gray-100,
+    "red": $red-100,
+    "coral": $coral-100,
+    "yellow": $yellow-100,
+    "green": $green-100,
+    "teal": $teal-100,
+    "blue": $blue-100,
+    "indigo": $indigo-100,
+    "purple": $purple-100,
+    "magenta": $magenta-100,
+);
+
+$tag-text-colors: (
+    "gray": $gray-600,
+    "red": $red-600,
+    "coral": $coral-600,
+    "yellow": $yellow-600,
+    "green": $green-600,
+    "teal": $teal-600,
+    "blue": $blue-600,
+    "indigo": $indigo-600,
+    "purple": $purple-600,
+    "magenta": $magenta-600,
+);
