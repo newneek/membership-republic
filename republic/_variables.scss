@@ -70,6 +70,8 @@ $magenta-700: #C31075;
 
 $theme-colors: ();
 $theme-colors: map-merge((
+        "white": $white,
+        "black": $black,
         "gray-100": $gray-100,
         "gray-200": $gray-200,
         "gray-300": $gray-300,
@@ -327,8 +329,8 @@ $close-font-weight: $font-weight-normal;
 $overflows: auto, hidden, visible, scroll;
 
 // Badge
-$badge-font-size: $font-size-base * .75 !default;
-$badge-font-weight: $font-weight-normal !default;
+$badge-font-size: $font-size-base * .875 !default;
+$badge-font-weight: $font-weight-bold !default;
 $badge-padding-y: .1875rem !default;
 $badge-padding-x: .6875rem !default;
 $badge-border-radius: .9375rem !default;
@@ -365,8 +367,8 @@ $badge-ghost-colors: (
 );
 
 // Tag
-$tag-font-size: $font-size-base * .75 !default;
-$tag-font-weight: $font-weight-normal !default;
+$tag-font-size: $font-size-base * .875 !default;
+$tag-font-weight: $font-weight-bold !default;
 $tag-padding-y: .1875rem !default;
 $tag-padding-x: .4375rem !default;
 $tag-border-radius: .25rem !default;
