@@ -70,6 +70,8 @@ $magenta-700: #C31075;
 
 $theme-colors: ();
 $theme-colors: map-merge((
+        "white": $white,
+        "black": $black,
         "gray-100": $gray-100,
         "gray-200": $gray-200,
         "gray-300": $gray-300,
