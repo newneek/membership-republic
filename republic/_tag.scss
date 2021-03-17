@@ -5,8 +5,6 @@
 
 .tag {
   display: inline-block;
-  padding: $tag-padding-y $tag-padding-x;
-  @include font-size($tag-font-size);
   font-weight: $tag-font-weight;
   text-align: center;
   white-space: nowrap;
