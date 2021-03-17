@@ -43,3 +43,10 @@
     color: map-get($tag-text-colors, $color);
   }
 }
+
+@each $size in ['small', 'medium'] {
+  .tag-size-#{$size} {
+    padding: map-get($tag-size-paddings, $size);
+    @include font-size(map-get($tag-size-font-size, $size));
+  }
+}
