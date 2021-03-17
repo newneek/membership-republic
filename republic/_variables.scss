@@ -372,6 +372,12 @@ $tag-font-weight: $font-weight-bold !default;
 $tag-padding-y: .1875rem !default;
 $tag-padding-x: .4375rem !default;
 $tag-border-radius: .25rem !default;
+$tag-medium-padding-y: .1875rem !default;
+$tag-medium-padding-x: .4375rem !default;
+$tag-medium-font-size: small;
+$tag-small-padding-y: .1875rem !default;
+$tag-small-padding-x: .313rem !default;
+$tag-small-font-size: x-small;
 
 $tag-bg-colors: (
     "gray": $gray-100,
@@ -397,4 +403,14 @@ $tag-text-colors: (
     "indigo": $indigo-600,
     "purple": $purple-600,
     "magenta": $magenta-600,
+);
+
+$tag-size-paddings: (
+    "small": $tag-small-padding-y $tag-small-padding-x,
+    "medium": $tag-medium-padding-y $tag-medium-padding-x,
+);
+
+$tag-size-font-size: (
+    "small": $tag-small-font-size,
+    "medium": $tag-medium-font-size,
 );
