@@ -43,7 +43,7 @@
 }
 
 @each $size in ['small', 'medium'] {
-  .tag-size-#{$size} {
+  .tag-#{$size} {
     padding: map-get($tag-size-paddings, $size);
     @include font-size(map-get($tag-size-font-size, $size));
   }
