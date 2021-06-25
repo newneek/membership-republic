@@ -15,6 +15,8 @@ import spacing from './_spacing';
 import text from './_text';
 import tracking from './_tracking';
 import util from './_util';
+import shadow from './_shadow';
+
 
 const { border0, border1, borderAll, ...border } = _border;
 const { flex1, flex2, flex3, flex4, flex5, ...flex } = _flex;
@@ -296,6 +298,7 @@ export {
   spacing,
   text,
   tracking,
+  shadow,
   h10,
   h15,
   h25,
