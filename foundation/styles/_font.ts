@@ -52,7 +52,7 @@ const backwardCompatibility = StyleSheet.create({
 
 const fontFamily = StyleSheet.create({
   sans: {
-    fontFamily: 'SpoqaHanSans',
+    fontFamily: 'Pretendard',
   },
 });
 
