@@ -293,7 +293,9 @@ $form-feedback-invalid-color:       $coral-800 !default;
 
 $dropdown-spacer: -0.1rem;
 $dropdown-border-radius: $border-radius;
-$dropdown-link-active-bg: $secondary;
+$dropdown-link-active-bg: $gray-200;
+$dropdown-link-active-color: none;
+$dropdown-link-hover-bg: $gray-100;
 
 
 // Navs
