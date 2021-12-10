@@ -22,6 +22,7 @@ interface Sizing {
   w15: { width: string };
   w25: { width: string };
   w31: { width: string };
+  w33: { width: string };
   w35: { width: string };
   w50: { width: string };
   w66: { width: string };

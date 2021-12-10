@@ -19,11 +19,23 @@ import shadow from './_shadow';
 import _opacity from './_opacity';
 import bgOpacity from './_bgOpacity';
 
-
 const { border0, border1, borderAll, ...border } = _border;
 const { flex1, flex2, flex3, flex4, flex5, ...flex } = _flex;
 const { rounded0, ...rounded } = _rounded;
-const { opacity0, opacity10, opacity20, opacity30, opacity40, opacity50, opacity60, opacity70, opacity80, opacity90, opacity100, ...opacity } = _opacity
+const {
+  opacity0,
+  opacity10,
+  opacity20,
+  opacity30,
+  opacity40,
+  opacity50,
+  opacity60,
+  opacity70,
+  opacity80,
+  opacity90,
+  opacity100,
+  ...opacity
+} = _opacity;
 
 /* TODO: 2020.07.24 Typescript에서 object spread export 를 지원하지 않음
  * 우선 인터페이스 수동 작성하여 자동 완성 동작하도록 처리
@@ -44,6 +56,7 @@ const {
   w15,
   w25,
   w31,
+  w33,
   w35,
   w50,
   w66,

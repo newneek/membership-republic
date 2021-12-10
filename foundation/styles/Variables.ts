@@ -56,8 +56,6 @@ export default class Variables {
   static magenta600 = '#D83790';
   static magenta700 = '#C31075';
 
-
-
   static themeColors = {
     black: Variables.black,
     white: Variables.white,
@@ -127,6 +125,7 @@ export default class Variables {
     '15': '15%',
     '25': '25%',
     '31': '31.6%',
+    '33': '33.3%',
     '35': '35%',
     '50': '50%',
     '66': '66.7%',
