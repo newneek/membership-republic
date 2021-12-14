@@ -18,7 +18,13 @@ const direction = StyleSheet.create({
 });
 
 const grow = StyleSheet.create({
+  grow0: { flexGrow: 0 },
   grow1: { flexGrow: 1 },
+});
+
+const shrink = StyleSheet.create({
+  shrink0: { flexShrink: 0 },
+  shrink1: { flexShrink: 1 },
 });
 
 const wrap = StyleSheet.create({
@@ -26,4 +32,4 @@ const wrap = StyleSheet.create({
   nowrap: { flexWrap: 'nowrap' },
 });
 
-export default { ...flex, ...direction, ...grow, ...wrap };
+export default { ...flex, ...direction, ...grow, ...shrink, ...wrap };
