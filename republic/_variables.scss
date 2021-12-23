@@ -194,7 +194,7 @@ $line-height-xl: 1.5;
 
 $border-radius: 0.25rem; // default
 $border-radius-lg: .3rem; // default
-$border-radius-xl: .3rem;
+$border-radius-xl: .5rem;
 
 $box-shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 $box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -261,7 +261,7 @@ $btn-line-height-xl: $input-btn-line-height-xl;
 
 
 // Allows for customizing button radius independently from global border radius
-$btn-border-radius-xl: $border-radius-xl;
+$btn-border-radius-xl: $border-radius-lg;
 
 
 // Forms
