@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-function AdjustmentIcon(props: React.SVGProps<SVGSVGElement>) {
+function AdjustmentsIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="24"
@@ -20,4 +20,4 @@ function AdjustmentIcon(props: React.SVGProps<SVGSVGElement>) {
   )
 }
 
-export default AdjustmentIcon;
+export default AdjustmentsIcon;
