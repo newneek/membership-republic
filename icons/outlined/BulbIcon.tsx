@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-function Bulb(props: React.SVGProps<SVGSVGElement>) {
+function BulbIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="24"
@@ -28,4 +28,4 @@ function Bulb(props: React.SVGProps<SVGSVGElement>) {
   )
 }
 
-export default Bulb;
+export default BulbIcon;

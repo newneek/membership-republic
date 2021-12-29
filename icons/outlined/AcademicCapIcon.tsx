@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-function AcademicCap(props: React.SVGProps<SVGSVGElement>) {
+function AcademicCapIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="24"
@@ -24,4 +24,4 @@ function AcademicCap(props: React.SVGProps<SVGSVGElement>) {
   )
 }
 
-export default AcademicCap;
+export default AcademicCapIcon;
