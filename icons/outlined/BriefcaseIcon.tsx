@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-function Briefcase(props: React.SVGProps<SVGSVGElement>) {
+function BriefcaseIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="24"
@@ -20,4 +20,4 @@ function Briefcase(props: React.SVGProps<SVGSVGElement>) {
   )
 }
 
-export default Briefcase;
+export default BriefcaseIcon;
