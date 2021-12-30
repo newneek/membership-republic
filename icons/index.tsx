@@ -51,6 +51,7 @@ import PencilIcon from './PencilIcon';
 import PhotographIcon from './PhotographIcon';
 import PlusBoxIcon from './PlusBoxIcon';
 import PlusChatIcon from './PlusChatIcon';
+import PlusCircleIcon from './PlusCircleIcon';
 import PlusIcon from './PlusIcon';
 import PollIcon from './PollIcon';
 import ReloadAltIcon from './ReloadAltIcon';
@@ -129,6 +130,7 @@ export {
     PhotographIcon,
     PlusBoxIcon,
     PlusChatIcon,
+    PlusCircleIcon,
     PlusIcon,
     PollIcon,
     ReloadAltIcon,
