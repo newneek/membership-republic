@@ -6,6 +6,7 @@ import BellOffIcon from './BellOffIcon';
 import BookmarkIcon from './BookmarkIcon';
 import BriefcaseIcon from './BriefcaseIcon';
 import BulbIcon from './BulbIcon';
+import CameraIcon from './CameraIcon';
 import CashIcon from './CashIcon';
 import ChartSquareBarIcon from './ChartSquareBarIcon';
 import ChatAlt2Icon from './ChatAlt2Icon';
@@ -85,6 +86,7 @@ export {
     BookmarkIcon,
     BriefcaseIcon,
     BulbIcon,
+    CameraIcon,
     CashIcon,
     ChartSquareBarIcon,
     ChatAlt2Icon,
