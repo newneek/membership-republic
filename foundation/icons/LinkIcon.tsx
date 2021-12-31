@@ -2,7 +2,7 @@ import { Variables } from "..";
 
 function LinkIcon(
   params: {
-    type?: 'outlined' | 'filled';
+    type?: 'outline' | 'solid';
     width?: number;
     height?: number;
     fill?: string;
@@ -11,7 +11,7 @@ function LinkIcon(
   } = {},
 ) {
   const fillValue = Variables.themeColors[params.fill] ?? 'black'
-  if (params.type === 'filled') {
+  if (params.type === 'solid') {
     return `
       <svg 
         width="${params.width ?? 24}" 
