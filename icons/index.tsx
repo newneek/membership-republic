@@ -27,14 +27,14 @@ import CrownIcon from './CrownIcon';
 import DotsHorizontalIcon from './DotsHorizontalIcon';
 import DotsVerticalIcon from './DotsVerticalIcon';
 import DownloadIcon from './DownloadIcon';
-import ExclaminationCircleIcon from './ExclaminationCircleIcon';
+import ExclamationCircleIcon from './ExclamationCircleIcon';
 import ExploreIcon from './ExploreIcon';
 import ExternalLinkIcon from './ExternalLinkIcon';
 import FireIcon from './FireIcon';
 import FolderIcon from './FolderIcon';
 import GiftIcon from './GiftIcon';
 import GraphIcon from './GraphIcon';
-import HamburgurIcon from './HamburgurIcon';
+import HamburgerIcon from './HamburgerIcon';
 import HeartIcon from './HeartIcon';
 import HighlightAddIcon from './HighlightAddIcon';
 import HighlightIcon from './HighlightIcon';
@@ -107,14 +107,14 @@ export {
     DotsHorizontalIcon,
     DotsVerticalIcon,
     DownloadIcon,
-    ExclaminationCircleIcon,
+    ExclamationCircleIcon,
     ExploreIcon,
     ExternalLinkIcon,
     FireIcon,
     FolderIcon,
     GiftIcon,
     GraphIcon,
-    HamburgurIcon,
+    HamburgerIcon,
     HeartIcon,
     HighlightAddIcon,
     HighlightIcon,

@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-function HamburgurIcon(props: React.SVGProps<SVGSVGElement>) {
-  if (props.type === 'filled') {
+function HamburgerIcon(props: React.SVGProps<SVGSVGElement>) {
+  if (props.type === 'solid') {
     return (
       <svg
         width="24"
@@ -39,4 +39,4 @@ function HamburgurIcon(props: React.SVGProps<SVGSVGElement>) {
   )
 }
 
-export default HamburgurIcon;
+export default HamburgerIcon;

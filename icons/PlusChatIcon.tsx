@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 function PlusChatIcon(props: React.SVGProps<SVGSVGElement>) {
-  if (props.type === 'filled') {
+  if (props.type === 'solid') {
     return (
       <svg
         width="24"

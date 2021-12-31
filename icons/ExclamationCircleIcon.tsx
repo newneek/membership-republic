@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-function ExclaminationCircleIcon(props: React.SVGProps<SVGSVGElement>) {
-  if (props.type === 'filled') {
+function ExclamationCircleIcon(props: React.SVGProps<SVGSVGElement>) {
+  if (props.type === 'solid') {
     return (
       <svg
         width="24"
@@ -39,4 +39,4 @@ function ExclaminationCircleIcon(props: React.SVGProps<SVGSVGElement>) {
   )
 }
 
-export default ExclaminationCircleIcon;
+export default ExclamationCircleIcon;
