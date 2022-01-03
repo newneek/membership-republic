@@ -4,7 +4,7 @@ const shadow = StyleSheet.create({
     small: {
         ...Platform.select({
             ios: {
-                shadowColor: "#000",
+                shadowColor: "#858585",
                 shadowOpacity: 0.1,
                 shadowRadius: 4,
                 shadowOffset: {
@@ -20,7 +20,7 @@ const shadow = StyleSheet.create({
     medium: {
         ...Platform.select({
             ios: {
-                shadowColor: "#000",
+                shadowColor: "#858585",
                 shadowOpacity: 0.12,
                 shadowRadius: 6,
                 shadowOffset: {
@@ -36,7 +36,7 @@ const shadow = StyleSheet.create({
     large: {
         ...Platform.select({
             ios: {
-                shadowColor: "#000",
+                shadowColor: "#858585",
                 shadowOpacity: 0.14,
                 shadowRadius: 12,
                 shadowOffset: {
@@ -52,7 +52,7 @@ const shadow = StyleSheet.create({
     xlarge: {
         ...Platform.select({
             ios: {
-                shadowColor: "#000",
+                shadowColor: "#858585",
                 shadowOpacity: 0.16,
                 shadowRadius: 20,
                 shadowOffset: {
@@ -68,7 +68,7 @@ const shadow = StyleSheet.create({
     xxlarge: {
         ...Platform.select({
             ios: {
-                shadowColor: "#000",
+                shadowColor: "#858585",
                 shadowOpacity: 0.24,
                 shadowRadius: 50,
                 shadowOffset: {
