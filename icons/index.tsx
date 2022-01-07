@@ -14,6 +14,9 @@ import ChatAltIcon from './ChatAltIcon';
 import ChatIcon from './ChatIcon';
 import CheckCircleIcon from './CheckCircleIcon';
 import CheckIcon from './CheckIcon';
+import ChevronDoubleDownIcon from './ChevronDoubleDownIcon';
+import ChevronDoubleLeftIcon from './ChevronDoubleLeftIcon';
+import ChevronDoubleRightIcon from './ChevronDoubleRightIcon';
 import ChevronDoubleUpIcon from './ChevronDoubleUpIcon';
 import ChevronDownIcon from './ChevronDownIcon';
 import ChevronLeftIcon from './ChevronLeftIcon';
@@ -94,6 +97,9 @@ export {
     ChatIcon,
     CheckCircleIcon,
     CheckIcon,
+    ChevronDoubleDownIcon,
+    ChevronDoubleLeftIcon,
+    ChevronDoubleRightIcon,
     ChevronDoubleUpIcon,
     ChevronDownIcon,
     ChevronLeftIcon,
