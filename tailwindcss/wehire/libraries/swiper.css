@@ -1,0 +1,17 @@
+.swiper-pagination {
+  @apply md:hidden bottom-0 !important;
+}
+.swiper-pagination-bullet-active {
+  @apply bg-gray-900 !important;
+}
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+  @apply hidden w-4 h-5 after:text-lg after:content-['next'] text-gray-700
+  md:flex;
+}
+.swiper .swiper-button-next {
+  @apply after:content-['next'];
+}
+.swiper .swiper-button-prev {
+  @apply after:content-['prev'];
+}

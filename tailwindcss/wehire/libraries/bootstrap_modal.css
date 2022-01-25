@@ -1,0 +1,12 @@
+.modal-backdrop {
+  @apply fixed inset-0 w-screen h-screen bg-black bg-opacity-40 z-1040;
+}
+.modal {
+  @apply hidden z-1050 fixed inset-0 w-full h-full overflow-hidden outline-none;
+}
+.modal-dialog-centered {
+  @apply absolute inline-block top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+}
+.modal-wrapper {
+  @apply flex flex-col max-w-sm w-full p-8 bg-white rounded shadow-lg;
+}
