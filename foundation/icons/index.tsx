@@ -47,6 +47,7 @@ import MailIcon from './MailIcon';
 import MinusCircleIcon from './MinusCircleIcon';
 import MinusIcon from './MinusIcon';
 import MyContentsIcon from './MyContentsIcon';
+import PencilAlt2Icon from './PencilAlt2Icon';
 import PencilAltIcon from './PencilAltIcon';
 import PencilIcon from './PencilIcon';
 import PhotographIcon from './PhotographIcon';
@@ -127,6 +128,7 @@ export {
     MinusCircleIcon,
     MinusIcon,
     MyContentsIcon,
+    PencilAlt2Icon,
     PencilAltIcon,
     PencilIcon,
     PhotographIcon,
