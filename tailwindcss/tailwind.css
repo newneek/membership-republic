@@ -9,11 +9,21 @@
 @import './wehire/libraries/swiper.css';
 
 * {
-    overflow-wrap: break-word;
-    word-break: keep-all;
-    @apply leading-normal;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+  @apply leading-normal;
 }
 
 #__next {
-    @apply h-screen;
+  @apply h-screen antialiased;
 }
+
+/* *::-webkit-scrollbar {
+  @apply w-1 bg-transparent
+}
+*::-webkit-scrollbar-thumb {
+  @apply bg-gray-700;
+}
+#__next {
+  @apply h-screen overflow-y-hidden;
+} */
