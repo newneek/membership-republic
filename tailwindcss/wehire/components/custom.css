@@ -94,6 +94,9 @@
   .btn-ghost-gray {
     @apply text-gray-900 bg-white border border-gray-900 focus:ring focus:ring-gray-300;
   }
+  .btn-ghost-coral {
+    @apply text-coral-600 bg-white border border-coral-600 focus:ring focus:ring-red-100;
+  }
 
   .flex-center {
     @apply flex justify-center items-center;
