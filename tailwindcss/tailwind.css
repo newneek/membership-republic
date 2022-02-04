@@ -19,11 +19,11 @@
 }
 
 /* *::-webkit-scrollbar {
-  @apply w-1 bg-transparent
+  @apply w-1 bg-transparent;
 }
 *::-webkit-scrollbar-thumb {
   @apply bg-gray-700;
 }
 #__next {
-  @apply h-screen overflow-y-hidden;
+  @apply h-screen overflow-y-hidden antialiased;
 } */
