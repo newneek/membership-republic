@@ -31,6 +31,7 @@ import DotsHorizontalIcon from './DotsHorizontalIcon';
 import DotsVerticalIcon from './DotsVerticalIcon';
 import DownloadIcon from './DownloadIcon';
 import DragHandleIcon from './DragHandleIcon';
+import ExclamationIcon from './ExclamationIcon';
 import ExclamationCircleIcon from './ExclamationCircleIcon';
 import ExploreIcon from './ExploreIcon';
 import ExternalLinkIcon from './ExternalLinkIcon';
@@ -114,6 +115,7 @@ export {
   DotsHorizontalIcon,
   DotsVerticalIcon,
   DownloadIcon,
+  ExclamationIcon,
   ExclamationCircleIcon,
   ExploreIcon,
   ExternalLinkIcon,
