@@ -31,8 +31,8 @@ import DotsHorizontalIcon from './DotsHorizontalIcon';
 import DotsVerticalIcon from './DotsVerticalIcon';
 import DownloadIcon from './DownloadIcon';
 import DragHandleIcon from './DragHandleIcon';
-import ExclamationIcon from './ExclamationIcon';
 import ExclamationCircleIcon from './ExclamationCircleIcon';
+import ExclamationTriangleIcon from './ExclamationTriangleIcon';
 import ExploreIcon from './ExploreIcon';
 import ExternalLinkIcon from './ExternalLinkIcon';
 import FireIcon from './FireIcon';
@@ -47,6 +47,8 @@ import HistoryIcon from './HistoryIcon';
 import HomeIcon from './HomeIcon';
 import InformationCircleIcon from './InformationCircleIcon';
 import LinkIcon from './LinkIcon';
+import LockClosedIcon from './LockClosedIcon';
+import LockOpenIcon from './LockOpenIcon';
 import LogoutIcon from './LogoutIcon';
 import MailIcon from './MailIcon';
 import MinusCircleIcon from './MinusCircleIcon';
@@ -115,8 +117,8 @@ export {
   DotsHorizontalIcon,
   DotsVerticalIcon,
   DownloadIcon,
-  ExclamationIcon,
   ExclamationCircleIcon,
+  ExclamationTriangleIcon,
   ExploreIcon,
   ExternalLinkIcon,
   FireIcon,
@@ -131,6 +133,8 @@ export {
   HomeIcon,
   InformationCircleIcon,
   LinkIcon,
+  LockClosedIcon,
+  LockOpenIcon,
   LogoutIcon,
   MailIcon,
   MinusCircleIcon,
