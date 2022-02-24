@@ -13,7 +13,10 @@
   word-break: keep-all;
   @apply leading-normal;
 }
-
+body {
+  /* scroll-x only self div */
+  @apply w-full overflow-x-hidden;
+}
 #__next {
   @apply h-screen antialiased;
 }
