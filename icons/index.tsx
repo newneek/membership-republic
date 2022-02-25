@@ -4,6 +4,7 @@ import ArrowLeftIcon from './ArrowLeftIcon';
 import BellIcon from './BellIcon';
 import BellOffIcon from './BellOffIcon';
 import BookmarkIcon from './BookmarkIcon';
+import BriefcaseAltIcon from './BriefcaseAltIcon';
 import BriefcaseIcon from './BriefcaseIcon';
 import BulbIcon from './BulbIcon';
 import CameraIcon from './CameraIcon';
@@ -24,9 +25,13 @@ import ChevronRightIcon from './ChevronRightIcon';
 import ChevronUpIcon from './ChevronUpIcon';
 import CircleIcon from './CircleIcon';
 import ClipboardIcon from './ClipboardIcon';
+import ClipboardListIcon from './ClipboardListIcon';
+import CodeIcon from './CodeIcon';
 import CollectionIcon from './CollectionIcon';
 import CreditCardIcon from './CreditCardIcon';
 import CrownIcon from './CrownIcon';
+import CursorClickIcon from './CursorClickIcon';
+import DatabaseIcon from './DatabaseIcon';
 import DotsHorizontalIcon from './DotsHorizontalIcon';
 import DotsVerticalIcon from './DotsVerticalIcon';
 import DownloadIcon from './DownloadIcon';
@@ -35,6 +40,7 @@ import ExclamationCircleIcon from './ExclamationCircleIcon';
 import ExclamationTriangleIcon from './ExclamationTriangleIcon';
 import ExploreIcon from './ExploreIcon';
 import ExternalLinkIcon from './ExternalLinkIcon';
+import FilmIcon from './FilmIcon';
 import FireIcon from './FireIcon';
 import FolderIcon from './FolderIcon';
 import GiftIcon from './GiftIcon';
@@ -54,6 +60,8 @@ import MailIcon from './MailIcon';
 import MinusCircleIcon from './MinusCircleIcon';
 import MinusIcon from './MinusIcon';
 import MyContentsIcon from './MyContentsIcon';
+import NewspaperIcon from './NewspaperIcon';
+import PaperClipIcon from './PaperClipIcon';
 import PencilAltIcon from './PencilAltIcon';
 import PencilIcon from './PencilIcon';
 import PhotographIcon from './PhotographIcon';
@@ -70,6 +78,7 @@ import SendIcon from './SendIcon';
 import SettingIcon from './SettingIcon';
 import ShareIcon from './ShareIcon';
 import SpeakerphoneIcon from './SpeakerphoneIcon';
+import TagIcon from './TagIcon';
 import ThumbUpIcon from './ThumbUpIcon';
 import TocIcon from './TocIcon';
 import TrashIcon from './TrashIcon';
@@ -91,6 +100,7 @@ export {
   BellOffIcon,
   BellIcon,
   BookmarkIcon,
+  BriefcaseAltIcon,
   BriefcaseIcon,
   BulbIcon,
   CameraIcon,
@@ -110,10 +120,14 @@ export {
   ChevronRightIcon,
   ChevronUpIcon,
   CircleIcon,
+  ClipboardListIcon,
   ClipboardIcon,
+  CodeIcon,
   CollectionIcon,
   CreditCardIcon,
   CrownIcon,
+  CursorClickIcon,
+  DatabaseIcon,
   DotsHorizontalIcon,
   DotsVerticalIcon,
   DownloadIcon,
@@ -121,6 +135,7 @@ export {
   ExclamationTriangleIcon,
   ExploreIcon,
   ExternalLinkIcon,
+  FilmIcon,
   FireIcon,
   FolderIcon,
   GiftIcon,
@@ -140,6 +155,8 @@ export {
   MinusCircleIcon,
   MinusIcon,
   MyContentsIcon,
+  NewspaperIcon,
+  PaperClipIcon,
   PencilAltIcon,
   PencilIcon,
   PhotographIcon,
@@ -156,6 +173,7 @@ export {
   SettingIcon,
   ShareIcon,
   SpeakerphoneIcon,
+  TagIcon,
   ThumbUpIcon,
   TocIcon,
   TrashIcon,
