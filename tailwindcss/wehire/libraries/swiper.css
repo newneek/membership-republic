@@ -19,10 +19,10 @@
 
 /* press swiper */
 .pressSwiper.swiper {
-  @apply overflow-visible;
+  @apply overflow-hidden sm:overflow-visible;
 }
 .pressSwiper .swiper-wrapper {
- @apply pl-0 sm:pl-4 overflow-visible;
+  @apply pl-4 overflow-visible;
 }
 .pressSwiper .swiper-slide {
   @apply flex-none w-72;
@@ -30,7 +30,7 @@
 .pressSwiper.swiper .swiper-button-next,
 .pressSwiper.swiper .swiper-button-prev {
   @apply hidden w-9 h-9 flex-center after:text-base after:font-bold after:text-gray-700 border-2 border-gray-700 rounded-full
-  sm:flex sm:top-[calc(100%+48px)] ;
+  sm:flex sm:top-[calc(100%+48px)];
 }
 .pressSwiper.swiper .swiper-button-prev {
   @apply left-4;
