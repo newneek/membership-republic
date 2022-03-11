@@ -3,6 +3,7 @@ import AdjustmentsIcon from './AdjustmentsIcon';
 import ArrowLeftIcon from './ArrowLeftIcon';
 import BellIcon from './BellIcon';
 import BellOffIcon from './BellOffIcon';
+import BoldIcon from './BoldIcon';
 import BookmarkIcon from './BookmarkIcon';
 import BriefcaseAltIcon from './BriefcaseAltIcon';
 import BriefcaseIcon from './BriefcaseIcon';
@@ -52,7 +53,10 @@ import HighlightIcon from './HighlightIcon';
 import HistoryIcon from './HistoryIcon';
 import HomeIcon from './HomeIcon';
 import InformationCircleIcon from './InformationCircleIcon';
+import ItalicIcon from './ItalicIcon';
 import LinkIcon from './LinkIcon';
+import ListBulletedIcon from './ListBulletedIcon';
+import ListNumberedIcon from './ListNumberedIcon';
 import LockClosedIcon from './LockClosedIcon';
 import LockOpenIcon from './LockOpenIcon';
 import LogoutIcon from './LogoutIcon';
@@ -78,6 +82,7 @@ import SendIcon from './SendIcon';
 import SettingIcon from './SettingIcon';
 import ShareIcon from './ShareIcon';
 import SpeakerphoneIcon from './SpeakerphoneIcon';
+import StrikethroughIcon from './StrikethroughIcon';
 import TagIcon from './TagIcon';
 import ThumbUpIcon from './ThumbUpIcon';
 import TocIcon from './TocIcon';
@@ -188,4 +193,9 @@ export {
   XCircleIcon,
   XIcon,
   DragHandleIcon,
+  BoldIcon,
+  ItalicIcon,
+  ListBulletedIcon,
+  ListNumberedIcon,
+  StrikethroughIcon,
 };
