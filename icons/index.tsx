@@ -8,6 +8,7 @@ import BookmarkIcon from './BookmarkIcon';
 import BriefcaseAltIcon from './BriefcaseAltIcon';
 import BriefcaseIcon from './BriefcaseIcon';
 import BulbIcon from './BulbIcon';
+import CalendarIcon from './CalendarIcon';
 import CameraIcon from './CameraIcon';
 import CashIcon from './CashIcon';
 import ChartSquareBarIcon from './ChartSquareBarIcon';
@@ -67,6 +68,7 @@ import MyContentsIcon from './MyContentsIcon';
 import NewspaperIcon from './NewspaperIcon';
 import PaperClipIcon from './PaperClipIcon';
 import PencilAltIcon from './PencilAltIcon';
+import PencilAlt2Icon from './PencilAlt2Icon';
 import PencilIcon from './PencilIcon';
 import PhotographIcon from './PhotographIcon';
 import PlusBoxIcon from './PlusBoxIcon';
@@ -108,6 +110,7 @@ export {
   BriefcaseAltIcon,
   BriefcaseIcon,
   BulbIcon,
+  CalendarIcon,
   CameraIcon,
   CashIcon,
   ChartSquareBarIcon,
@@ -163,6 +166,7 @@ export {
   NewspaperIcon,
   PaperClipIcon,
   PencilAltIcon,
+  PencilAlt2Icon,
   PencilIcon,
   PhotographIcon,
   PlusBoxIcon,
