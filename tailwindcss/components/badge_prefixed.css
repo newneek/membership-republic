@@ -1,0 +1,82 @@
+@layer components {
+    /* size */
+    .tw-badge-sm {
+        @apply tw-inline tw-rounded-full tw-px-2.5 tw-py-1 tw-text-xs tw-text-white tw-font-bold;
+    }
+    .tw-badge {
+        @apply tw-inline tw-rounded-full tw-px-3 tw-py-1 tw-text-sm tw-text-white tw-font-bold;
+    }
+
+    /* type */
+    .tw-badge-sm.tw-badge-ghost {
+        @apply tw-px-[9px] tw-py-[3px] tw-bg-transparent tw-border-solid tw-border tw-border-current;
+    }
+    .tw-badge.tw-badge-ghost {
+        @apply tw-px-[11px] tw-py-[3px] tw-bg-transparent tw-border-solid tw-border tw-border-current;
+    }
+    
+    
+    /* color (solid) */
+    .tw-badge-gray {
+        @apply tw-bg-gray-600;
+    }
+    .tw-badge-coral {
+        @apply tw-bg-coral-600;
+    }
+    .tw-badge-teal {
+        @apply tw-bg-teal-600;
+    }
+    .tw-badge-red {
+        @apply tw-bg-red-600;
+    }
+    .tw-badge-yellow {
+        @apply tw-bg-yellow-600;
+    }
+    .tw-badge-green {
+        @apply tw-bg-green-600;
+    }
+    .tw-badge-blue {
+        @apply tw-bg-blue-600;
+    }
+    .tw-badge-indigo {
+        @apply tw-bg-indigo-600;
+    }
+    .tw-badge-purple {
+        @apply tw-bg-purple-600;
+    }
+    .tw-badge-magenta {
+        @apply tw-bg-magenta-600;
+    }
+
+    /* color (ghost) */
+    .tw-badge-gray.tw-badge-ghost {
+        @apply tw-text-gray-700;
+    }
+    .tw-badge-coral.tw-badge-ghost {
+        @apply tw-text-coral-700;
+    }
+    .tw-badge-teal.tw-badge-ghost {
+        @apply tw-text-teal-700;
+    }
+    .tw-badge-red.tw-badge-ghost {
+        @apply tw-text-red-700;
+    }
+    .tw-badge-yellow.tw-badge-ghost {
+        @apply tw-text-yellow-700;
+    }
+    .tw-badge-green.tw-badge-ghost {
+        @apply tw-text-green-700;
+    }
+    .tw-badge-blue.tw-badge-ghost {
+        @apply tw-text-blue-700;
+    }
+    .tw-badge-indigo.tw-badge-ghost {
+        @apply tw-text-indigo-700;
+    }
+    .tw-badge-purple.tw-badge-ghost {
+        @apply tw-text-purple-700;
+    }
+    .tw-badge-magenta.tw-badge-ghost {
+        @apply tw-text-magenta-700;
+    }
+}
