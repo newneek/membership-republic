@@ -85,6 +85,7 @@ import SettingIcon from './SettingIcon';
 import ShareIcon from './ShareIcon';
 import SpeakerphoneIcon from './SpeakerphoneIcon';
 import StrikethroughIcon from './StrikethroughIcon';
+import SwitchVerticalIcon from './SwitchVerticalIcon';
 import TagIcon from './TagIcon';
 import ThumbUpIcon from './ThumbUpIcon';
 import TocIcon from './TocIcon';
@@ -182,6 +183,7 @@ export {
   SettingIcon,
   ShareIcon,
   SpeakerphoneIcon,
+  SwitchVerticalIcon,
   TagIcon,
   ThumbUpIcon,
   TocIcon,
