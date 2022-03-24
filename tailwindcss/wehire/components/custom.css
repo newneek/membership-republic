@@ -66,6 +66,9 @@
   input.is-invalid {
     @apply border-red-700;
   }
+  input[type='text'].postTitle {
+    @apply text-2xl font-bold;
+  }
   .error-msg {
     @apply text-red-700 text-sm mt-1;
   }
