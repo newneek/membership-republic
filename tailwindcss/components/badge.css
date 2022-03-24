@@ -1,0 +1,17 @@
+@layer components {
+    /* size */
+    .badge-sm {
+        @apply inline-block rounded-full px-2.5 py-1 bg-gray-600 text-xs text-white font-bold;
+    }
+    .badge {
+        @apply inline-block rounded-full px-3 py-1 bg-gray-600 text-sm text-white font-bold;
+    }
+
+    /* type */
+    .badge-sm.badge-ghost {
+        @apply bg-transparent ring-inset ring-1 ring-current text-gray-700;
+    }
+    .badge.badge-ghost {
+        @apply bg-transparent ring-inset ring-1 ring-current text-gray-700;
+    }
+}
