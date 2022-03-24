@@ -1,41 +1,9 @@
 @layer components {
     /* size */
     .tw-tag-sm {
-        @apply tw-rounded tw-py-1 tw-px-1.5 tw-text-xs tw-font-bold;
+        @apply tw-inline-block tw-rounded tw-py-1 tw-px-1.5 tw-bg-gray-100 tw-text-gray-600 tw-text-xs tw-font-bold;
     }
     .tw-tag {
-        @apply tw-rounded tw-py-1 tw-px-2 tw-text-sm tw-font-bold;
-    }
-
-    /* color */
-    .tw-tag-gray {
-        @apply tw-bg-gray-100 tw-text-gray-600;
-    }
-    .tw-tag-coral {
-        @apply tw-bg-coral-100 tw-text-coral-600;
-    }
-    .tw-tag-teal {
-        @apply tw-bg-teal-100 tw-text-teal-600;
-    }
-    .tw-tag-red {
-        @apply tw-bg-red-100 tw-text-red-600;
-    }
-    .tw-tag-yellow {
-        @apply tw-bg-yellow-100 tw-text-yellow-600;
-    }
-    .tw-tag-green {
-        @apply tw-bg-green-100 tw-text-green-600;
-    }
-    .tw-tag-blue {
-        @apply tw-bg-blue-100 tw-text-blue-600;
-    }
-    .tw-tag-indigo {
-        @apply tw-bg-indigo-100 tw-text-indigo-600;
-    }
-    .tw-tag-purple {
-        @apply tw-bg-purple-100 tw-text-purple-600;
-    }
-    .tw-tag-magenta {
-        @apply tw-bg-magenta-100 tw-text-magenta-600;
+        @apply tw-inline-block tw-rounded tw-py-1 tw-px-2 tw-bg-gray-100 tw-text-gray-600 tw-text-sm tw-font-bold;
     }
 }

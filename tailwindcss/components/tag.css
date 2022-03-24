@@ -1,0 +1,9 @@
+@layer components {
+    /* size */
+    .tag-sm {
+        @apply inline-block rounded py-1 px-1.5 bg-gray-100 text-gray-600 text-xs font-bold;
+    }
+    .tag {
+        @apply inline-block rounded py-1 px-2 bg-gray-100 text-gray-600 text-sm font-bold;
+    }
+}
