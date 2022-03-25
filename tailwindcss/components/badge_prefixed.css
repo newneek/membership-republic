@@ -8,10 +8,7 @@
     }
 
     /* type */
-    .tw-badge-sm.tw-badge-ghost {
-        @apply tw-bg-transparent tw-ring-inset tw-ring-1 tw-ring-current tw-text-gray-700;
-    }
-    .tw-badge.tw-badge-ghost {
+    .tw-badge-ghost {
         @apply tw-bg-transparent tw-ring-inset tw-ring-1 tw-ring-current tw-text-gray-700;
     }
 }
