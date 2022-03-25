@@ -8,10 +8,7 @@
     }
 
     /* type */
-    .badge-sm.badge-ghost {
-        @apply bg-transparent ring-inset ring-1 ring-current text-gray-700;
-    }
-    .badge.badge-ghost {
+    badge-ghost {
         @apply bg-transparent ring-inset ring-1 ring-current text-gray-700;
     }
 }
