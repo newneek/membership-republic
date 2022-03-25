@@ -87,6 +87,7 @@ import SpeakerphoneIcon from './SpeakerphoneIcon';
 import StatusOnlineIcon from './StatusOnlineIcon';
 import StatusOfflineIcon from './StatusOfflineIcon';
 import StrikethroughIcon from './StrikethroughIcon';
+import SwitchVerticalIcon from './SwitchVerticalIcon';
 import TagIcon from './TagIcon';
 import ThumbUpIcon from './ThumbUpIcon';
 import TocIcon from './TocIcon';
@@ -186,6 +187,7 @@ export {
   SpeakerphoneIcon,
   StatusOnlineIcon,
   StatusOfflineIcon,
+  SwitchVerticalIcon,
   TagIcon,
   ThumbUpIcon,
   TocIcon,
