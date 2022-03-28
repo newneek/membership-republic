@@ -1,0 +1,36 @@
+.comment {
+}
+
+.comment__control {
+  @apply w-full min-h-[64px] h-auto;
+}
+
+.comment__highlighter {
+  @apply w-full min-h-[64px] h-auto;
+}
+
+/* .comment__highlighter .comment__highlighter__substring {
+} */
+
+/* .comment__highlighter .comment__highlighter__caret {
+} */
+
+/* .comment__highlighter .comment__highlighter__caret  {
+} */
+
+.comment .comment__input {
+  @apply  p-0 border-none ring-0;
+}
+
+.comment__suggestions {
+  margin-top: 20px !important;
+  @apply text-xs shadow-md rounded;
+}
+
+.comment__suggestions > * {
+  @apply divide-y divide-gray-300 flex flex-col max-h-[240px] overflow-y-auto;
+}
+
+.comment__suggestions > * > * {
+  @apply p-2 hover:font-bold hover:bg-gray-100;
+}
