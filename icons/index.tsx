@@ -28,6 +28,7 @@ import ChevronUpIcon from './ChevronUpIcon';
 import CircleIcon from './CircleIcon';
 import ClipboardIcon from './ClipboardIcon';
 import ClipboardListIcon from './ClipboardListIcon';
+import CodeBlockIcon from './CodeBlockIcon';
 import CodeIcon from './CodeIcon';
 import CollectionIcon from './CollectionIcon';
 import CreditCardIcon from './CreditCardIcon';
@@ -67,8 +68,8 @@ import MinusIcon from './MinusIcon';
 import MyContentsIcon from './MyContentsIcon';
 import NewspaperIcon from './NewspaperIcon';
 import PaperClipIcon from './PaperClipIcon';
-import PencilAltIcon from './PencilAltIcon';
 import PencilAlt2Icon from './PencilAlt2Icon';
+import PencilAltIcon from './PencilAltIcon';
 import PencilIcon from './PencilIcon';
 import PhotographIcon from './PhotographIcon';
 import PlusBoxIcon from './PlusBoxIcon';
@@ -84,8 +85,8 @@ import SendIcon from './SendIcon';
 import SettingIcon from './SettingIcon';
 import ShareIcon from './ShareIcon';
 import SpeakerphoneIcon from './SpeakerphoneIcon';
-import StatusOnlineIcon from './StatusOnlineIcon';
 import StatusOfflineIcon from './StatusOfflineIcon';
+import StatusOnlineIcon from './StatusOnlineIcon';
 import StrikethroughIcon from './StrikethroughIcon';
 import SwitchVerticalIcon from './SwitchVerticalIcon';
 import TagIcon from './TagIcon';
@@ -133,6 +134,7 @@ export {
   CircleIcon,
   ClipboardListIcon,
   ClipboardIcon,
+  CodeBlockIcon,
   CodeIcon,
   CollectionIcon,
   CreditCardIcon,
