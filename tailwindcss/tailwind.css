@@ -9,22 +9,3 @@
 @import './wehire/libraries/swiper.css';
 @import './wehire/libraries/react_mentions.css';
 
-* {
-  overflow-wrap: break-word;
-  word-break: keep-all;
-  @apply leading-normal;
-}
-body {
-  /* scroll-x only self div */
-  @apply w-full overflow-x-hidden;
-}
-
-*::-webkit-scrollbar {
-  @apply w-2 bg-transparent;
-}
-*::-webkit-scrollbar-thumb {
-  @apply bg-gray-400 rounded-full;
-}
-#__next {
-  @apply h-screen overflow-y-hidden antialiased;
-}
