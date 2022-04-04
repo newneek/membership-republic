@@ -12,10 +12,10 @@
   h4 {
     @apply text-xl font-bold;
   }
-  input[type='text'],
-  input[type='password'],
-  input[type='date'],
-  input[type='time'],
+  [type='text'],
+  [type='password'],
+  [type='date'],
+  [type='time'],
   textarea {
     @apply block w-full p-3 text-sm rounded border border-gray-300 placeholder-gray-500  disabled:bg-gray-200 disabled:text-gray-700;
   }
@@ -66,9 +66,6 @@
   input.is-invalid {
     @apply border-red-700;
   }
-  input[type='text'].postTitle {
-    @apply text-2xl font-bold;
-  }
   .error-msg {
     @apply text-red-700 text-sm mt-1;
   }
@@ -101,4 +98,28 @@
   .flex-center {
     @apply flex justify-center items-center;
   }
+}
+
+
+* {
+  overflow-wrap: break-word;
+  word-break: keep-all;
+  @apply leading-normal;
+}
+body {
+  /* scroll-x only self div */
+  @apply w-full overflow-x-hidden;
+}
+
+
+/* scroll-bar custom */
+*::-webkit-scrollbar {
+  @apply w-2 bg-transparent;
+}
+*::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 rounded-full;
+}
+/* root setup */
+#__next {
+  @apply h-screen flex flex-col antialiased;
 }
