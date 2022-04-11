@@ -43,6 +43,8 @@ import ExclamationCircleIcon from './ExclamationCircleIcon';
 import ExclamationTriangleIcon from './ExclamationTriangleIcon';
 import ExploreIcon from './ExploreIcon';
 import ExternalLinkIcon from './ExternalLinkIcon';
+import EyeIcon from './EyeIcon';
+import EyeOffIcon from './EyeOffIcon';
 import FilmIcon from './FilmIcon';
 import FireIcon from './FireIcon';
 import FolderIcon from './FolderIcon';
@@ -144,6 +146,8 @@ export {
   DotsHorizontalIcon,
   DotsVerticalIcon,
   DownloadIcon,
+  EyeIcon,
+  EyeOffIcon,
   ExclamationCircleIcon,
   ExclamationTriangleIcon,
   ExploreIcon,
