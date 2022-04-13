@@ -1,6 +1,9 @@
 import AcademicCapIcon from './AcademicCapIcon';
 import AdjustmentsIcon from './AdjustmentsIcon';
+import ArrowDownIcon from './ArrowDownIcon';
 import ArrowLeftIcon from './ArrowLeftIcon';
+import ArrowRightIcon from './ArrowRightIcon';
+import ArrowUpIcon from './ArrowUpIcon';
 import BellIcon from './BellIcon';
 import BellOffIcon from './BellOffIcon';
 import BoldIcon from './BoldIcon';
@@ -109,7 +112,10 @@ import XIcon from './XIcon';
 export {
   AcademicCapIcon,
   AdjustmentsIcon,
+  ArrowDownIcon,
+  ArrowRightIcon,
   ArrowLeftIcon,
+  ArrowUpIcon,
   BellOffIcon,
   BellIcon,
   BookmarkIcon,
