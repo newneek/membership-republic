@@ -52,6 +52,7 @@ import FilmIcon from './FilmIcon';
 import FireIcon from './FireIcon';
 import FolderIcon from './FolderIcon';
 import GiftIcon from './GiftIcon';
+import GlobeIcon from './GlobeIcon';
 import GraphIcon from './GraphIcon';
 import HamburgerIcon from './HamburgerIcon';
 import HeartIcon from './HeartIcon';
@@ -82,6 +83,7 @@ import PlusChatIcon from './PlusChatIcon';
 import PlusCircleIcon from './PlusCircleIcon';
 import PlusIcon from './PlusIcon';
 import PollIcon from './PollIcon';
+import PhoneIcon from './PhoneIcon';
 import ReloadAltIcon from './ReloadAltIcon';
 import ReloadIcon from './ReloadIcon';
 import ReplyIcon from './ReplyIcon';
@@ -162,6 +164,7 @@ export {
   FireIcon,
   FolderIcon,
   GiftIcon,
+  GlobeIcon,
   GraphIcon,
   HamburgerIcon,
   HeartIcon,
@@ -189,6 +192,7 @@ export {
   PlusCircleIcon,
   PlusIcon,
   PollIcon,
+  PhoneIcon,
   ReloadAltIcon,
   ReloadIcon,
   ReplyIcon,
