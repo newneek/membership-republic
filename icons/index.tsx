@@ -62,6 +62,7 @@ import HistoryIcon from './HistoryIcon';
 import HomeIcon from './HomeIcon';
 import InformationCircleIcon from './InformationCircleIcon';
 import ItalicIcon from './ItalicIcon';
+import LightningBoltIcon from './LightningBoltIcon';
 import LinkIcon from './LinkIcon';
 import ListBulletedIcon from './ListBulletedIcon';
 import ListNumberedIcon from './ListNumberedIcon';
@@ -77,13 +78,13 @@ import PaperClipIcon from './PaperClipIcon';
 import PencilAlt2Icon from './PencilAlt2Icon';
 import PencilAltIcon from './PencilAltIcon';
 import PencilIcon from './PencilIcon';
+import PhoneIcon from './PhoneIcon';
 import PhotographIcon from './PhotographIcon';
 import PlusBoxIcon from './PlusBoxIcon';
 import PlusChatIcon from './PlusChatIcon';
 import PlusCircleIcon from './PlusCircleIcon';
 import PlusIcon from './PlusIcon';
 import PollIcon from './PollIcon';
-import PhoneIcon from './PhoneIcon';
 import ReloadAltIcon from './ReloadAltIcon';
 import ReloadIcon from './ReloadIcon';
 import ReplyIcon from './ReplyIcon';
@@ -224,4 +225,5 @@ export {
   ListBulletedIcon,
   ListNumberedIcon,
   StrikethroughIcon,
+  LightningBoltIcon,
 };
