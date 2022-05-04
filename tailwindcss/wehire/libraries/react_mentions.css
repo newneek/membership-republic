@@ -6,7 +6,7 @@
 }
 
 .comment__highlighter {
-  @apply w-full min-h-[64px] h-auto;
+  @apply w-full min-h-[64px] h-auto z-10 pointer-events-none;
 }
 
 /* .comment__highlighter .comment__highlighter__substring {
