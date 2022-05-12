@@ -4,7 +4,7 @@
 
 .tooltip::before,
 .tooltip::after {
-  @apply hidden z-10;
+  @apply hidden z-30;
 }
 
 .tooltip:hover::before,
