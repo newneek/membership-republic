@@ -85,6 +85,7 @@ import PlusChatIcon from './PlusChatIcon';
 import PlusCircleIcon from './PlusCircleIcon';
 import PlusIcon from './PlusIcon';
 import PollIcon from './PollIcon';
+import QuestionMarkCircleIcon from './QuestionMarkCircleIcon';
 import ReloadAltIcon from './ReloadAltIcon';
 import ReloadIcon from './ReloadIcon';
 import ReplyIcon from './ReplyIcon';
@@ -187,13 +188,14 @@ export {
   PencilAltIcon,
   PencilAlt2Icon,
   PencilIcon,
+  PhoneIcon,
   PhotographIcon,
   PlusBoxIcon,
   PlusChatIcon,
   PlusCircleIcon,
   PlusIcon,
   PollIcon,
-  PhoneIcon,
+  QuestionMarkCircleIcon,
   ReloadAltIcon,
   ReloadIcon,
   ReplyIcon,
