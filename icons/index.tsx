@@ -111,6 +111,7 @@ import VerifiedIcon from './VerifiedIcon';
 import VideoCameraIcon from './VideoCameraIcon';
 import XCircleIcon from './XCircleIcon';
 import XIcon from './XIcon';
+import UnderlineIcon from './UnderlineIcon';
 
 export {
   AcademicCapIcon,
@@ -226,4 +227,5 @@ export {
   ListNumberedIcon,
   StrikethroughIcon,
   LightningBoltIcon,
+  UnderlineIcon,
 };
