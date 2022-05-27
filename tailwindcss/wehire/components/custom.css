@@ -100,7 +100,7 @@
     @apply flex justify-center items-center;
   }
   .flat-shadow {
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.04), 0px 0px 8px rgba(0,0,0,0.08), 0px 0px 4px rgba(0,0,0,0.04); 
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.02), 0px 0px 8px rgba(0,0,0,0.02), 0px 0px 4px rgba(0,0,0,0.04); 
   }
 }
 
