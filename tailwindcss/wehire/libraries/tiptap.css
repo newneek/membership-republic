@@ -2,6 +2,10 @@
   @apply list-disc list-inside
 }
 
+.tiptap p {
+  @apply text-sm 
+}
+
 .tiptap ul li p {
   @apply inline
 }

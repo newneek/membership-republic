@@ -1,8 +1,9 @@
+@import './wehire/components/tooltip.css';
+/* file order to top for tooltip position reset */
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import './wehire/components/custom.css';
-@import './wehire/components/tooltip.css';
 @import './wehire/components/hamburger.css';
 @import './wehire/components/pipeline.css';
 @import './wehire/libraries/ckeditor.css';
