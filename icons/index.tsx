@@ -89,6 +89,7 @@ import QuestionMarkCircleIcon from './QuestionMarkCircleIcon';
 import ReloadAltIcon from './ReloadAltIcon';
 import ReloadIcon from './ReloadIcon';
 import ReplyIcon from './ReplyIcon';
+import RepostIcon from './RepostIcon';
 import SearchIcon from './SearchIcon';
 import SendIcon from './SendIcon';
 import SettingIcon from './SettingIcon';
@@ -199,6 +200,7 @@ export {
   ReloadAltIcon,
   ReloadIcon,
   ReplyIcon,
+  RepostIcon,
   SearchIcon,
   SendIcon,
   SettingIcon,
