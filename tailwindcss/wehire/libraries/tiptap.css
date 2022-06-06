@@ -1,0 +1,15 @@
+.tiptap ul {
+  @apply list-disc list-inside
+}
+
+.tiptap ul li p {
+  @apply inline
+}
+
+.tiptap a {
+  @apply underline text-blue-700
+}
+
+.ProseMirror {
+  @apply outline-none
+}
