@@ -19,10 +19,10 @@
 
 /* press swiper */
 .pressSwiper.swiper {
-  @apply overflow-hidden sm:overflow-visible;
+  @apply overflow-visible;
 }
 .pressSwiper .swiper-wrapper {
-  @apply pl-4 overflow-visible;
+  @apply overflow-visible sm:pl-4;
 }
 .pressSwiper .swiper-slide {
   @apply flex-none w-72;
