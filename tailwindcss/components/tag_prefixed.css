@@ -1,0 +1,9 @@
+@layer components {
+    /* size */
+    .tw-tag-sm {
+        @apply tw-inline-block tw-rounded tw-py-1 tw-px-1.5 tw-bg-gray-100 tw-text-gray-600 tw-text-xs tw-font-bold;
+    }
+    .tw-tag {
+        @apply tw-inline-block tw-rounded tw-py-1 tw-px-2 tw-bg-gray-100 tw-text-gray-600 tw-text-sm tw-font-bold;
+    }
+}

@@ -1,3 +1,4 @@
+/* 팀원 한마디 swiper pagination */
 .swiper-pagination {
   @apply md:hidden bottom-0 !important;
 }
@@ -13,5 +14,33 @@
   @apply after:content-['next'];
 }
 .swiper .swiper-button-prev {
+  @apply after:content-['prev'];
+}
+
+/* press swiper */
+.pressSwiper.swiper {
+  @apply overflow-visible;
+}
+.pressSwiper .swiper-wrapper {
+  @apply overflow-visible sm:pl-4;
+}
+.pressSwiper .swiper-slide {
+  @apply flex-none w-72;
+}
+.pressSwiper.swiper .swiper-button-next,
+.pressSwiper.swiper .swiper-button-prev {
+  @apply hidden w-9 h-9 flex-center after:text-base after:font-bold after:text-gray-700 border-2 border-gray-700 rounded-full
+  sm:flex sm:top-[calc(100%+48px)];
+}
+.pressSwiper.swiper .swiper-button-prev {
+  @apply left-4;
+}
+.pressSwiper.swiper .swiper-button-next {
+  @apply left-[60px];
+}
+.pressSwiper.swiper .swiper-button-next {
+  @apply after:content-['next'];
+}
+.pressSwiper.swiper .swiper-button-prev {
   @apply after:content-['prev'];
 }

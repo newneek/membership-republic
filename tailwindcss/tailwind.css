@@ -1,29 +1,13 @@
+@import './wehire/components/tooltip.css';
+/* file order to top for tooltip position reset */
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import './wehire/components/custom.css';
-@import './wehire/components/tooltip.css';
 @import './wehire/components/hamburger.css';
+@import './wehire/components/pipeline.css';
 @import './wehire/libraries/ckeditor.css';
 @import './wehire/libraries/bootstrap_modal.css';
 @import './wehire/libraries/swiper.css';
-
-* {
-  overflow-wrap: break-word;
-  word-break: keep-all;
-  @apply leading-normal;
-}
-
-#__next {
-  @apply h-screen antialiased;
-}
-
-/* *::-webkit-scrollbar {
-  @apply w-1 bg-transparent
-}
-*::-webkit-scrollbar-thumb {
-  @apply bg-gray-700;
-}
-#__next {
-  @apply h-screen overflow-y-hidden;
-} */
+@import './wehire/libraries/react_mentions.css';
+@import './wehire/libraries/tiptap.css';

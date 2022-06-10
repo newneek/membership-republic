@@ -1,11 +1,17 @@
 import AcademicCapIcon from './AcademicCapIcon';
 import AdjustmentsIcon from './AdjustmentsIcon';
+import ArrowDownIcon from './ArrowDownIcon';
 import ArrowLeftIcon from './ArrowLeftIcon';
+import ArrowRightIcon from './ArrowRightIcon';
+import ArrowUpIcon from './ArrowUpIcon';
 import BellIcon from './BellIcon';
 import BellOffIcon from './BellOffIcon';
+import BoldIcon from './BoldIcon';
 import BookmarkIcon from './BookmarkIcon';
+import BriefcaseAltIcon from './BriefcaseAltIcon';
 import BriefcaseIcon from './BriefcaseIcon';
 import BulbIcon from './BulbIcon';
+import CalendarIcon from './CalendarIcon';
 import CameraIcon from './CameraIcon';
 import CashIcon from './CashIcon';
 import ChartSquareBarIcon from './ChartSquareBarIcon';
@@ -24,20 +30,29 @@ import ChevronRightIcon from './ChevronRightIcon';
 import ChevronUpIcon from './ChevronUpIcon';
 import CircleIcon from './CircleIcon';
 import ClipboardIcon from './ClipboardIcon';
+import ClipboardListIcon from './ClipboardListIcon';
+import CodeBlockIcon from './CodeBlockIcon';
+import CodeIcon from './CodeIcon';
 import CollectionIcon from './CollectionIcon';
 import CreditCardIcon from './CreditCardIcon';
 import CrownIcon from './CrownIcon';
+import CursorClickIcon from './CursorClickIcon';
+import DatabaseIcon from './DatabaseIcon';
 import DotsHorizontalIcon from './DotsHorizontalIcon';
 import DotsVerticalIcon from './DotsVerticalIcon';
 import DownloadIcon from './DownloadIcon';
 import DragHandleIcon from './DragHandleIcon';
-import ExclamationIcon from './ExclamationIcon';
 import ExclamationCircleIcon from './ExclamationCircleIcon';
+import ExclamationTriangleIcon from './ExclamationTriangleIcon';
 import ExploreIcon from './ExploreIcon';
 import ExternalLinkIcon from './ExternalLinkIcon';
+import EyeIcon from './EyeIcon';
+import EyeOffIcon from './EyeOffIcon';
+import FilmIcon from './FilmIcon';
 import FireIcon from './FireIcon';
 import FolderIcon from './FolderIcon';
 import GiftIcon from './GiftIcon';
+import GlobeIcon from './GlobeIcon';
 import GraphIcon from './GraphIcon';
 import HamburgerIcon from './HamburgerIcon';
 import HeartIcon from './HeartIcon';
@@ -46,28 +61,45 @@ import HighlightIcon from './HighlightIcon';
 import HistoryIcon from './HistoryIcon';
 import HomeIcon from './HomeIcon';
 import InformationCircleIcon from './InformationCircleIcon';
+import ItalicIcon from './ItalicIcon';
+import LightningBoltIcon from './LightningBoltIcon';
 import LinkIcon from './LinkIcon';
+import ListBulletedIcon from './ListBulletedIcon';
+import ListNumberedIcon from './ListNumberedIcon';
+import LockClosedIcon from './LockClosedIcon';
+import LockOpenIcon from './LockOpenIcon';
 import LogoutIcon from './LogoutIcon';
 import MailIcon from './MailIcon';
 import MinusCircleIcon from './MinusCircleIcon';
 import MinusIcon from './MinusIcon';
 import MyContentsIcon from './MyContentsIcon';
+import NewspaperIcon from './NewspaperIcon';
+import PaperClipIcon from './PaperClipIcon';
+import PencilAlt2Icon from './PencilAlt2Icon';
 import PencilAltIcon from './PencilAltIcon';
 import PencilIcon from './PencilIcon';
+import PhoneIcon from './PhoneIcon';
 import PhotographIcon from './PhotographIcon';
 import PlusBoxIcon from './PlusBoxIcon';
 import PlusChatIcon from './PlusChatIcon';
 import PlusCircleIcon from './PlusCircleIcon';
 import PlusIcon from './PlusIcon';
 import PollIcon from './PollIcon';
+import QuestionMarkCircleIcon from './QuestionMarkCircleIcon';
 import ReloadAltIcon from './ReloadAltIcon';
 import ReloadIcon from './ReloadIcon';
 import ReplyIcon from './ReplyIcon';
+import RepostIcon from './RepostIcon';
 import SearchIcon from './SearchIcon';
 import SendIcon from './SendIcon';
 import SettingIcon from './SettingIcon';
 import ShareIcon from './ShareIcon';
 import SpeakerphoneIcon from './SpeakerphoneIcon';
+import StatusOfflineIcon from './StatusOfflineIcon';
+import StatusOnlineIcon from './StatusOnlineIcon';
+import StrikethroughIcon from './StrikethroughIcon';
+import SwitchVerticalIcon from './SwitchVerticalIcon';
+import TagIcon from './TagIcon';
 import ThumbUpIcon from './ThumbUpIcon';
 import TocIcon from './TocIcon';
 import TrashIcon from './TrashIcon';
@@ -81,16 +113,22 @@ import VerifiedIcon from './VerifiedIcon';
 import VideoCameraIcon from './VideoCameraIcon';
 import XCircleIcon from './XCircleIcon';
 import XIcon from './XIcon';
+import UnderlineIcon from './UnderlineIcon';
 
 export {
   AcademicCapIcon,
   AdjustmentsIcon,
+  ArrowDownIcon,
+  ArrowRightIcon,
   ArrowLeftIcon,
+  ArrowUpIcon,
   BellOffIcon,
   BellIcon,
   BookmarkIcon,
+  BriefcaseAltIcon,
   BriefcaseIcon,
   BulbIcon,
+  CalendarIcon,
   CameraIcon,
   CashIcon,
   ChartSquareBarIcon,
@@ -108,20 +146,29 @@ export {
   ChevronRightIcon,
   ChevronUpIcon,
   CircleIcon,
+  ClipboardListIcon,
   ClipboardIcon,
+  CodeBlockIcon,
+  CodeIcon,
   CollectionIcon,
   CreditCardIcon,
   CrownIcon,
+  CursorClickIcon,
+  DatabaseIcon,
   DotsHorizontalIcon,
   DotsVerticalIcon,
   DownloadIcon,
-  ExclamationIcon,
+  EyeIcon,
+  EyeOffIcon,
   ExclamationCircleIcon,
+  ExclamationTriangleIcon,
   ExploreIcon,
   ExternalLinkIcon,
+  FilmIcon,
   FireIcon,
   FolderIcon,
   GiftIcon,
+  GlobeIcon,
   GraphIcon,
   HamburgerIcon,
   HeartIcon,
@@ -131,27 +178,39 @@ export {
   HomeIcon,
   InformationCircleIcon,
   LinkIcon,
+  LockClosedIcon,
+  LockOpenIcon,
   LogoutIcon,
   MailIcon,
   MinusCircleIcon,
   MinusIcon,
   MyContentsIcon,
+  NewspaperIcon,
+  PaperClipIcon,
   PencilAltIcon,
+  PencilAlt2Icon,
   PencilIcon,
+  PhoneIcon,
   PhotographIcon,
   PlusBoxIcon,
   PlusChatIcon,
   PlusCircleIcon,
   PlusIcon,
   PollIcon,
+  QuestionMarkCircleIcon,
   ReloadAltIcon,
   ReloadIcon,
   ReplyIcon,
+  RepostIcon,
   SearchIcon,
   SendIcon,
   SettingIcon,
   ShareIcon,
   SpeakerphoneIcon,
+  StatusOnlineIcon,
+  StatusOfflineIcon,
+  SwitchVerticalIcon,
+  TagIcon,
   ThumbUpIcon,
   TocIcon,
   TrashIcon,
@@ -166,4 +225,11 @@ export {
   XCircleIcon,
   XIcon,
   DragHandleIcon,
+  BoldIcon,
+  ItalicIcon,
+  ListBulletedIcon,
+  ListNumberedIcon,
+  StrikethroughIcon,
+  LightningBoltIcon,
+  UnderlineIcon,
 };

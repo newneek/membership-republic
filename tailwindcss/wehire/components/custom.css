@@ -12,8 +12,11 @@
   h4 {
     @apply text-xl font-bold;
   }
-  input[type='text'],
-  input[type='password'],
+  input,
+  [type='text'],
+  [type='password'],
+  [type='date'],
+  [type='time'],
   textarea {
     @apply block w-full p-3 text-sm rounded border border-gray-300 placeholder-gray-500  disabled:bg-gray-200 disabled:text-gray-700;
   }
@@ -96,4 +99,35 @@
   .flex-center {
     @apply flex justify-center items-center;
   }
+  .flat-shadow {
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.01), 0px 0px 8px rgba(0,0,0,0.02), 0px 0px 4px rgba(0,0,0,0.04); 
+  }
+}
+
+
+* {
+  overflow-wrap: anywhere;
+  word-break: keep-all;
+  @apply leading-normal;
+}
+body {
+  /* scroll-x only self div */
+  @apply w-full overflow-x-hidden;
+}
+
+
+/* scroll-bar custom */
+*::-webkit-scrollbar {
+  @apply w-2 h-2 bg-transparent;
+}
+*::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 rounded-full;
+}
+/* root setup */
+#__next {
+  @apply h-screen flex flex-col antialiased;
+}
+
+.diagonal-stripe {
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='12' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23eeeeee' fill-opacity='0.5' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }

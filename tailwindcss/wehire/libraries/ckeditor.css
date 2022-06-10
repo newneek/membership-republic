@@ -1,5 +1,5 @@
 .ck.ck-content.ck-editor__editable_inline {
-  @apply h-[720px] border border-gray-300 p-3;
+  @apply h-[640px] border border-gray-300 p-3;
 }
 .ck.ck-content.ck-editor__editable:not(.ck-editor__nested-editable).ck-focused {
   @apply border-none ring ring-red-100;
@@ -17,7 +17,7 @@
 }
 .ck.ck-content.ck-editor__editable_inline p,
 .contents-view p {
-  @apply text-base font-normal text-gray-700 mt-1 mb-2;
+  @apply text-base font-normal text-gray-900 mt-1 mb-2;
 }
 .ck.ck-content.ck-editor__editable_inline a,
 .contents-view a {
@@ -27,7 +27,7 @@
 .ck.ck-content.ck-editor__editable_inline ul,
 .contents-view ul {
   padding-inline-start: 24px;
-  @apply list-disc text-base text-gray-700;
+  @apply list-disc text-base text-gray-900;
 }
 .ck.ck-content.ck-editor__editable_inline ul li,
 .contents-view ul li {
