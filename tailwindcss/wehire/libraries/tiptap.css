@@ -18,6 +18,10 @@
 
 
 /* job Post editor and viewer */
+
+.post_editor *:first-child, .contents-view *:first-child {
+  @apply mt-0;
+}
 .post_editor h3, .contents-view h3 {
   @apply text-xl md:text-2xl font-bold text-gray-900 mt-6 mb-3;
 }
