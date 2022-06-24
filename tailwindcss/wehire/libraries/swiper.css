@@ -1,4 +1,7 @@
 /* 팀원 한마디 swiper pagination */
+.swiper-slide.height_auto {
+  @apply h-auto
+}
 .swiper-pagination {
   @apply md:hidden bottom-0 !important;
 }
@@ -25,7 +28,7 @@
   @apply pl-4 overflow-visible;
 }
 .pressSwiper .swiper-slide {
-  @apply flex-none w-72;
+  @apply flex-none w-72 last:w-screen last:flex last:after:block last:after:pl-[calc(100vw-288px)] sm:last:w-72 sm:last:after:hidden;
 }
 .pressSwiper.swiper .swiper-button-next,
 .pressSwiper.swiper .swiper-button-prev {
