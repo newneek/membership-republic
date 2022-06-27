@@ -1,46 +1,61 @@
 .ProseMirror {
-  @apply outline-none
+  @apply outline-none;
 }
 
 /* email editor and viewer */
-.email_editor ul, .email_viewer ul {
-  @apply list-disc list-inside
+.email_editor ul,
+.email_viewer ul {
+  @apply list-disc list-inside;
 }
-.email_editor p, .email_viewer p {
-  @apply text-sm 
+.email_editor p,
+.email_viewer p,
+.email_editor div,
+.email_viewer div {
+  @apply text-sm;
 }
-.email_editor ul li p, .email_viewer ul li p {
-  @apply inline
+.email_editor ul li p,
+.email_viewer ul li p,
+.email_editor ul li div,
+.email_viewer ul li div {
+  @apply inline;
 }
-.email_editor a, .email_viewer a {
-  @apply underline text-blue-700
+.email_editor a,
+.email_viewer a {
+  @apply underline text-blue-700;
 }
-
 
 /* job Post editor and viewer */
 
-.post_editor *:first-child, .contents-view *:first-child {
+.post_editor *:first-child,
+.contents-view *:first-child {
   @apply mt-0;
 }
-.post_editor h3, .contents-view h3 {
+.post_editor h3,
+.contents-view h3 {
   @apply text-xl md:text-2xl font-bold text-gray-900 mt-6 mb-3;
 }
-.post_editor h4, .contents-view h4 {
+.post_editor h4,
+.contents-view h4 {
   @apply text-lg font-bold text-gray-900 mt-4 mb-2;
 }
-.post_editor p, .contents-view p {
+.post_editor p,
+.contents-view p {
   @apply text-base font-normal text-gray-900 mt-1 mb-2;
 }
-.post_editor a, .contents-view a {
+.post_editor a,
+.contents-view a {
   @apply underline;
 }
-.post_editor ul, .contents-view ul {
+.post_editor ul,
+.contents-view ul {
   padding-inline-start: 24px;
   @apply list-disc text-base text-gray-900;
 }
-.post_editor ul li p, .contents-view ul li p {
+.post_editor ul li p,
+.contents-view ul li p {
   @apply mb-1;
 }
-.post_editor img, .contents-view img {
-  @apply block my-6 ;
+.post_editor img,
+.contents-view img {
+  @apply block my-6;
 }
