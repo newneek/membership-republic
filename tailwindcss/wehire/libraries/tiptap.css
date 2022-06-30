@@ -1,5 +1,5 @@
 .ProseMirror {
-  @apply outline-none;
+  @apply outline-none h-full;
 }
 
 /* email editor and viewer */
