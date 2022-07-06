@@ -44,7 +44,7 @@
     @apply font-bold;
   }
   input[type='checkbox'] + label.checkbox-label::before {
-    @apply content-[''] block mr-2 w-4 h-4 border-2 border-gray-300 rounded;
+    @apply content-[''] block flex-none mr-2 w-4 h-4 border-2 border-gray-300 rounded;
   }
   input[type='checkbox']:checked + label.checkbox-label::before {
     @apply bg-coral-600 border-coral-600 bg-center bg-contain bg-no-repeat;

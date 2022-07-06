@@ -1,7 +1,7 @@
 .pipeline_element {
-  @apply relative w-32 h-24 pt-4 pl-5 flex-none cursor-pointer
-  before:absolute before:block before:top-0 before:left-2 before:w-32 before:h-12 before:border-r-4 before:border-gray-100 before:skew-x-12
-  after:absolute after:block after:bottom-0 after:left-2 after:w-32 after:h-12 after:border-r-4 after:border-gray-100 after:skew-x-[-12deg]
+  @apply relative w-28 h-28 pt-4 pl-7 flex-none cursor-pointer
+  before:absolute before:block before:top-0 before:left-2 before:w-28 before:h-14 before:border-r-4 before:border-gray-100 before:skew-x-[16deg]
+  after:absolute after:block after:bottom-0 after:left-2 after:w-28 after:h-14 after:border-r-4 after:border-gray-100 after:skew-x-[-16deg]
   last:rounded-l last:pl-4 first:before:skew-x-0 first:after:skew-x-0
 }
 
