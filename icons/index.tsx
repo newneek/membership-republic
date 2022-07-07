@@ -1,5 +1,6 @@
 import AcademicCapIcon from './AcademicCapIcon';
 import AdjustmentsIcon from './AdjustmentsIcon';
+import ArchiveIcon from './ArchiveIcon';
 import ArrowDownIcon from './ArrowDownIcon';
 import ArrowLeftIcon from './ArrowLeftIcon';
 import ArrowRightIcon from './ArrowRightIcon';
@@ -119,6 +120,7 @@ import UnderlineIcon from './UnderlineIcon';
 export {
   AcademicCapIcon,
   AdjustmentsIcon,
+  ArchiveIcon,
   ArrowDownIcon,
   ArrowRightIcon,
   ArrowLeftIcon,
