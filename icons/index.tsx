@@ -39,6 +39,7 @@ import CreditCardIcon from './CreditCardIcon';
 import CrownIcon from './CrownIcon';
 import CursorClickIcon from './CursorClickIcon';
 import DatabaseIcon from './DatabaseIcon';
+import DocumentDuplicateIcon from './DocumentDuplicateIcon';
 import DotsHorizontalIcon from './DotsHorizontalIcon';
 import DotsVerticalIcon from './DotsVerticalIcon';
 import DownloadIcon from './DownloadIcon';
@@ -158,6 +159,7 @@ export {
   CrownIcon,
   CursorClickIcon,
   DatabaseIcon,
+  DocumentDuplicateIcon,
   DotsHorizontalIcon,
   DotsVerticalIcon,
   DownloadIcon,
