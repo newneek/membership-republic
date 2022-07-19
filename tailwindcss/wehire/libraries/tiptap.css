@@ -1,5 +1,13 @@
 .ProseMirror {
-  @apply outline-none h-full;
+  @apply leading-normal outline-none h-full;
+}
+
+.email_editor .title .ProseMirror {
+  @apply leading-normal outline-none h-full;
+}
+
+.email_editor .content .ProseMirror {
+  @apply absolute outline-none h-[calc(100%-24px)] w-[calc(100%-24px)];
 }
 
 /* email editor and viewer */
