@@ -117,6 +117,7 @@ import VideoCameraIcon from './VideoCameraIcon';
 import XCircleIcon from './XCircleIcon';
 import XIcon from './XIcon';
 import UnderlineIcon from './UnderlineIcon';
+import DocumentAddIcon from './DocumentAddIcon';
 
 export {
   AcademicCapIcon,
@@ -159,6 +160,7 @@ export {
   CrownIcon,
   CursorClickIcon,
   DatabaseIcon,
+  DocumentAddIcon,
   DocumentDuplicateIcon,
   DotsHorizontalIcon,
   DotsVerticalIcon,
