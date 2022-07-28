@@ -39,6 +39,7 @@ import CreditCardIcon from './CreditCardIcon';
 import CrownIcon from './CrownIcon';
 import CursorClickIcon from './CursorClickIcon';
 import DatabaseIcon from './DatabaseIcon';
+import DesktopComputerIcon from './DesktopComputerIcon';
 import DocumentDuplicateIcon from './DocumentDuplicateIcon';
 import DotsHorizontalIcon from './DotsHorizontalIcon';
 import DotsVerticalIcon from './DotsVerticalIcon';
@@ -94,6 +95,7 @@ import ReplyIcon from './ReplyIcon';
 import RepostIcon from './RepostIcon';
 import SearchIcon from './SearchIcon';
 import SendIcon from './SendIcon';
+import ServerIcon from './ServerIcon';
 import SettingIcon from './SettingIcon';
 import ShareIcon from './ShareIcon';
 import SpeakerphoneIcon from './SpeakerphoneIcon';
@@ -160,6 +162,7 @@ export {
   CrownIcon,
   CursorClickIcon,
   DatabaseIcon,
+  DesktopComputerIcon,
   DocumentAddIcon,
   DocumentDuplicateIcon,
   DotsHorizontalIcon,
@@ -211,6 +214,7 @@ export {
   RepostIcon,
   SearchIcon,
   SendIcon,
+  ServerIcon,
   SettingIcon,
   ShareIcon,
   SpeakerphoneIcon,
