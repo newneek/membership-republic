@@ -43,6 +43,7 @@ import DesktopComputerIcon from './DesktopComputerIcon';
 import DocumentDuplicateIcon from './DocumentDuplicateIcon';
 import DotsHorizontalIcon from './DotsHorizontalIcon';
 import DotsVerticalIcon from './DotsVerticalIcon';
+import DotsVerticalDoubleIcon from './DotsVerticalDoubleIcon';
 import DownloadIcon from './DownloadIcon';
 import DragHandleIcon from './DragHandleIcon';
 import ExclamationCircleIcon from './ExclamationCircleIcon';
@@ -167,6 +168,7 @@ export {
   DocumentDuplicateIcon,
   DotsHorizontalIcon,
   DotsVerticalIcon,
+  DotsVerticalDoubleIcon,
   DownloadIcon,
   EyeIcon,
   EyeOffIcon,
