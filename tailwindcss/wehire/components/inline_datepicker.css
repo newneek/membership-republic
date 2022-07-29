@@ -1,0 +1,19 @@
+.inline-datepicker .react-datepicker-popper {
+  position: relative !important;
+  transform: translate3d(0,0,0) !important;
+}
+.inline-datepicker .react-datepicker {
+  @apply border-none rounded-b rounded-t-none;
+}
+.inline-datepicker .react-datepicker__header {
+  @apply bg-gray-100 border-b-0 border-t border-gray-200 rounded-none;
+}
+.inline-datepicker .react-datepicker__header:not(.react-datepicker__header--has-time-select) {
+  @apply rounded-none;
+}
+.inline-datepicker .react-datepicker__day {
+
+}
+.inline-datepicker .react-datepicker__day-name {
+
+}

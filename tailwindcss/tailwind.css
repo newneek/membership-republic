@@ -6,6 +6,7 @@
 @import './wehire/components/custom.css';
 @import './wehire/components/hamburger.css';
 @import './wehire/components/pipeline.css';
+@import './wehire/components/inline_datepicker.css';
 @import './wehire/libraries/bootstrap_modal.css';
 @import './wehire/libraries/swiper.css';
 @import './wehire/libraries/react_mentions.css';
