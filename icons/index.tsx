@@ -39,8 +39,11 @@ import CreditCardIcon from './CreditCardIcon';
 import CrownIcon from './CrownIcon';
 import CursorClickIcon from './CursorClickIcon';
 import DatabaseIcon from './DatabaseIcon';
+import DesktopComputerIcon from './DesktopComputerIcon';
+import DocumentDuplicateIcon from './DocumentDuplicateIcon';
 import DotsHorizontalIcon from './DotsHorizontalIcon';
 import DotsVerticalIcon from './DotsVerticalIcon';
+import DotsVerticalDoubleIcon from './DotsVerticalDoubleIcon';
 import DownloadIcon from './DownloadIcon';
 import DragHandleIcon from './DragHandleIcon';
 import ExclamationCircleIcon from './ExclamationCircleIcon';
@@ -93,6 +96,7 @@ import ReplyIcon from './ReplyIcon';
 import RepostIcon from './RepostIcon';
 import SearchIcon from './SearchIcon';
 import SendIcon from './SendIcon';
+import ServerIcon from './ServerIcon';
 import SettingIcon from './SettingIcon';
 import ShareIcon from './ShareIcon';
 import SpeakerphoneIcon from './SpeakerphoneIcon';
@@ -116,6 +120,7 @@ import VideoCameraIcon from './VideoCameraIcon';
 import XCircleIcon from './XCircleIcon';
 import XIcon from './XIcon';
 import UnderlineIcon from './UnderlineIcon';
+import DocumentAddIcon from './DocumentAddIcon';
 
 export {
   AcademicCapIcon,
@@ -158,8 +163,12 @@ export {
   CrownIcon,
   CursorClickIcon,
   DatabaseIcon,
+  DesktopComputerIcon,
+  DocumentAddIcon,
+  DocumentDuplicateIcon,
   DotsHorizontalIcon,
   DotsVerticalIcon,
+  DotsVerticalDoubleIcon,
   DownloadIcon,
   EyeIcon,
   EyeOffIcon,
@@ -207,6 +216,7 @@ export {
   RepostIcon,
   SearchIcon,
   SendIcon,
+  ServerIcon,
   SettingIcon,
   ShareIcon,
   SpeakerphoneIcon,
