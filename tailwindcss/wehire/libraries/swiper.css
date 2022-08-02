@@ -25,7 +25,7 @@
   @apply overflow-hidden sm:overflow-visible;
 }
 .pressSwiper .swiper-wrapper {
-  @apply overflow-visible sm:pl-4;
+  @apply overflow-visible pl-4;
 }
 .pressSwiper .swiper-slide {
   @apply flex-none w-72 last:w-screen last:flex last:after:block last:after:pl-[calc(100vw-288px)] sm:last:w-72 sm:last:after:hidden;
