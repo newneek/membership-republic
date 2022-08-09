@@ -29,6 +29,7 @@ import ChevronDownIcon from './ChevronDownIcon';
 import ChevronLeftIcon from './ChevronLeftIcon';
 import ChevronRightIcon from './ChevronRightIcon';
 import ChevronUpIcon from './ChevronUpIcon';
+import ChipIcon from './ChipIcon';
 import CircleIcon from './CircleIcon';
 import ClipboardIcon from './ClipboardIcon';
 import ClipboardListIcon from './ClipboardListIcon';
@@ -154,6 +155,7 @@ export {
   ChevronLeftIcon,
   ChevronRightIcon,
   ChevronUpIcon,
+  ChipIcon,
   CircleIcon,
   ClipboardListIcon,
   ClipboardIcon,
