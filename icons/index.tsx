@@ -121,6 +121,7 @@ import XCircleIcon from './XCircleIcon';
 import XIcon from './XIcon';
 import UnderlineIcon from './UnderlineIcon';
 import DocumentAddIcon from './DocumentAddIcon';
+import ClockIcon from './ClockIcon';
 
 export {
   AcademicCapIcon,
@@ -156,6 +157,7 @@ export {
   CircleIcon,
   ClipboardListIcon,
   ClipboardIcon,
+  ClockIcon,
   CodeBlockIcon,
   CodeIcon,
   CollectionIcon,
