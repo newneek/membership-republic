@@ -33,18 +33,21 @@ import ChipIcon from './ChipIcon';
 import CircleIcon from './CircleIcon';
 import ClipboardIcon from './ClipboardIcon';
 import ClipboardListIcon from './ClipboardListIcon';
+import ClockIcon from './ClockIcon';
 import CodeBlockIcon from './CodeBlockIcon';
 import CodeIcon from './CodeIcon';
 import CollectionIcon from './CollectionIcon';
 import CreditCardIcon from './CreditCardIcon';
 import CrownIcon from './CrownIcon';
+import CurrencyDollarIcon from './CurrencyDollarIcon';
 import CursorClickIcon from './CursorClickIcon';
 import DatabaseIcon from './DatabaseIcon';
 import DesktopComputerIcon from './DesktopComputerIcon';
+import DocumentAddIcon from './DocumentAddIcon';
 import DocumentDuplicateIcon from './DocumentDuplicateIcon';
 import DotsHorizontalIcon from './DotsHorizontalIcon';
-import DotsVerticalIcon from './DotsVerticalIcon';
 import DotsVerticalDoubleIcon from './DotsVerticalDoubleIcon';
+import DotsVerticalIcon from './DotsVerticalIcon';
 import DownloadIcon from './DownloadIcon';
 import DragHandleIcon from './DragHandleIcon';
 import ExclamationCircleIcon from './ExclamationCircleIcon';
@@ -110,19 +113,17 @@ import ThumbUpIcon from './ThumbUpIcon';
 import TocIcon from './TocIcon';
 import TrashIcon from './TrashIcon';
 import TrophyIcon from './TrophyIcon';
+import UnderlineIcon from './UnderlineIcon';
+import UploadIcon from './UploadIcon';
 import UserAddIcon from './UserAddIcon';
 import UserCircleIcon from './UserCircleIcon';
 import UserGroupIcon from './UserGroupIcon';
 import UserIcon from './UserIcon';
 import UserRemoveIcon from './UserRemoveIcon';
-import UploadIcon from './UploadIcon';
 import VerifiedIcon from './VerifiedIcon';
 import VideoCameraIcon from './VideoCameraIcon';
 import XCircleIcon from './XCircleIcon';
 import XIcon from './XIcon';
-import UnderlineIcon from './UnderlineIcon';
-import DocumentAddIcon from './DocumentAddIcon';
-import ClockIcon from './ClockIcon';
 
 export {
   AcademicCapIcon,
@@ -165,6 +166,7 @@ export {
   CollectionIcon,
   CreditCardIcon,
   CrownIcon,
+  CurrencyDollarIcon,
   CursorClickIcon,
   DatabaseIcon,
   DesktopComputerIcon,
