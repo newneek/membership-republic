@@ -122,6 +122,7 @@ import UserIcon from './UserIcon';
 import UserRemoveIcon from './UserRemoveIcon';
 import VerifiedIcon from './VerifiedIcon';
 import VideoCameraIcon from './VideoCameraIcon';
+import XBoxIcon from './XBoxIcon';
 import XCircleIcon from './XCircleIcon';
 import XIcon from './XIcon';
 
@@ -242,6 +243,7 @@ export {
   UploadIcon,
   VerifiedIcon,
   VideoCameraIcon,
+  XBoxIcon,
   XCircleIcon,
   XIcon,
   DragHandleIcon,
