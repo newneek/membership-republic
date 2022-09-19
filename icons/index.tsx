@@ -125,6 +125,7 @@ import VideoCameraIcon from './VideoCameraIcon';
 import XBoxIcon from './XBoxIcon';
 import XCircleIcon from './XCircleIcon';
 import XIcon from './XIcon';
+import FilterIcon from './FilterIcon';
 
 export {
   AcademicCapIcon,
@@ -184,6 +185,7 @@ export {
   ExploreIcon,
   ExternalLinkIcon,
   FilmIcon,
+  FilterIcon,
   FireIcon,
   FolderIcon,
   GiftIcon,
