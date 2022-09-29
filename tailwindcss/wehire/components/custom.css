@@ -59,6 +59,9 @@
     background-size: 12px 12px;
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxMiAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNiIgY3k9IjYuNSIgcj0iNiIgZmlsbD0iI0VENjY1MyIvPgo8L3N2Zz4K);
   }
+  input[type='radio']:checked + label.radio-label.tabs {
+    @apply bg-white border-transparent;
+  }
 }
 
 @layer components {
