@@ -106,6 +106,7 @@ import ShareIcon from './ShareIcon';
 import SpeakerphoneIcon from './SpeakerphoneIcon';
 import StatusOfflineIcon from './StatusOfflineIcon';
 import StatusOnlineIcon from './StatusOnlineIcon';
+import StarIcon from './StarIcon';
 import StrikethroughIcon from './StrikethroughIcon';
 import SwitchVerticalIcon from './SwitchVerticalIcon';
 import TagIcon from './TagIcon';
@@ -231,6 +232,7 @@ export {
   SpeakerphoneIcon,
   StatusOnlineIcon,
   StatusOfflineIcon,
+  StarIcon,
   SwitchVerticalIcon,
   TagIcon,
   ThumbUpIcon,
