@@ -13,6 +13,7 @@ import BriefcaseAltIcon from './BriefcaseAltIcon';
 import BriefcaseIcon from './BriefcaseIcon';
 import BulbIcon from './BulbIcon';
 import CalendarIcon from './CalendarIcon';
+import CalendarAddIcon from './CalendarAddIcon';
 import CameraIcon from './CameraIcon';
 import CashIcon from './CashIcon';
 import ChartSquareBarIcon from './ChartSquareBarIcon';
@@ -78,6 +79,7 @@ import LockClosedIcon from './LockClosedIcon';
 import LockOpenIcon from './LockOpenIcon';
 import LogoutIcon from './LogoutIcon';
 import MailIcon from './MailIcon';
+import MailAddIcon from './MailAddIcon';
 import MinusCircleIcon from './MinusCircleIcon';
 import MinusIcon from './MinusIcon';
 import MyContentsIcon from './MyContentsIcon';
@@ -143,6 +145,7 @@ export {
   BriefcaseIcon,
   BulbIcon,
   CalendarIcon,
+  CalendarAddIcon,
   CameraIcon,
   CashIcon,
   ChartSquareBarIcon,
@@ -204,6 +207,7 @@ export {
   LockOpenIcon,
   LogoutIcon,
   MailIcon,
+  MailAddIcon,
   MinusCircleIcon,
   MinusIcon,
   MyContentsIcon,
