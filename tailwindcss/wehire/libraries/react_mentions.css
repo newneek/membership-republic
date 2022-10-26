@@ -28,7 +28,7 @@
 }
 
 .comment__suggestions > * {
-  @apply divide-y divide-gray-300 flex flex-col max-h-[240px] overflow-y-auto;
+  @apply  flex flex-col max-h-32 divide-y divide-gray-200 border border-gray-300 rounded overflow-y-auto;
 }
 
 .comment__suggestions > * > * {
