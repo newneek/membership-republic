@@ -112,6 +112,7 @@ import StarIcon from './StarIcon';
 import StrikethroughIcon from './StrikethroughIcon';
 import SwitchVerticalIcon from './SwitchVerticalIcon';
 import TagIcon from './TagIcon';
+import ThumbDownIcon from './ThumbDownIcon';
 import ThumbUpIcon from './ThumbUpIcon';
 import TocIcon from './TocIcon';
 import TrashIcon from './TrashIcon';
@@ -239,6 +240,7 @@ export {
   StarIcon,
   SwitchVerticalIcon,
   TagIcon,
+  ThumbDownIcon,
   ThumbUpIcon,
   TocIcon,
   TrashIcon,
