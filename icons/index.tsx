@@ -13,8 +13,8 @@ import BookmarkIcon from './BookmarkIcon';
 import BriefcaseAltIcon from './BriefcaseAltIcon';
 import BriefcaseIcon from './BriefcaseIcon';
 import BulbIcon from './BulbIcon';
-import CalendarIcon from './CalendarIcon';
 import CalendarAddIcon from './CalendarAddIcon';
+import CalendarIcon from './CalendarIcon';
 import CameraIcon from './CameraIcon';
 import CashIcon from './CashIcon';
 import ChartSquareBarIcon from './ChartSquareBarIcon';
@@ -59,7 +59,9 @@ import ExternalLinkIcon from './ExternalLinkIcon';
 import EyeIcon from './EyeIcon';
 import EyeOffIcon from './EyeOffIcon';
 import FilmIcon from './FilmIcon';
+import FilterIcon from './FilterIcon';
 import FireIcon from './FireIcon';
+import FlagIcon from './FlagIcon';
 import FolderIcon from './FolderIcon';
 import GiftIcon from './GiftIcon';
 import GlobeIcon from './GlobeIcon';
@@ -79,8 +81,8 @@ import ListNumberedIcon from './ListNumberedIcon';
 import LockClosedIcon from './LockClosedIcon';
 import LockOpenIcon from './LockOpenIcon';
 import LogoutIcon from './LogoutIcon';
-import MailIcon from './MailIcon';
 import MailAddIcon from './MailAddIcon';
+import MailIcon from './MailIcon';
 import MinusCircleIcon from './MinusCircleIcon';
 import MinusIcon from './MinusIcon';
 import MyContentsIcon from './MyContentsIcon';
@@ -107,9 +109,9 @@ import ServerIcon from './ServerIcon';
 import SettingIcon from './SettingIcon';
 import ShareIcon from './ShareIcon';
 import SpeakerphoneIcon from './SpeakerphoneIcon';
+import StarIcon from './StarIcon';
 import StatusOfflineIcon from './StatusOfflineIcon';
 import StatusOnlineIcon from './StatusOnlineIcon';
-import StarIcon from './StarIcon';
 import StrikethroughIcon from './StrikethroughIcon';
 import SwitchVerticalIcon from './SwitchVerticalIcon';
 import TagIcon from './TagIcon';
@@ -130,7 +132,6 @@ import VideoCameraIcon from './VideoCameraIcon';
 import XBoxIcon from './XBoxIcon';
 import XCircleIcon from './XCircleIcon';
 import XIcon from './XIcon';
-import FilterIcon from './FilterIcon';
 
 export {
   AcademicCapIcon,
@@ -191,6 +192,7 @@ export {
   ExclamationTriangleIcon,
   ExploreIcon,
   ExternalLinkIcon,
+  FlagIcon,
   FilmIcon,
   FilterIcon,
   FireIcon,
