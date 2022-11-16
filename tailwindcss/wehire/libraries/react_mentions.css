@@ -24,7 +24,7 @@
 
 .comment__suggestions {
   margin-top: 20px !important;
-  @apply text-xs shadow-md rounded;
+  @apply  text-xs shadow-md rounded;
 }
 
 .comment__suggestions > * {
