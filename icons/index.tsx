@@ -34,6 +34,7 @@ import ChevronUpIcon from './ChevronUpIcon';
 import ChipIcon from './ChipIcon';
 import CircleIcon from './CircleIcon';
 import ClipboardIcon from './ClipboardIcon';
+import ClipboardCheckIcon from './ClipboardCheckIcon';
 import ClipboardListIcon from './ClipboardListIcon';
 import ClockIcon from './ClockIcon';
 import CodeBlockIcon from './CodeBlockIcon';
@@ -169,6 +170,7 @@ export {
   ChipIcon,
   CircleIcon,
   ClipboardListIcon,
+  ClipboardCheckIcon,
   ClipboardIcon,
   ClockIcon,
   CodeBlockIcon,
