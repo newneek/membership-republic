@@ -1,0 +1,22 @@
+/* 헤더 툴바 */
+.fc .fc-header-toolbar {
+  @apply bg-gray-100;
+}
+
+.fc .fc-header-toolbar .fc-toolbar-title {
+  @apply text-base;
+}
+
+/* 캘린더 영역 */
+
+.fc .fc-timegrid .fc-col-header-cell-cushion {
+  @apply bg-red-600;
+}
+
+.fc .fc-timegrid .fc-timegrid-axis-cushion {
+  @apply text-sm font-bold;
+}
+
+.fc .fc-timegrid .fc-timegrid-slot-label-cushion {
+  @apply text-sm;
+}
