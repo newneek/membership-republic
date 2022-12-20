@@ -1,4 +1,7 @@
 /* container */
+.calendar-wrapper .fc.fc-direction-ltr.fc-media-screen.fc-theme-standard {
+  @apply h-full
+}
 .calendar-wrapper .fc .fc-view-harness .fc-timegrid .fc-scrollgrid {
   @apply border-0
 }
@@ -18,6 +21,10 @@
 
 .calendar-wrapper .fc .fc-header-toolbar .fc-toolbar-chunk .fc-button-primary {
   @apply flex-none bg-white bg-none text-[14px] text-gray-900 hover:text-gray-900 
+}
+
+.calendar-wrapper .fc .fc-col-header tr{
+  @apply border-r-0
 }
 
 /* scroller */
@@ -94,13 +101,21 @@
   @apply mx-0.5
 }
 .calendar-wrapper .fc-timegrid-cols .fc-timegrid-event {
-  @apply border-0
+  @apply border-0 rounded
 }
 .calendar-wrapper .fc-timegrid-cols .fc-timegrid-event .fc-event-main {
-  @apply pt-0 bg-blue-100 border border-blue-600 rounded
+  @apply pt-0 bg-gray-200 border border-gray-300 rounded
 }
 .calendar-wrapper .fc-timegrid-cols .fc-timegrid-event .fc-event-time {
-  @apply m-0 text-[10px] text-blue-700 leading-none
+  @apply m-0 text-xs text-gray-500 leading-none
+}
+
+/* 후보일 */
+.calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-bg-event {
+  @apply mx-0.5 rounded opacity-100
+}
+.calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-bg-event .fc-event-title {
+  @apply m-0 h-full rounded text-xs text-blue-700 leading-none bg-blue-100 border border-blue-600 not-italic
 }
 
 /* highlight */
