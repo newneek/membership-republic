@@ -1,9 +1,9 @@
 /* container */
 .calendar-wrapper .fc.fc-direction-ltr.fc-media-screen.fc-theme-standard {
-  @apply h-full
+  @apply h-full;
 }
 .calendar-wrapper .fc .fc-view-harness .fc-timegrid .fc-scrollgrid {
-  @apply border-0
+  @apply border-0;
 }
 
 /* header toolbar */
@@ -16,23 +16,23 @@
 }
 
 .calendar-wrapper .fc .fc-header-toolbar .fc-toolbar-chunk .fc-button {
-  @apply flex-center p-1.5 rounded-full border-none hover:bg-gray-100 active:bg-white focus:shadow-none
+  @apply flex-center p-1.5 rounded-full border-none hover:bg-gray-100 active:bg-white focus:shadow-none;
 }
 
 .calendar-wrapper .fc .fc-header-toolbar .fc-toolbar-chunk .fc-button-primary {
-  @apply flex-none bg-white bg-none text-[14px] text-gray-900 hover:text-gray-900 
+  @apply flex-none bg-white bg-none text-[14px] text-gray-900 hover:text-gray-900;
 }
 
-.calendar-wrapper .fc .fc-col-header tr{
-  @apply border-r-0
+.calendar-wrapper .fc .fc-col-header tr {
+  @apply border-r-0;
 }
 
 /* scroller */
 .calendar-wrapper .fc .fc-scroller-harness .fc-scroller .fc-col-header {
-  @apply mb-2
+  @apply mb-2;
 }
 .calendar-wrapper .fc .fc-scroller-harness .fc-scroller .fc-col-header .fc-col-header-cell {
-  @apply border-0
+  @apply border-0;
 }
 .calendar-wrapper .fc .fc-timegrid .fc-col-header-cell-cushion {
   @apply p-0 text-xs font-normal;
@@ -47,7 +47,7 @@
   @apply text-gray-500;
 }
 .calendar-wrapper .fc .fc-timegrid .fc-timegrid-axis {
-  @apply border-0
+  @apply border-0;
 }
 .calendar-wrapper .fc .fc-timegrid .fc-timegrid-axis-cushion {
   @apply text-sm font-bold;
@@ -56,80 +56,102 @@
   @apply text-sm;
 }
 
-
 /* allday */
 .calendar-wrapper .fc .fc-timegrid .fc-timegrid-axis-cushion {
-  @apply flex-center px-1 text-[10px] text-gray-500 font-normal
+  @apply flex-center px-1 text-[10px] text-gray-500 font-normal;
 }
-.calendar-wrapper .fc .fc-timegrid .fc-scrollgrid .fc-scrollgrid-section .fc-scroller-harness .fc-scroller .fc-daygrid-body .fc-scrollgrid-sync-table .fc-daygrid-day .fc-daygrid-day-frame .fc-daygrid-day-events {
-  @apply m-0
+.calendar-wrapper
+  .fc
+  .fc-timegrid
+  .fc-scrollgrid
+  .fc-scrollgrid-section
+  .fc-scroller-harness
+  .fc-scroller
+  .fc-daygrid-body
+  .fc-scrollgrid-sync-table
+  .fc-daygrid-day
+  .fc-daygrid-day-frame
+  .fc-daygrid-day-events {
+  @apply m-0;
 }
 .calendar-wrapper .fc .fc-timegrid .fc-day-today {
-  @apply bg-white
+  @apply bg-white;
 }
 
 /* divider */
 .calendar-wrapper .fc .fc-scrollgrid-section .fc-timegrid-divider {
-  @apply p-0
+  @apply p-0;
 }
 
 /* timegrid */
 .calendar-wrapper .fc .fc-timegrid-slots {
-  @apply pt-3
+  @apply pt-3;
 }
-.calendar-wrapper .fc .fc-timegrid-slots .fc-timegrid-slot-label{
-  @apply relative 
+.calendar-wrapper .fc .fc-timegrid-slots .fc-timegrid-slot-label {
+  @apply relative;
 }
-.calendar-wrapper .fc .fc-timegrid-slots .fc-timegrid-slot-label-cushion.fc-timegrid-slot-label-cushion {
-  @apply absolute left-0 -top-2 px-1 text-[10px] text-gray-500 bg-white
+.calendar-wrapper
+  .fc
+  .fc-timegrid-slots
+  .fc-timegrid-slot-label-cushion.fc-timegrid-slot-label-cushion {
+  @apply absolute left-0 -top-2 px-1 text-[10px] text-gray-500 bg-white;
 }
 .calendar-wrapper .fc .fc-timegrid-slots .fc-timegrid-slot {
-  @apply border-0
+  @apply border-0;
 }
 .calendar-wrapper .fc .fc-timegrid-slots .fc-timegrid-slot.fc-timegrid-slot-lane {
-  @apply border-t border-gray-300  
+  @apply border-t border-gray-300;
 }
-.calendar-wrapper .fc .fc-timegrid-slots .fc-timegrid-slot.fc-timegrid-slot-lane.fc-timegrid-slot-minor {
-  @apply border-t border-gray-200
+.calendar-wrapper
+  .fc
+  .fc-timegrid-slots
+  .fc-timegrid-slot.fc-timegrid-slot-lane.fc-timegrid-slot-minor {
+  @apply border-t border-gray-200;
 }
 .calendar-wrapper .fc .fc-timegrid-cols .fc-day-today {
-  @apply bg-white
+  @apply bg-white;
 }
 
 /* timegrid event */
 .calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-col-events {
-  @apply mx-0.5
+  @apply mx-0.5;
 }
 .calendar-wrapper .fc-timegrid-cols .fc-timegrid-event {
-  @apply border-0 rounded
+  @apply border-0 rounded;
 }
 .calendar-wrapper .fc-timegrid-cols .fc-timegrid-event .fc-event-main {
-  @apply pt-0 bg-gray-200 border border-gray-300 rounded
+  @apply pt-0 bg-gray-200 border border-gray-300 rounded;
 }
 .calendar-wrapper .fc-timegrid-cols .fc-timegrid-event .fc-event-time {
-  @apply m-0 text-xs text-gray-500 leading-none
+  @apply m-0 text-xs text-gray-500 tracking-tight tracking-tight;
 }
 
 /* 후보일 */
 .calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-bg-event {
-  @apply mx-0.5 rounded opacity-100
+  @apply mx-0.5 rounded opacity-100;
 }
 .calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-bg-event .fc-event-title {
-  @apply m-0 h-full rounded text-xs text-blue-700 leading-none bg-blue-100 border border-blue-600 not-italic
+  @apply m-0 h-full rounded text-xs text-blue-700 leading-none tracking-tight bg-blue-100 border border-blue-600 not-italic;
 }
 
 /* highlight */
-.calendar-wrapper .fc .fc-timegrid-col .fc-timegrid-col-frame .fc-timegrid-col-bg .fc-timegrid-bg-harness .fc-highlight {
-  @apply hidden
+.calendar-wrapper
+  .fc
+  .fc-timegrid-col
+  .fc-timegrid-col-frame
+  .fc-timegrid-col-bg
+  .fc-timegrid-bg-harness
+  .fc-highlight {
+  @apply hidden;
 }
 .calendar-wrapper .fc .fc-timegrid-col {
-  @apply bg-white
+  @apply bg-white;
 }
 
 /* indecator */
 .calendar-wrapper .fc .fc-timegrid-now-indicator-arrow {
-  @apply hidden
+  @apply hidden;
 }
-.calendar-wrapper .fc  .fc-timegrid-now-indicator-line {
-  @apply hidden
+.calendar-wrapper .fc .fc-timegrid-now-indicator-line {
+  @apply hidden;
 }
