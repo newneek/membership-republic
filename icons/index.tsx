@@ -68,6 +68,7 @@ import GiftIcon from './GiftIcon';
 import GlobeIcon from './GlobeIcon';
 import GraphIcon from './GraphIcon';
 import HamburgerIcon from './HamburgerIcon';
+import HashtagIcon from './HashtagIcon';
 import HeartIcon from './HeartIcon';
 import HighlightAddIcon from './HighlightAddIcon';
 import HighlightIcon from './HighlightIcon';
@@ -203,6 +204,7 @@ export {
   GlobeIcon,
   GraphIcon,
   HamburgerIcon,
+  HashtagIcon,
   HeartIcon,
   HighlightAddIcon,
   HighlightIcon,
