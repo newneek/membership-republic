@@ -1,3 +1,4 @@
+
 /* container */
 .calendar-wrapper .fc.fc-direction-ltr.fc-media-screen.fc-theme-standard {
   @apply h-full;
@@ -112,26 +113,31 @@
   @apply bg-white;
 }
 
-/* timegrid event */
-.calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-col-events {
+/* timegrid col 을 스타일링 했던 것: 지금은 아무것도 스타일링 안하고 있는 듯 */
+/* .calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-col-events {
   @apply mx-0.5;
-}
-.calendar-wrapper .fc-timegrid-cols .fc-timegrid-event {
+} */
+/* .calendar-wrapper .fc-timegrid-cols .fc-timegrid-event {
   @apply border-0 rounded;
-}
-.calendar-wrapper .fc-timegrid-cols .fc-timegrid-event .fc-event-main {
+} */
+/* .calendar-wrapper .fc-timegrid-cols .fc-timegrid-event .fc-event-main {
   @apply pt-0 bg-gray-200 border border-gray-300 rounded;
 }
 .calendar-wrapper .fc-timegrid-cols .fc-timegrid-event .fc-event-time {
-  @apply m-0 text-xs text-gray-500 tracking-tight tracking-tight;
-}
+  @apply m-0 text-xs text-gray-500 tracking-tight;
+} */
 
-/* 후보일 */
+/* 캘린더 블록 */
 .calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-bg-event {
-  @apply mx-0.5 rounded opacity-100;
+  @apply mx-0.5 rounded opacity-100 ;
 }
-.calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-bg-event .fc-event-title {
-  @apply m-0 h-full rounded text-xs text-blue-700 leading-none tracking-tight bg-blue-100 border border-blue-600 not-italic;
+/* 캘린더 블록 - 후보일 */
+.calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-bg-event.fc-event.fc-event-start.fc-event-end.fc-event-today.fc-event-future .fc-event-title {
+  @apply m-0 h-full rounded text-xs text-blue-700 leading-none tracking-tight line-clamp-1 not-italic border border-blue-600;
+}
+/* 캘린더 블록 - 멤버 일정 블록 */
+.calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-event .fc-event-title {
+  @apply m-0 h-full rounded text-xs text-gray-700 leading-none tracking-tight line-clamp-1 not-italic border border-gray-500;
 }
 
 /* highlight */
@@ -155,3 +161,4 @@
 .calendar-wrapper .fc .fc-timegrid-now-indicator-line {
   @apply hidden;
 }
+
