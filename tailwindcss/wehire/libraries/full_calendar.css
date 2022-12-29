@@ -132,7 +132,7 @@
   @apply mx-0.5 rounded opacity-100 ;
 }
 /* 캘린더 블록 - 후보일 */
-.calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-bg-event.fc-event.fc-event-start.fc-event-end.fc-event-today.fc-event-future .fc-event-title {
+.calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-event.fc-event-candidate .fc-event-title {
   @apply m-0 h-full rounded text-xs text-blue-700 leading-none tracking-tight line-clamp-1 not-italic border border-blue-600;
 }
 /* 캘린더 블록 - 멤버 일정 블록 */
