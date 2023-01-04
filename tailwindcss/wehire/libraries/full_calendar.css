@@ -83,6 +83,18 @@
   @apply bg-white;
 }
 
+/* allday block */
+.calendar-wrapper .fc .fc-daygrid-day .fc-daygrid-day-events .fc-daygrid-event {
+  @apply mx-0.5 border-none 
+}
+.calendar-wrapper .fc .fc-daygrid-day .fc-daygrid-day-events .fc-daygrid-event .fc-event-title-container {
+  @apply text-xs text-gray-700 leading-tight bg-gray-200 border border-gray-500 rounded
+}
+.calendar-wrapper .fc .fc-daygrid-day .fc-daygrid-day-events .fc-daygrid-event .fc-event-title-container .fc-event-title {
+  @apply tracking-tight leading-tight
+}
+
+
 /* divider */
 .calendar-wrapper .fc .fc-scrollgrid-section .fc-timegrid-divider {
   @apply p-0;
@@ -99,7 +111,7 @@
   .fc
   .fc-timegrid-slots
   .fc-timegrid-slot-label-cushion.fc-timegrid-slot-label-cushion {
-  @apply absolute left-0 -top-2 px-1 text-[10px] text-gray-500 bg-white;
+  @apply absolute right-0 -top-2 px-1 text-[10px] text-gray-500 bg-white;
 }
 .calendar-wrapper .fc .fc-timegrid-slots .fc-timegrid-slot {
   @apply border-0;
@@ -119,26 +131,17 @@
 
 /* 캘린더 블록 */
 .calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-bg-event {
-  @apply mx-0.5 rounded opacity-100 ;
+  @apply mx-0.5 rounded opacity-100 overflow-hidden;
 }
 /* 캘린더 블록 - 후보일 */
-.calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-event.fc-event-candidate .fc-event-title {
-  @apply m-0 h-full rounded text-xs text-blue-700 leading-none tracking-tight line-clamp-1 not-italic border border-blue-600;
-}
+
+
 /* 캘린더 블록 - 멤버 일정 블록 */
 .calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-event .fc-event-title {
-  @apply m-0 h-full rounded text-xs text-gray-700 leading-none tracking-tight line-clamp-1 not-italic border border-gray-500 ;
+  @apply m-0.5 text-xs leading-none tracking-tight rounded not-italic;
 }
-
-/* allday */
-.calendar-wrapper .fc .fc-daygrid-day .fc-daygrid-day-events .fc-daygrid-event {
-  @apply mx-0.5 border-none 
-}
-.calendar-wrapper .fc .fc-daygrid-day .fc-daygrid-day-events .fc-daygrid-event .fc-event-title-container {
-  @apply text-xs text-gray-700 leading-tight bg-gray-200 border border-gray-500 rounded
-}
-.calendar-wrapper .fc .fc-daygrid-day .fc-daygrid-day-events .fc-daygrid-event .fc-event-title-container .fc-event-title {
-  @apply tracking-tight leading-tight
+.calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-event .fc-event-time {
+  @apply m-0.5 text-xs leading-none tracking-tight rounded not-italic
 }
 
 /* highlight */
@@ -157,9 +160,9 @@
 
 /* indecator */
 .calendar-wrapper .fc .fc-timegrid-now-indicator-arrow {
-  @apply hidden;
+  @apply border-gray-900 border-t-white border-b-white;
 }
 .calendar-wrapper .fc .fc-timegrid-now-indicator-line {
-  @apply hidden;
+  @apply border-gray-900;
 }
 
