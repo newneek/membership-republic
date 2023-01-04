@@ -15,7 +15,7 @@
   @apply text-base;
 }
 .calendar-wrapper .fc .fc-header-toolbar .fc-toolbar-chunk .fc-button {
-  @apply flex-center p-1.5 rounded-full border-none hover:bg-gray-100 active:bg-white focus:shadow-none;
+  @apply flex-center p-1.5 rounded-full border-none hover:bg-gray-100 active:bg-white focus:shadow-none disabled:hover:bg-white disabled:cursor-not-allowed;
 }
 .calendar-wrapper .fc .fc-header-toolbar .fc-toolbar-chunk .fc-button-primary {
   @apply flex-none bg-white bg-none text-[14px] text-gray-900 hover:text-gray-900;
@@ -85,13 +85,10 @@
 
 /* allday block */
 .calendar-wrapper .fc .fc-daygrid-day .fc-daygrid-day-events .fc-daygrid-event {
-  @apply mx-0.5 border-none 
+  @apply mx-0.5 
 }
-.calendar-wrapper .fc .fc-daygrid-day .fc-daygrid-day-events .fc-daygrid-event .fc-event-title-container {
-  @apply text-xs text-gray-700 leading-tight bg-gray-200 border border-gray-500 rounded
-}
-.calendar-wrapper .fc .fc-daygrid-day .fc-daygrid-day-events .fc-daygrid-event .fc-event-title-container .fc-event-title {
-  @apply tracking-tight leading-tight
+.calendar-wrapper .fc .fc-daygrid-day .fc-daygrid-day-events .fc-daygrid-event.fc-daygrid-block-event .fc-event-title {
+  @apply text-xs p-0 tracking-tight leading-tight whitespace-pre-wrap line-clamp-1
 }
 
 
@@ -131,18 +128,20 @@
 
 /* 캘린더 블록 */
 .calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-bg-event {
-  @apply mx-0.5 rounded opacity-100 overflow-hidden;
+  @apply mx-0.5 rounded opacity-100 ;
 }
-/* 캘린더 블록 - 후보일 */
-
+.calendar-wrapper .fc .fc-timegrid .fc-timegrid-body .fc-timegrid-cols .fc-timegrid-col-frame .fc-timegrid-col-events .fc-timegrid-event.fc-event.fc-v-event {
+  @apply flex flex-col gap-0.5 overflow-hidden
+}
 
 /* 캘린더 블록 - 멤버 일정 블록 */
-.calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-event .fc-event-title {
-  @apply m-0.5 text-xs leading-none tracking-tight rounded not-italic;
+.calendar-wrapper .fc .fc-timegrid .fc-timegrid-body .fc-timegrid-cols .fc-timegrid-col-frame .fc-timegrid-col-events .fc-timegrid-event.fc-event.fc-v-event .fc-event-title {
+  @apply flex-none text-xs leading-none tracking-tight
 }
-.calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-event .fc-event-time {
-  @apply m-0.5 text-xs leading-none tracking-tight rounded not-italic
+.calendar-wrapper .fc .fc-timegrid .fc-timegrid-body .fc-timegrid-cols .fc-timegrid-col-frame .fc-timegrid-col-events .fc-timegrid-event.fc-event.fc-v-event .fc-event-time {
+  @apply flex-none text-xs leading-none tracking-tight whitespace-pre-wrap
 }
+
 
 /* highlight */
 .calendar-wrapper
@@ -166,3 +165,7 @@
   @apply border-gray-900;
 }
 
+/* 과거 일정 빗금 */
+.calendar-wrapper .fc .fc-timegrid .fc-scrollgrid-section .fc-timegrid-body .fc-timegrid-cols .fc-timegrid-col.fc-day.fc-day-past {
+  @apply diagonal-stripe
+}
