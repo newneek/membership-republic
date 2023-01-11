@@ -34,6 +34,12 @@
 .calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-col.fc-timegrid-axis {
   @apply border-r border-white
 }
+.calendar-wrapper
+  .fc
+  .fc-timegrid-slots
+  .fc-timegrid-slot-label-cushion.fc-timegrid-slot-label-cushion {
+  @apply absolute right-0 -top-2 px-1 text-[10px] text-gray-500 bg-white;
+}
 
 /* 요일 표시 bar */
 .calendar-wrapper .fc .fc-scroller-harness .fc-scroller .fc-col-header {
@@ -99,32 +105,24 @@
 
 /* timegrid */
 .calendar-wrapper .fc .fc-timegrid-slots {
-  @apply pt-3 ;
+  @apply pt-3;
 }
 .calendar-wrapper .fc .fc-timegrid-slots .fc-timegrid-slot-label {
   @apply relative;
 }
-.calendar-wrapper
-  .fc
-  .fc-timegrid-slots
-  .fc-timegrid-slot-label-cushion.fc-timegrid-slot-label-cushion {
-  @apply absolute right-0 -top-2 px-1 text-[10px] text-gray-500 bg-white;
-}
 .calendar-wrapper .fc .fc-timegrid-slots .fc-timegrid-slot {
   @apply border-0;
 }
-.calendar-wrapper .fc .fc-timegrid-slots .fc-timegrid-slot.fc-timegrid-slot-lane {
-  @apply relative after:absolute after:top-0 after:w-full after:border-t after:border-gray-300;
+.calendar-wrapper .fc .fc-scrollgrid .fc-scroller .fc-timegrid-body .fc-timegrid-slots tr:nth-of-type(4n-1) .fc-timegrid-slot.fc-timegrid-slot-lane {
+  @apply border-t border-solid border-gray-200 hover:border-blue-600
 }
-.calendar-wrapper
-  .fc
-  .fc-timegrid-slots
-  .fc-timegrid-slot.fc-timegrid-slot-lane.fc-timegrid-slot-minor {
-  @apply relative after:absolute after:top-0 after:w-full after:border-t after:border-gray-200;
+.calendar-wrapper .fc .fc-scrollgrid .fc-scroller .fc-timegrid-body .fc-timegrid-slots tr:nth-of-type(4n-3) .fc-timegrid-slot.fc-timegrid-slot-lane {
+  @apply border-t border-solid border-gray-300 hover:border-blue-600
 }
-.calendar-wrapper .fc .fc-timegrid-cols .fc-day-today {
-  @apply bg-white;
+.calendar-wrapper .fc .fc-scrollgrid .fc-scroller .fc-timegrid-body .fc-timegrid-slots tr:nth-of-type(2n) .fc-timegrid-slot.fc-timegrid-slot-lane {
+  @apply border-t border-solid border-white border-opacity-0 hover:border-blue-600
 }
+
 
 /* 캘린더 블록 */
 .calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-bg-event {
@@ -139,7 +137,7 @@
   @apply flex-none text-xs leading-none tracking-tight
 }
 .calendar-wrapper .fc .fc-timegrid .fc-timegrid-body .fc-timegrid-cols .fc-timegrid-col-frame .fc-timegrid-col-events .fc-timegrid-event.fc-event.fc-v-event .fc-event-time {
-  @apply flex-none text-xs leading-none tracking-tight whitespace-pre-wrap
+  @apply flex-none text-xs leading-none tracking-tight whitespace-pre-wrap after:hidden
 }
 
 
@@ -152,9 +150,6 @@
   .fc-timegrid-bg-harness
   .fc-highlight {
   @apply hidden;
-}
-.calendar-wrapper .fc .fc-timegrid-col {
-  @apply bg-white;
 }
 
 /* indecator */
