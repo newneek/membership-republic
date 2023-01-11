@@ -124,22 +124,30 @@
 }
 
 
-/* 캘린더 블록 */
-.calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-bg-event {
-  @apply mx-0.5 rounded opacity-100 ;
+/* 캘린더 블록 - 멤버 일정 블록 */
+.calendar-wrapper .fc .fc-timegrid .fc-timegrid-body .fc-timegrid-cols .fc-timegrid-col-frame .fc-timegrid-event-harness {
+  @apply mr-2
 }
 .calendar-wrapper .fc .fc-timegrid .fc-timegrid-body .fc-timegrid-cols .fc-timegrid-col-frame .fc-timegrid-col-events .fc-timegrid-event.fc-event.fc-v-event {
   @apply flex flex-col gap-0.5 overflow-hidden
 }
-
-/* 캘린더 블록 - 멤버 일정 블록 */
 .calendar-wrapper .fc .fc-timegrid .fc-timegrid-body .fc-timegrid-cols .fc-timegrid-col-frame .fc-timegrid-col-events .fc-timegrid-event.fc-event.fc-v-event .fc-event-title {
   @apply flex-none text-xs leading-none tracking-tight
 }
 .calendar-wrapper .fc .fc-timegrid .fc-timegrid-body .fc-timegrid-cols .fc-timegrid-col-frame .fc-timegrid-col-events .fc-timegrid-event.fc-event.fc-v-event .fc-event-time {
-  @apply flex-none text-xs leading-none tracking-tight whitespace-pre-wrap after:hidden
+  @apply flex-none text-xs leading-tight tracking-tight whitespace-pre-wrap after:hidden
 }
 
+/* 캘린더 블록 - 일정 후보 블록 */
+.calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness {
+  @apply mr-2.5
+}
+.calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-bg-event {
+  @apply rounded opacity-100 ;
+}
+.calendar-wrapper .fc .fc-timegrid-col .fc-timegrid-col-frame .fc-event .fc-event-time {
+  @apply text-xs leading-tight tracking-tight
+}
 
 /* highlight */
 .calendar-wrapper
@@ -163,4 +171,12 @@
 /* 과거 일정 빗금 */
 .calendar-wrapper .fc .fc-timegrid .fc-scrollgrid-section .fc-timegrid-body .fc-timegrid-cols .fc-timegrid-col.fc-day.fc-day-past {
   @apply diagonal-stripe
+}
+
+/* z-index */
+.calendar-wrapper .fc .fc-timegrid-col-bg {
+  @apply z-[3]
+}
+.calendar-wrapper .fc .fc-timegrid-col-events {
+  @apply z-[2]
 }
