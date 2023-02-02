@@ -20,6 +20,7 @@ import CashIcon from './CashIcon';
 import ChartSquareBarIcon from './ChartSquareBarIcon';
 import ChatAlt2Icon from './ChatAlt2Icon';
 import ChatAltIcon from './ChatAltIcon';
+import ChatBubbleOvalLeft from './ChatBubbleOvalLeft';
 import ChatIcon from './ChatIcon';
 import CheckCircleIcon from './CheckCircleIcon';
 import CheckIcon from './CheckIcon';
@@ -157,6 +158,7 @@ export {
   ChartSquareBarIcon,
   ChatAlt2Icon,
   ChatAltIcon,
+  ChatBubbleOvalLeft,
   ChatIcon,
   CheckCircleIcon,
   CheckIcon,
