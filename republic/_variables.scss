@@ -15,14 +15,20 @@ $slate-700: #334155;
 $slate-800: #1E293B;
 $slate-900: #0F172A;
 
-$gray-100: #F1F5F9;
+$gray-100: #F8FAFC;
+//현재 gray100에 slate50값 적용되어있음
 $gray-200: #E2E8F0;
 $gray-300: #CBD5E1;
-$gray-400: #94A3B8;
-$gray-500: #64748B;
-$gray-600: #475569;
-$gray-700: #334155;
-$gray-800: #1E293B;
+$gray-400: #CBD5E1;
+//현재 gray400에 slate300값 적용되어있음
+$gray-500: #94A3B8;
+//현재 gray500에 slate400값 적용되어있음
+$gray-600: #94A3B8;
+//현재 gray600에 slate400값 적용되어있음
+$gray-700: #64748B;
+//현재 gray700에 slate500값 적용되어있음
+$gray-800: #475569;
+//현재 gray800에 slate600값 적용되어있음
 $gray-900: #0F172A;
 
 $coral-100: #ffedee;
