@@ -140,10 +140,10 @@
 
 /* 캘린더 블록 - 일정 후보 블록 */
 .calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness {
-  @apply mr-2.5
+  @apply ml-0.5 mr-2.5
 }
 .calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-bg-event {
-  @apply rounded opacity-100 ;
+  @apply rounded opacity-100 border border-white;
 }
 .calendar-wrapper .fc .fc-timegrid-col .fc-timegrid-col-frame .fc-event .fc-event-time {
   @apply text-xs leading-tight tracking-tight
