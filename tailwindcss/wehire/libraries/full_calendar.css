@@ -111,7 +111,7 @@
   @apply relative;
 }
 .calendar-wrapper .fc .fc-timegrid-slots .fc-timegrid-slot {
-  @apply border-0;
+  @apply border-0 text-xs;
 }
 .calendar-wrapper .fc .fc-scrollgrid .fc-scroller .fc-timegrid-body .fc-timegrid-slots tr:nth-of-type(4n-1) .fc-timegrid-slot.fc-timegrid-slot-lane {
   @apply border-t border-solid border-gray-200 hover:border-blue-600
