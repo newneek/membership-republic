@@ -31,17 +31,21 @@ $gray-800: #475569;
 //현재 gray800에 slate600값 적용되어있음
 $gray-900: #0F172A;
 
-$coral-100: #ffedee;
-$coral-400: #F39B8E;
-$coral-500: #ef7b6a;
-$coral-600: #ed6653;
+$coral-50: #FFF5E0;
+$coral-100: #FFDABC;
+$coral-200: #FFC6AA;
+$coral-300: #FFB49B;
+$coral-400: #FF8775;
+$coral-500: #EF7B6A;
+$coral-600: #ED6653;
 $coral-700: #E1432E;
-$coral-800: #be1e08;
+$coral-800: #B43625;
+$coral-900: #902B1D;
 
-$primary-100: #ffedee;
-$primary-200: #F39B8E;
-$primary-300: #ef7b6a;
-$primary-400: #ed6653;
+$primary-100: $coral-100;
+$primary-200: $coral-200;
+$primary-300: $coral-300;
+$primary-400: $coral-400;
 $primary: $primary-400;
 
 $teal-50: #F0FDFA;
@@ -56,11 +60,11 @@ $teal-800: #115E59;
 $teal-900: #134E4A;
 $teal: $teal-800;
 
-$light:     $gray-100;
-$medium:    $gray-300;
-$secondary: $gray-700;
-$davy-gray: $gray-800;
-$dark:      $gray-900;
+$light:     $slate-100;
+$medium:    $slate-300;
+$secondary: $slate-700;
+$davy-gray: $slate-800;
+$dark:      $slate-900;
 
 $red-50: #FEF2F2;
 $red-100: #FEE2E2;
@@ -162,12 +166,16 @@ $theme-colors: map-merge((
         "gray-700": $gray-700,
         "gray-800": $gray-800,
         "gray-900": $gray-900,
+        "coral-50": $coral-50,
         "coral-100": $coral-100,
+        "coral-200": $coral-200,
+        "coral-300": $coral-300,
         "coral-400": $coral-400,
         "coral-500": $coral-500,
         "coral-600": $coral-600,
         "coral-700": $coral-700,
         "coral-800": $coral-800,
+        "coral-900": $coral-900,
         "primary-100": $primary-100,
         "primary-200": $primary-200,
         "primary-300": $primary-300,
@@ -361,7 +369,7 @@ $headings-line-height: 1.5;
 
 $small-font-size: 88%;
 
-$text-muted: $gray-400;
+$text-muted: $slate-400;
 
 // Buttons + Forms
 //
@@ -404,9 +412,9 @@ $input-padding-x-sm: .3125rem;
 $input-padding-x: .4375rem;
 $input-padding-x-lg: .6875rem;
 
-$input-color: $gray-900;
-$input-border-color: $gray-300;
-$input-placeholder-color: $gray-500;
+$input-color: $slate-900;
+$input-border-color: $slate-300;
+$input-placeholder-color: $slate-400;
 $input-group-addon-bg: $light;
 
 $custom-control-indicator-size: 1.125rem;
@@ -427,9 +435,9 @@ $form-feedback-invalid-color:       $coral-800 !default;
 
 $dropdown-spacer: -0.1rem;
 $dropdown-border-radius: $border-radius;
-$dropdown-link-active-bg: $gray-200;
+$dropdown-link-active-bg: $slate-200;
 $dropdown-link-active-color: none;
-$dropdown-link-hover-bg: $gray-100;
+$dropdown-link-hover-bg: $slate-100;
 
 
 // Navs
@@ -445,12 +453,12 @@ $navbar-padding-x: 15px;
 
 $navbar-nav-link-padding-x: 0.75rem;
 
-$navbar-light-color: $gray-900;
-$navbar-light-hover-color: $gray-900;
+$navbar-light-color: $slate-900;
+$navbar-light-hover-color: $slate-900;
 
 $nav-tabs-link-hover-border-color: transparent;
 $nav-tabs-link-active-border-color: $coral-600;
-$nav-tabs-link-active-color: $gray-900;
+$nav-tabs-link-active-color: $slate-900;
 $nav-tabs-border-width: 3px;
 
 // Cards
@@ -477,7 +485,7 @@ $badge-pill-padding-x: .6em !default;
 $badge-pill-border-radius: 10rem !default;
 
 $badge-solid-colors: (
-    "gray": $gray-600,
+    "gray": $slate-600,
     "red": $red-600,
     "coral": $coral-600,
     "yellow": $yellow-600,
@@ -490,7 +498,7 @@ $badge-solid-colors: (
 );
 
 $badge-ghost-colors: (
-    "gray": $gray-700,
+    "gray": $slate-700,
     "red": $red-700,
     "coral": $coral-700,
     "yellow": $yellow-700,
@@ -513,7 +521,7 @@ $tag-medium-padding-x: .4375rem !default;
 $tag-medium-font-size: $font-size-base * .875 !default;
 
 $tag-bg-colors: (
-    "gray": $gray-100,
+    "gray": $slate-100,
     "red": $red-100,
     "coral": $coral-100,
     "yellow": $yellow-100,
@@ -526,7 +534,7 @@ $tag-bg-colors: (
 );
 
 $tag-text-colors: (
-    "gray": $gray-600,
+    "gray": $slate-600,
     "red": $red-600,
     "coral": $coral-600,
     "yellow": $yellow-600,
