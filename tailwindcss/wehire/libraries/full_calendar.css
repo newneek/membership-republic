@@ -111,7 +111,7 @@
   @apply relative;
 }
 .calendar-wrapper .fc .fc-timegrid-slots .fc-timegrid-slot {
-  @apply border-0;
+  @apply border-0 text-xs;
 }
 .calendar-wrapper .fc .fc-scrollgrid .fc-scroller .fc-timegrid-body .fc-timegrid-slots tr:nth-of-type(4n-1) .fc-timegrid-slot.fc-timegrid-slot-lane {
   @apply border-t border-solid border-gray-200 hover:border-blue-600
@@ -140,10 +140,10 @@
 
 /* 캘린더 블록 - 일정 후보 블록 */
 .calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness {
-  @apply mr-2.5
+  @apply ml-0.5 mr-2.5
 }
 .calendar-wrapper .fc .fc-timegrid-cols .fc-timegrid-bg-harness .fc-bg-event {
-  @apply rounded opacity-100 ;
+  @apply rounded opacity-100 border border-white;
 }
 .calendar-wrapper .fc .fc-timegrid-col .fc-timegrid-col-frame .fc-event .fc-event-time {
   @apply text-xs leading-tight tracking-tight
