@@ -23,6 +23,7 @@ import ChatAltIcon from './ChatAltIcon';
 import ChatBubbleOvalLeft from './ChatBubbleOvalLeft';
 import ChatIcon from './ChatIcon';
 import CheckCircleIcon from './CheckCircleIcon';
+import CheckCirclePlusIcon from './CheckCirclePlusIcon';
 import CheckIcon from './CheckIcon';
 import ChevronDoubleDownIcon from './ChevronDoubleDownIcon';
 import ChevronDoubleLeftIcon from './ChevronDoubleLeftIcon';
@@ -120,6 +121,7 @@ import SwitchVerticalIcon from './SwitchVerticalIcon';
 import TagIcon from './TagIcon';
 import ThumbDownIcon from './ThumbDownIcon';
 import ThumbUpIcon from './ThumbUpIcon';
+import TimelineVerticalIcon from './TimelineVerticalIcon';
 import TocIcon from './TocIcon';
 import TrashIcon from './TrashIcon';
 import TrophyIcon from './TrophyIcon';
@@ -161,6 +163,7 @@ export {
   ChatBubbleOvalLeft,
   ChatIcon,
   CheckCircleIcon,
+  CheckCirclePlusIcon,
   CheckIcon,
   ChevronDoubleDownIcon,
   ChevronDoubleLeftIcon,
@@ -252,6 +255,7 @@ export {
   TagIcon,
   ThumbDownIcon,
   ThumbUpIcon,
+  TimelineVerticalIcon,
   TocIcon,
   TrashIcon,
   TrophyIcon,
