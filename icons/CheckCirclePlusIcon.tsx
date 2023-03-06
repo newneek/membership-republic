@@ -12,7 +12,7 @@ function CheckCirclePlusIcon(props: React.SVGProps<SVGSVGElement>) {
         xmlns="http://www.w3.org/2000/svg"
         {...props}
       >
-        <g clip-path="url(#clip0_5601_23900)">
+        <g clipPath="url(#clip0_5601_23900)">
           <path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -44,7 +44,7 @@ function CheckCirclePlusIcon(props: React.SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_5601_23901)">
+      <g clipPath="url(#clip0_5601_23901)">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
