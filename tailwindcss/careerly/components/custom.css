@@ -1,0 +1,8 @@
+@layer components {
+    .tw-fixed-container-grid {
+        @apply tw-w-[1024px] tw-grid tw-grid-cols-12 tw-gap-x-12 tw-gap-y-8 tw-px-6 tw-mx-auto;
+    }
+    .tw-profile-image {
+        @apply tw-rounded-full tw-border tw-border-solid tw-border-gray-200 tw-bg-white tw-object-cover;
+    }
+}
