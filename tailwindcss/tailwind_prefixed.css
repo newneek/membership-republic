@@ -4,3 +4,5 @@
 
 @import './components/tag_prefixed.css';
 @import './components/badge_prefixed.css';
+
+@import 'careerly/components/custom.css';
