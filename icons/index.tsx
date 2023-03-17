@@ -134,6 +134,7 @@ import UserCircleIcon from './UserCircleIcon';
 import UserGroupIcon from './UserGroupIcon';
 import UserIcon from './UserIcon';
 import UserRemoveIcon from './UserRemoveIcon';
+import UsersIcon from './UsersIcon';
 import VerifiedIcon from './VerifiedIcon';
 import VideoCameraIcon from './VideoCameraIcon';
 import XBoxIcon from './XBoxIcon';
@@ -268,6 +269,7 @@ export {
   UserGroupIcon,
   UserIcon,
   UserRemoveIcon,
+  UsersIcon,
   UploadIcon,
   VerifiedIcon,
   VideoCameraIcon,
