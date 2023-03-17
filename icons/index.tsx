@@ -87,10 +87,12 @@ import LockOpenIcon from './LockOpenIcon';
 import LogoutIcon from './LogoutIcon';
 import MailAddIcon from './MailAddIcon';
 import MailIcon from './MailIcon';
+import MapPinIcon from './MapPinIcon';
 import MinusCircleIcon from './MinusCircleIcon';
 import MinusIcon from './MinusIcon';
 import MyContentsIcon from './MyContentsIcon';
 import NewspaperIcon from './NewspaperIcon';
+import OfficeBuildingIcon from './OfficeBuildingIcon';
 import PaperClipIcon from './PaperClipIcon';
 import PencilAlt2Icon from './PencilAlt2Icon';
 import PencilAltIcon from './PencilAltIcon';
@@ -222,10 +224,12 @@ export {
   LogoutIcon,
   MailIcon,
   MailAddIcon,
+  MapPinIcon,
   MinusCircleIcon,
   MinusIcon,
   MyContentsIcon,
   NewspaperIcon,
+  OfficeBuildingIcon,
   PaperClipIcon,
   PencilAltIcon,
   PencilAlt2Icon,
