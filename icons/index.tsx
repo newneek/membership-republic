@@ -4,6 +4,7 @@ import ArchiveIcon from './ArchiveIcon';
 import ArrowDownIcon from './ArrowDownIcon';
 import ArrowLeftIcon from './ArrowLeftIcon';
 import ArrowRightIcon from './ArrowRightIcon';
+import ArrowRightCircleIcon from './ArrowRightCircleIcon';
 import ArrowUpIcon from './ArrowUpIcon';
 import AsteriskIcon from './AsteriskIcon';
 import BellIcon from './BellIcon';
@@ -147,6 +148,7 @@ export {
   ArchiveIcon,
   ArrowDownIcon,
   ArrowRightIcon,
+  ArrowRightCircleIcon,
   ArrowLeftIcon,
   ArrowUpIcon,
   AsteriskIcon,
