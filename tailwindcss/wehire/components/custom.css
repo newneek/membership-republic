@@ -38,7 +38,7 @@
     @apply content-[''] block flex-none mr-2 w-4 h-4 border-2 border-gray-300 rounded;
   }
   input[type='checkbox']:checked + label.checkbox-label::before {
-    @apply bg-coral-600 border-coral-600 bg-center bg-contain bg-no-repeat;
+    @apply bg-slate-700 border-slate-700 bg-center bg-contain bg-no-repeat;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAYAAACXtf2DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACsSURBVHgB5ZTRDcIwDERvBEbIZrABbJJsmBEywmFDKgVhF4X4p+qTIlWtc46v1wJHg+RVVpNV9RqRiGDq4hsNUYjYpZ96pCIKEcv85oEIROhuiBdEYPj+skYtwyqO79osIYKT+M7PL+/neNO+G8WZOwngrO/GqNu4yaid910Kbk6TNp6MK3nvmyttsvN8Lu98v7ziNLEm/C/vutERHFnLO/ct0/th/5my5LvwBBPtbf/FMWHlAAAAAElFTkSuQmCC);
   }
   input[type='radio'] {
