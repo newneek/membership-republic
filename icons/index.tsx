@@ -93,6 +93,7 @@ import MinusCircleIcon from './MinusCircleIcon';
 import MinusIcon from './MinusIcon';
 import MyContentsIcon from './MyContentsIcon';
 import NewspaperIcon from './NewspaperIcon';
+import NoSymbolcon from './NoSymbolcon';
 import OfficeBuildingIcon from './OfficeBuildingIcon';
 import PaperClipIcon from './PaperClipIcon';
 import PencilAlt2Icon from './PencilAlt2Icon';
@@ -232,6 +233,7 @@ export {
   MinusIcon,
   MyContentsIcon,
   NewspaperIcon,
+  NoSymbolcon,
   OfficeBuildingIcon,
   PaperClipIcon,
   PencilAltIcon,
