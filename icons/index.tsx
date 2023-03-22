@@ -137,6 +137,7 @@ import UserGroupIcon from './UserGroupIcon';
 import UserIcon from './UserIcon';
 import UserRemoveIcon from './UserRemoveIcon';
 import UsersIcon from './UsersIcon';
+import VariableIcon from './VariableIcon';
 import VerifiedIcon from './VerifiedIcon';
 import VideoCameraIcon from './VideoCameraIcon';
 import XBoxIcon from './XBoxIcon';
@@ -275,6 +276,7 @@ export {
   UserRemoveIcon,
   UsersIcon,
   UploadIcon,
+  VariableIcon,
   VerifiedIcon,
   VideoCameraIcon,
   XBoxIcon,
