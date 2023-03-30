@@ -93,6 +93,7 @@ import MinusCircleIcon from './MinusCircleIcon';
 import MinusIcon from './MinusIcon';
 import MyContentsIcon from './MyContentsIcon';
 import NewspaperIcon from './NewspaperIcon';
+import NoSymbolcon from './NoSymbolcon';
 import OfficeBuildingIcon from './OfficeBuildingIcon';
 import PaperClipIcon from './PaperClipIcon';
 import PencilAlt2Icon from './PencilAlt2Icon';
@@ -136,6 +137,7 @@ import UserGroupIcon from './UserGroupIcon';
 import UserIcon from './UserIcon';
 import UserRemoveIcon from './UserRemoveIcon';
 import UsersIcon from './UsersIcon';
+import VariableIcon from './VariableIcon';
 import VerifiedIcon from './VerifiedIcon';
 import VideoCameraIcon from './VideoCameraIcon';
 import XBoxIcon from './XBoxIcon';
@@ -232,6 +234,7 @@ export {
   MinusIcon,
   MyContentsIcon,
   NewspaperIcon,
+  NoSymbolcon,
   OfficeBuildingIcon,
   PaperClipIcon,
   PencilAltIcon,
@@ -273,6 +276,7 @@ export {
   UserRemoveIcon,
   UsersIcon,
   UploadIcon,
+  VariableIcon,
   VerifiedIcon,
   VideoCameraIcon,
   XBoxIcon,
