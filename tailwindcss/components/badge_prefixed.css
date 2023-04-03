@@ -1,14 +1,14 @@
 @layer components {
     /* size */
     .tw-badge-sm {
-        @apply tw-inline-block tw-rounded-full tw-px-2.5 tw-py-1 tw-bg-gray-600 tw-text-xs tw-text-white tw-font-bold;
+        @apply tw-inline-block tw-rounded-full tw-px-2.5 tw-py-1 tw-bg-slate-400 tw-text-xs tw-text-white tw-font-bold;
     }
     .tw-badge {
-        @apply tw-inline-block tw-rounded-full tw-px-3 tw-py-1 tw-bg-gray-600 tw-text-sm tw-text-white tw-font-bold;
+        @apply tw-inline-block tw-rounded-full tw-px-3 tw-py-1 tw-bg-slate-400 tw-text-sm tw-text-white tw-font-bold;
     }
 
     /* type */
     .tw-badge-ghost {
-        @apply tw-bg-transparent tw-ring-inset tw-ring-1 tw-ring-current tw-text-gray-700;
+        @apply tw-bg-transparent tw-ring-inset tw-ring-1 tw-ring-current tw-text-slate-500;
     }
 }

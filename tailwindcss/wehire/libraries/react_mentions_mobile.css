@@ -28,10 +28,10 @@
 }
 
 .comment-mobile__suggestions > * {
-  @apply flex flex-col max-h-40 divide-y divide-gray-200 border border-gray-300 rounded overflow-y-auto;
+  @apply flex flex-col max-h-40 divide-y divide-slate-200 border border-slate-300 rounded overflow-y-auto;
 }
 
 .comment-mobile__suggestions > * > * {
-  @apply px-4 py-2 leading-none hover:font-bold hover:bg-gray-100;
+  @apply px-4 py-2 leading-none hover:font-bold hover:bg-slate-50;
 }
 

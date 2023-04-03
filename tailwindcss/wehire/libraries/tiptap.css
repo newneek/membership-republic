@@ -3,7 +3,7 @@
 }
 
 .ProseMirror .is-editor-empty:first-child::before {
-  @apply text-gray-500 text-sm float-left content-[attr(data-placeholder)] pointer-events-none h-0;
+  @apply text-slate-400 text-sm float-left content-[attr(data-placeholder)] pointer-events-none h-0;
 }
 
 .email_editor .title .ProseMirror {

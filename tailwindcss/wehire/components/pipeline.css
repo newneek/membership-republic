@@ -1,9 +1,9 @@
 .pipeline_element {
   @apply relative w-28 h-28 pt-4 pl-7 flex-none cursor-pointer
-  before:absolute before:block before:top-0 before:left-2 before:w-28 before:h-14 before:border-r-4 before:border-gray-100 before:skew-x-[16deg]
-  after:absolute after:block after:bottom-0 after:left-2 after:w-28 after:h-14 after:border-r-4 after:border-gray-100 after:skew-x-[-16deg]
+  before:absolute before:block before:top-0 before:left-2 before:w-28 before:h-14 before:border-r-4 before:border-slate-50 before:skew-x-[16deg]
+  after:absolute after:block after:bottom-0 after:left-2 after:w-28 after:h-14 after:border-r-4 after:border-slate-50 after:skew-x-[-16deg]
   last:rounded-l last:pl-4 first:before:skew-x-0 first:after:skew-x-0
-  first:before:border-white first:after:border-white first:before:hover:border-gray-300 first:after:hover:border-gray-300
+  first:before:border-white first:after:border-white first:before:hover:border-slate-300 first:after:hover:border-slate-300
 }
 
 .active_pipeline_element {
@@ -13,5 +13,5 @@
 }
 
 .inactive_pipeline_element {
-  @apply text-gray-500 hover:text-gray-700 bg-white before:bg-white after:bg-white hover:bg-gray-300 hover:before:bg-gray-300 hover:after:bg-gray-300
+  @apply text-slate-400 hover:text-slate-500 bg-white before:bg-white after:bg-white hover:bg-slate-300 hover:before:bg-slate-300 hover:after:bg-slate-300
 }
