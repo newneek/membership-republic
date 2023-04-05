@@ -10,7 +10,7 @@
 }
 .swiper .swiper-button-next,
 .swiper .swiper-button-prev {
-  @apply hidden w-4 h-5 after:text-lg after:content-['next'] text-gray-700
+  @apply hidden w-4 h-5 after:text-lg after:content-['next'] text-slate-500
   md:flex;
 }
 .swiper .swiper-button-next {
@@ -32,7 +32,7 @@
 }
 .pressSwiper.swiper .swiper-button-next,
 .pressSwiper.swiper .swiper-button-prev {
-  @apply hidden w-9 h-9 flex-center after:text-base after:font-bold after:text-gray-700 border-2 border-gray-700 rounded-full
+  @apply hidden w-9 h-9 flex-center after:text-base after:font-bold after:text-slate-500 border-2 border-slate-500 rounded-full
   sm:flex sm:top-[calc(100%+48px)];
 }
 .pressSwiper.swiper .swiper-button-prev {

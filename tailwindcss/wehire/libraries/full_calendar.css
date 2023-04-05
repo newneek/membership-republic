@@ -15,7 +15,7 @@
   @apply text-base;
 }
 .calendar-wrapper .fc .fc-header-toolbar .fc-toolbar-chunk .fc-button {
-  @apply flex-center p-1.5 rounded-full border-none hover:bg-gray-100 active:bg-white focus:shadow-none disabled:hover:bg-white disabled:cursor-not-allowed;
+  @apply flex-center p-1.5 rounded-full border-none hover:bg-slate-50 active:bg-white focus:shadow-none disabled:hover:bg-white disabled:cursor-not-allowed;
 }
 .calendar-wrapper .fc .fc-header-toolbar .fc-toolbar-chunk .fc-button-primary {
   @apply flex-none bg-white bg-none text-[14px] text-gray-900 hover:text-gray-900;
@@ -38,7 +38,7 @@
   .fc
   .fc-timegrid-slots
   .fc-timegrid-slot-label-cushion.fc-timegrid-slot-label-cushion {
-  @apply absolute right-0 -top-2 px-1 text-[10px] text-gray-500 bg-white;
+  @apply absolute right-0 -top-2 px-1 text-[10px] text-slate-400 bg-white;
 }
 
 /* 요일 표시 bar */
@@ -55,10 +55,10 @@
   @apply text-blue-700 font-bold;
 }
 .calendar-wrapper .fc .fc-timegrid .fc-col-header-cell.fc-day-sun .fc-col-header-cell-cushion {
-  @apply text-gray-500;
+  @apply text-slate-400;
 }
 .calendar-wrapper .fc .fc-timegrid .fc-col-header-cell.fc-day-sat .fc-col-header-cell-cushion {
-  @apply text-gray-500;
+  @apply text-slate-400;
 }
 .calendar-wrapper .fc .fc-timegrid .fc-timegrid-axis-cushion {
   @apply text-sm font-bold;
@@ -69,7 +69,7 @@
 
 /* allday */
 .calendar-wrapper .fc .fc-timegrid .fc-timegrid-axis-cushion {
-  @apply flex-center px-1 text-[10px] text-gray-500 font-normal;
+  @apply flex-center px-1 text-[10px] text-slate-400 font-normal;
 }
 .calendar-wrapper
   .fc
@@ -114,10 +114,10 @@
   @apply border-0 text-xs;
 }
 .calendar-wrapper .fc .fc-scrollgrid .fc-scroller .fc-timegrid-body .fc-timegrid-slots tr:nth-of-type(4n-1) .fc-timegrid-slot.fc-timegrid-slot-lane {
-  @apply border-t border-solid border-gray-200 hover:border-blue-600
+  @apply border-t border-solid border-slate-200 hover:border-blue-600
 }
 .calendar-wrapper .fc .fc-scrollgrid .fc-scroller .fc-timegrid-body .fc-timegrid-slots tr:nth-of-type(4n-3) .fc-timegrid-slot.fc-timegrid-slot-lane {
-  @apply border-t border-solid border-gray-300 hover:border-blue-600
+  @apply border-t border-solid border-slate-300 hover:border-blue-600
 }
 .calendar-wrapper .fc .fc-scrollgrid .fc-scroller .fc-timegrid-body .fc-timegrid-slots tr:nth-of-type(2n) .fc-timegrid-slot.fc-timegrid-slot-lane {
   @apply border-t border-solid border-white border-opacity-0 hover:border-blue-600

@@ -16,7 +16,7 @@
   [type='date'],
   [type='time'],
   textarea {
-    @apply block w-full p-3 text-sm rounded border border-gray-300 placeholder-gray-500  disabled:bg-gray-200 disabled:text-gray-700;
+    @apply block w-full p-3 text-sm rounded border border-slate-300 placeholder-slate-400  disabled:bg-slate-200 disabled:text-slate-500;
   }
   input:focus,
   textarea:focus {
@@ -35,7 +35,7 @@
     @apply font-bold;
   }
   input[type='checkbox'] + label.checkbox-label::before {
-    @apply content-[''] block flex-none mr-2 w-4 h-4 border-2 border-gray-300 rounded;
+    @apply content-[''] block flex-none mr-2 w-4 h-4 border-2 border-slate-300 rounded;
   }
   input[type='checkbox']:checked + label.checkbox-label::before {
     @apply bg-slate-700 border-slate-700 bg-center bg-contain bg-no-repeat;
@@ -49,7 +49,7 @@
   }
   input[type='radio'] + label.radio-label::before {
     content: '';
-    @apply block mr-2 w-5 h-5 border-2 border-gray-300 rounded-full;
+    @apply block mr-2 w-5 h-5 border-2 border-slate-300 rounded-full;
   }
   input[type='radio']:checked + label.radio-label {
     @apply font-bold;
@@ -79,7 +79,7 @@
   }
   .btn:hover::before,
   .btn-md:hover::before {
-    @apply content-[''] absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-10;
+    @apply content-[''] absolute top-0 left-0 w-full h-full bg-slate-50 bg-opacity-10;
   }
   .btn-coral-600 {
     @apply text-white bg-coral-600 focus:ring focus:ring-red-100;
@@ -87,11 +87,11 @@
   .btn-coral-100 {
     @apply text-coral-600 bg-coral-100 focus:ring focus:ring-red-100;
   }
-  .btn-gray-200 {
-    @apply text-gray-700 bg-gray-200 focus:ring focus:ring-gray-100;
+  .btn-slate-200 {
+    @apply text-slate-500 bg-slate-200 focus:ring focus:ring-slate-50;
   }
   .btn-ghost-gray {
-    @apply text-gray-900 bg-white border border-gray-900 focus:ring focus:ring-gray-300;
+    @apply text-gray-900 bg-white border border-gray-900 focus:ring focus:ring-slate-300;
   }
   .btn-ghost-coral {
     @apply text-coral-600 bg-white border border-coral-600 focus:ring focus:ring-red-100;
@@ -113,7 +113,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  @apply bg-gray-400 rounded-full;
+  @apply bg-slate-300 rounded-full;
 }
 /* root setup */
 #__next {
