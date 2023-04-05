@@ -18,7 +18,7 @@
 .tooltip-b::before {
   @apply left-[50%] bottom-[calc(-8px)] -translate-x-1/2  
   border-b-[4px] 
-  border-b-gray-900 
+  border-b-slate-900 
   border-l-[4px] 
   border-l-transparent 
   border-r-[4px] 
@@ -28,7 +28,7 @@
 .tooltip-t::before {
   @apply left-[50%] top-[calc(-8px)] -translate-x-1/2  
   border-t-[4px]  
-  border-t-gray-900 
+  border-t-slate-900 
   border-l-[4px]  
   border-l-transparent 
   border-r-[4px]  
@@ -40,7 +40,7 @@
   border-b-[4px]  
   border-b-transparent 
   border-r-[4px]  
-  border-r-gray-900 
+  border-r-slate-900 
   border-t-[4px]  
   border-t-transparent;
 }
@@ -50,7 +50,7 @@
   border-b-[4px]  
   border-b-transparent 
   border-l-[4px]  
-  border-l-gray-900 
+  border-l-slate-900 
   border-t-[4px]  
   border-t-transparent;
 }
@@ -58,7 +58,7 @@
 .tooltip::after {
   width: max-content;
   /* 정확한 조건 확인 필요 ㅜㅡ 멀티 라인의 경우 어떻게 되는건지?? */
-  @apply absolute content-[attr(data-tooltip)] whitespace-pre bg-gray-900 text-white p-3 text-xs leading-normal rounded
+  @apply absolute content-[attr(data-tooltip)] whitespace-pre bg-slate-900 text-white p-3 text-xs leading-normal rounded
   /* w-[240px]*/;
 }
 

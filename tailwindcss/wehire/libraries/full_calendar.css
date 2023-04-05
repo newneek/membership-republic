@@ -18,7 +18,7 @@
   @apply flex-center p-1.5 rounded-full border-none hover:bg-slate-50 active:bg-white focus:shadow-none disabled:hover:bg-white disabled:cursor-not-allowed;
 }
 .calendar-wrapper .fc .fc-header-toolbar .fc-toolbar-chunk .fc-button-primary {
-  @apply flex-none bg-white bg-none text-[14px] text-gray-900 hover:text-gray-900;
+  @apply flex-none bg-white bg-none text-[14px] text-slate-900 hover:text-slate-900;
 }
 .calendar-wrapper .fc .fc-col-header tr {
   @apply border-r-0;
@@ -162,10 +162,10 @@
 
 /* indecator */
 .calendar-wrapper .fc .fc-timegrid-now-indicator-arrow {
-  @apply border-gray-900 border-t-white border-b-white;
+  @apply border-slate-900 border-t-white border-b-white;
 }
 .calendar-wrapper .fc .fc-timegrid-now-indicator-line {
-  @apply border-gray-900;
+  @apply border-slate-900;
 }
 
 /* 과거 일정 빗금 */

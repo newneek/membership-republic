@@ -7,9 +7,9 @@
 }
 
 .active_pipeline_element {
-  @apply font-bold text-white bg-gray-900 
-  before:bg-gradient-to-r before:from-gray-900 before:to-gray-900 
-  after:bg-gradient-to-r after:from-gray-900 after:to-gray-900
+  @apply font-bold text-white bg-slate-900 
+  before:bg-gradient-to-r before:from-slate-900 before:to-slate-900 
+  after:bg-gradient-to-r after:from-slate-900 after:to-slate-900
 }
 
 .inactive_pipeline_element {

@@ -44,15 +44,15 @@
 }
 .post_editor h3,
 .contents-view h3 {
-  @apply text-xl md:text-2xl font-bold text-gray-900 mt-6 mb-3;
+  @apply text-xl md:text-2xl font-bold text-slate-900 mt-6 mb-3;
 }
 .post_editor h4,
 .contents-view h4 {
-  @apply text-lg font-bold text-gray-900 mt-4 mb-2;
+  @apply text-lg font-bold text-slate-900 mt-4 mb-2;
 }
 .post_editor p,
 .contents-view p {
-  @apply text-base font-normal text-gray-900 mt-1 mb-2;
+  @apply text-base font-normal text-slate-900 mt-1 mb-2;
 }
 .post_editor a,
 .contents-view a {
@@ -61,7 +61,7 @@
 .post_editor ul,
 .contents-view ul {
   padding-inline-start: 24px;
-  @apply list-disc text-base text-gray-900;
+  @apply list-disc text-base text-slate-900;
 }
 .post_editor ul li p,
 .contents-view ul li p {
@@ -80,20 +80,20 @@
 }
 .policy_editor h3,
 .policy-viewer h3 {
-  @apply text-base font-bold text-gray-900 mt-1 mb-2;
+  @apply text-base font-bold text-slate-900 mt-1 mb-2;
 }
 .policy_editor h4,
 .policy-viewer h4 {
-  @apply text-sm font-bold text-gray-900 mt-1 mb-2;
+  @apply text-sm font-bold text-slate-900 mt-1 mb-2;
 }
 .policy_editor p,
 .policy-viewer p {
-  @apply text-sm font-normal text-gray-900 mt-1 mb-2;
+  @apply text-sm font-normal text-slate-900 mt-1 mb-2;
 }
 .policy_editor ul,
 .policy-viewer ul {
   padding-inline-start: 24px;
-  @apply list-disc text-sm text-gray-900;
+  @apply list-disc text-sm text-slate-900;
 }
 .policy_editor ul li p,
 .policy-viewer ul li p {

@@ -6,7 +6,7 @@
   @apply md:hidden bottom-0 !important;
 }
 .swiper-pagination-bullet-active {
-  @apply bg-gray-900 !important;
+  @apply bg-slate-900 !important;
 }
 .swiper .swiper-button-next,
 .swiper .swiper-button-prev {
