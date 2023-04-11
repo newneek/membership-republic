@@ -1,5 +1,7 @@
 import AcademicCapIcon from './AcademicCapIcon';
 import AdjustmentsIcon from './AdjustmentsIcon';
+import AlarmIcon from './AlarmIcon';
+import AlarmPlusIcon from './AlarmPlusIcon';
 import ArchiveIcon from './ArchiveIcon';
 import ArrowDownIcon from './ArrowDownIcon';
 import ArrowLeftIcon from './ArrowLeftIcon';
@@ -147,6 +149,8 @@ import XIcon from './XIcon';
 export {
   AcademicCapIcon,
   AdjustmentsIcon,
+  AlarmIcon,
+  AlarmPlusIcon,
   ArchiveIcon,
   ArrowDownIcon,
   ArrowRightIcon,
