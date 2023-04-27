@@ -9,6 +9,7 @@ import ArrowRightIcon from './ArrowRightIcon';
 import ArrowRightCircleIcon from './ArrowRightCircleIcon';
 import ArrowUpIcon from './ArrowUpIcon';
 import AsteriskIcon from './AsteriskIcon';
+import AutoCheckIcon from './AutoCheckIcon';
 import BellIcon from './BellIcon';
 import BellOffIcon from './BellOffIcon';
 import BoldIcon from './BoldIcon';
@@ -158,6 +159,7 @@ export {
   ArrowLeftIcon,
   ArrowUpIcon,
   AsteriskIcon,
+  AutoCheckIcon,
   BellOffIcon,
   BellIcon,
   BookmarkIcon,
