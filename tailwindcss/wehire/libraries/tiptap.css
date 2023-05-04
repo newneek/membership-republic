@@ -14,23 +14,51 @@
   @apply absolute outline-none h-[calc(100%-24px)] w-[calc(100%-24px)];
 }
 
+/* ul */
+.bullet-editor ul {
+  @apply list-disc list-inside;
+}
+
+.bullet-editor ul li p,
+.bullet-editor ul li div {
+  @apply inline;
+}
+
+/* ol */
+.number-editor ol {
+  @apply list-decimal list-inside;
+}
+
+.number-editor ol li p,
+.number-editor ol li div {
+  @apply inline;
+}
+
+/* link */
+.link-editor a {
+  @apply underline text-blue-700;
+}
+
 /* email editor and viewer */
 .email_editor ul,
 .email_viewer ul {
   @apply list-disc list-inside;
 }
+
 .email_editor p,
 .email_viewer p,
 .email_editor div,
 .email_viewer div {
   @apply text-sm;
 }
+
 .email_editor ul li p,
 .email_viewer ul li p,
 .email_editor ul li div,
 .email_viewer ul li div {
   @apply inline;
 }
+
 .email_editor a,
 .email_viewer a {
   @apply underline text-blue-700;
@@ -99,4 +127,3 @@
 .policy-viewer ul li p {
   @apply mb-1;
 }
-
