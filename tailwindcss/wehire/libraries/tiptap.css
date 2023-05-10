@@ -127,3 +127,9 @@
 .policy-viewer ul li p {
   @apply mb-1;
 }
+
+/* line-height */
+
+.leading-tight-editor * {
+  @apply leading-tight;
+}
