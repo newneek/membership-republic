@@ -23,7 +23,7 @@ function BriefcaseAltIcon(props: React.SVGProps<SVGSVGElement>) {
           fill="inherit"
         />
       </svg>
-    )
+    );
   }
   return (
     <svg
@@ -42,7 +42,7 @@ function BriefcaseAltIcon(props: React.SVGProps<SVGSVGElement>) {
         fill="inherit"
       />
     </svg>
-  )
+  );
 }
 
 export default BriefcaseAltIcon;

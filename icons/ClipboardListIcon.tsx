@@ -19,7 +19,7 @@ function ClipboardListIcon(props: React.SVGProps<SVGSVGElement>) {
           fill="inherit"
         />
       </svg>
-    )
+    );
   }
   return (
     <svg
@@ -54,7 +54,7 @@ function ClipboardListIcon(props: React.SVGProps<SVGSVGElement>) {
         fill="inherit"
       />
     </svg>
-  )
+  );
 }
 
 export default ClipboardListIcon;

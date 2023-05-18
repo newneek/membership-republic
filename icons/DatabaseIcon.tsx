@@ -25,7 +25,7 @@ function DatabaseIcon(props: React.SVGProps<SVGSVGElement>) {
           fill="inherit"
         />
       </svg>
-    )
+    );
   }
   return (
     <svg
@@ -44,7 +44,7 @@ function DatabaseIcon(props: React.SVGProps<SVGSVGElement>) {
         fill="inherit"
       />
     </svg>
-  )
+  );
 }
 
 export default DatabaseIcon;

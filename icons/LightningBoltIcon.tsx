@@ -40,4 +40,3 @@ function LightningBoltIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 
 export default LightningBoltIcon;
-

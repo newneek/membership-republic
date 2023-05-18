@@ -19,7 +19,7 @@ function ChevronDoubleLeftIcon(props: React.SVGProps<SVGSVGElement>) {
           fill="inherit"
         />
       </svg>
-    )
+    );
   }
   return (
     <svg
@@ -38,7 +38,7 @@ function ChevronDoubleLeftIcon(props: React.SVGProps<SVGSVGElement>) {
         fill="inherit"
       />
     </svg>
-  )
+  );
 }
 
 export default ChevronDoubleLeftIcon;

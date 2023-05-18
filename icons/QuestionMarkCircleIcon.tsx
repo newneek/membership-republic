@@ -19,7 +19,7 @@ function QuestionMarkCircleIcon(props: React.SVGProps<SVGSVGElement>) {
           fill="inherit"
         />
       </svg>
-    )
+    );
   }
   return (
     <svg
@@ -46,7 +46,7 @@ function QuestionMarkCircleIcon(props: React.SVGProps<SVGSVGElement>) {
         fill="inherit"
       />
     </svg>
-  )
+  );
 }
 
 export default QuestionMarkCircleIcon;

@@ -6,7 +6,7 @@ function HighlightIcon(props: React.SVGProps<SVGSVGElement>) {
       <svg
         width="24"
         height="24"
-strokeWidth="0"
+        strokeWidth="0"
         viewBox="0 0 24 24"
         fill="current"
         xmlns="http://www.w3.org/2000/svg"
@@ -19,21 +19,21 @@ strokeWidth="0"
           fill="inherit"
         />
       </svg>
-    )
+    );
   }
   return (
     <svg
       width="24"
       height="24"
-strokeWidth="0"
+      strokeWidth="0"
       viewBox="0 0 24 24"
       fill="current"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <path d="M17 7H7V9H17V7Z" fill="inherit"/>
-      <path d="M7 11H17V13H7V11Z" fill="inherit"/>
-      <path d="M17 15H12V17H17V15Z" fill="inherit"/>
+      <path d="M17 7H7V9H17V7Z" fill="inherit" />
+      <path d="M7 11H17V13H7V11Z" fill="inherit" />
+      <path d="M17 15H12V17H17V15Z" fill="inherit" />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -41,7 +41,7 @@ strokeWidth="0"
         fill="inherit"
       />
     </svg>
-  )
+  );
 }
 
 export default HighlightIcon;
