@@ -54,6 +54,7 @@ import DatabaseIcon from './DatabaseIcon';
 import DesktopComputerIcon from './DesktopComputerIcon';
 import DocumentAddIcon from './DocumentAddIcon';
 import DocumentDuplicateIcon from './DocumentDuplicateIcon';
+import DocumentTextIcon from './DocumentTextIcon';
 import DotsHorizontalIcon from './DotsHorizontalIcon';
 import DotsVerticalDoubleIcon from './DotsVerticalDoubleIcon';
 import DotsVerticalIcon from './DotsVerticalIcon';
@@ -204,6 +205,7 @@ export {
   DesktopComputerIcon,
   DocumentAddIcon,
   DocumentDuplicateIcon,
+  DocumentTextIcon,
   DotsHorizontalIcon,
   DotsVerticalIcon,
   DotsVerticalDoubleIcon,
