@@ -71,6 +71,8 @@ import FilterIcon from './FilterIcon';
 import FireIcon from './FireIcon';
 import FlagIcon from './FlagIcon';
 import FolderIcon from './FolderIcon';
+import FormatColorTextIcon from './FormatColorTextIcon';
+import FormatSizeIcon from './FormatSizeIcon';
 import GiftIcon from './GiftIcon';
 import GlobeIcon from './GlobeIcon';
 import GraphIcon from './GraphIcon';
@@ -221,6 +223,8 @@ export {
   FilterIcon,
   FireIcon,
   FolderIcon,
+  FormatColorTextIcon,
+  FormatSizeIcon,
   GiftIcon,
   GlobeIcon,
   GraphIcon,
