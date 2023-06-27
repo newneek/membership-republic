@@ -2,6 +2,9 @@ module.exports = {
   darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
+      maxWidth: {
+        '8xl': '1440px',
+      },
       fontSize: {
         // extend default line height in tailwind.css
         xxs: ['0.625rem'],
