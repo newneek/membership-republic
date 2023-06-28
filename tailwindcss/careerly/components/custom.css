@@ -6,10 +6,10 @@
         @apply tw-rounded-full tw-border tw-border-solid tw-border-slate-200 tw-bg-white tw-object-cover tw-overflow-hidden tw-flex-none;
     }
     .tw-card-pc {
-        @apply tw-bg-white tw-rounded-lg tw-border tw-border-solid tw-border-slate-200 tw-shadow-sm tw-shadow-[#858585]/10 hover:tw-shadow-lg hover:tw-shadow-[#858585]/10 tw-transition tw-ease-in tw-duration-200 focus:tw-outline-none;
+        @apply tw-bg-white tw-rounded-lg tw-border tw-border-solid tw-border-slate-200 tw-shadow-sm hover:tw-shadow-lg tw-transition tw-ease-in tw-duration-200 focus:tw-outline-none focus-visible:tw-ring-2;
     }
     .tw-card-mo {
-        @apply tw-bg-white tw-rounded-lg tw-border tw-border-solid tw-border-slate-200 tw-shadow-sm tw-shadow-[#858585]/10 focus:tw-outline-none;
+        @apply tw-bg-white tw-rounded-lg tw-border tw-border-solid tw-border-slate-200 tw-shadow-sm focus:tw-outline-none focus-visible:tw-ring-2;
     }
     .tw-tooltip-arrow-t {
         @apply tw-w-0 tw-h-0 tw-border-solid tw-border-t-transparent tw-border-r-transparent tw-border-b-slate-900 tw-border-l-transparent tw-border-t-0 tw-border-r-4 tw-border-b-8 tw-border-l-4;
