@@ -23,4 +23,19 @@
     .tw-tooltip-arrow-l {
         @apply tw-w-0 tw-h-0 tw-border-solid tw-border-t-transparent tw-border-r-slate-900 tw-border-b-transparent tw-border-l-transparent tw-border-t-4 tw-border-r-8 tw-border-b-4 tw-border-l-0;
     }
+    .tw-custom-input {
+        @apply tw-form-input tw-block tw-w-full tw-px-3 tw-py-3 tw-bg-color-white disabled:tw-bg-color-slate-100 read-only:tw-bg-color-slate-100 tw-border tw-border-solid tw-border-color-slate-300 focus:tw-ring-0 focus:tw-border-color-slate-900 read-only:focus:tw-border-color-slate-300 tw-rounded tw-text-sm tw-leading-normal tw-text-color-slate-900 disabled:tw-text-color-slate-400 read-only:tw-text-color-slate-900 placeholder:tw-text-color-slate-400 tw-caret-color-teal-800 disabled:tw-opacity-100;
+    }
+    .tw-custom-textarea {
+        @apply tw-form-textarea tw-block tw-w-full tw-px-3 tw-py-3 tw-bg-color-white disabled:tw-bg-color-slate-100 read-only:tw-bg-color-slate-100 tw-border tw-border-solid tw-border-color-slate-300 focus:tw-ring-0 focus:tw-border-color-slate-900 read-only:focus:tw-border-color-slate-300 tw-rounded tw-text-sm tw-leading-normal tw-text-color-slate-900 disabled:tw-text-color-slate-400 read-only:tw-text-color-slate-900 placeholder:tw-text-color-slate-400 tw-caret-color-teal-800 tw-min-h-[9rem] tw-resize-none disabled:tw-opacity-100;
+    }
+    .tw-custom-select {
+        @apply tw-form-select tw-block tw-w-full tw-px-3 tw-py-3 tw-bg-color-white disabled:tw-bg-color-slate-100 tw-border tw-border-solid tw-border-color-slate-300 focus:tw-ring-0 focus:tw-border-color-slate-900 tw-rounded tw-text-sm tw-leading-normal tw-text-color-slate-900 disabled:tw-text-color-slate-400 placeholder:tw-text-color-slate-400 tw-caret-color-teal-800 disabled:tw-opacity-100;
+    }
+    .tw-custom-checkbox {
+        @apply tw-form-checkbox tw-cursor-pointer tw-h-5 tw-w-5 tw-bg-color-white checked:tw-bg-color-background-button-primary-bold hover:checked:tw-bg-color-background-button-primary-bold focus:checked:tw-bg-color-background-button-primary-bold tw-rounded tw-border-2 tw-border-solid tw-border-color-slate-300 focus:tw-outline-none focus-visible:tw-outline-none focus:tw-ring-0 focus:tw-ring-transparent focus-visible:tw-ring-2 focus-visible:tw-ring-color-slate-500 focus-visible:tw-ring-offset-2;
+    }
+    .tw-custom-radio {
+        @apply tw-form-radio tw-cursor-pointer tw-h-5 tw-w-5 tw-bg-color-white checked:tw-bg-color-background-button-primary-bold hover:checked:tw-bg-color-background-button-primary-bold focus:checked:tw-bg-color-background-button-primary-bold tw-rounded-full tw-border-2 tw-border-solid tw-border-color-slate-300 focus:tw-ring-0 focus:tw-ring-transparent focus:tw-outline-none focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-color-slate-500 focus-visible:tw-ring-offset-2;
+    }
 }
