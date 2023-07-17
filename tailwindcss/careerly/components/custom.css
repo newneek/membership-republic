@@ -1,3 +1,13 @@
+@layer utilities {
+    input::-webkit-contacts-auto-fill-button {
+        visibility: hidden;
+        display: none !important;
+        pointer-events: none;
+        position: absolute;
+        right: 0;
+    }
+}
+
 @layer components {
     .tw-fixed-container-grid {
         @apply tw-w-[1024px] tw-grid tw-grid-cols-12 tw-gap-x-12 tw-gap-y-8 tw-px-6 tw-mx-auto;
