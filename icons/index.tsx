@@ -123,6 +123,7 @@ import ServerIcon from './ServerIcon';
 import SettingIcon from './SettingIcon';
 import ShareIcon from './ShareIcon';
 import SpeakerphoneIcon from './SpeakerphoneIcon';
+import SpinnerIcon from './SpinnerIcon';
 import StarAltIcon from './StarAltIcon';
 import StarIcon from './StarIcon';
 import StatusOfflineIcon from './StatusOfflineIcon';
@@ -271,6 +272,7 @@ export {
   SettingIcon,
   ShareIcon,
   SpeakerphoneIcon,
+  SpinnerIcon,
   StatusOnlineIcon,
   StatusOfflineIcon,
   StarAltIcon,
