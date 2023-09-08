@@ -46,13 +46,4 @@ input::-webkit-contacts-auto-fill-button {
   .tw-custom-radio {
     @apply tw-form-radio tw-cursor-pointer tw-h-5 tw-w-5 tw-bg-color-white checked:tw-bg-color-slate-700 hover:checked:tw-bg-color-slate-700 focus:checked:tw-bg-color-slate-700 tw-rounded-full tw-border-2 tw-border-solid tw-border-color-slate-300 focus:tw-ring-0 focus:tw-ring-transparent focus:tw-outline-none focus-visible:tw-outline-none focus-visible:tw-ring-2 focus-visible:tw-ring-color-slate-500 focus-visible:tw-ring-offset-2;
   }
-  .tw-w-screen-md {
-    @apply tw-w-[768px];
-  }
-  .tw-w-screen-lg {
-    @apply tw-w-[1024px];
-  }
-  .tw-w-screen-xl {
-    @apply tw-w-[1280px];
-  }
 }
