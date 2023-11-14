@@ -117,6 +117,7 @@ import ReloadAltIcon from './ReloadAltIcon';
 import ReloadIcon from './ReloadIcon';
 import ReplyIcon from './ReplyIcon';
 import RepostIcon from './RepostIcon';
+import RobotIcon from './RobotIcon';
 import SearchIcon from './SearchIcon';
 import SendIcon from './SendIcon';
 import ServerIcon from './ServerIcon';
@@ -265,6 +266,7 @@ export {
   ReloadAltIcon,
   ReloadIcon,
   ReplyIcon,
+  RobotIcon,
   RepostIcon,
   SearchIcon,
   SendIcon,
