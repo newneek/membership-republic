@@ -152,6 +152,7 @@ import VideoCameraIcon from './VideoCameraIcon';
 import XBoxIcon from './XBoxIcon';
 import XCircleIcon from './XCircleIcon';
 import XIcon from './XIcon';
+import PushPinIcon from "./PushPinIcon";
 
 export {
   AcademicCapIcon,
@@ -308,4 +309,5 @@ export {
   StrikethroughIcon,
   LightningBoltIcon,
   UnderlineIcon,
+  PushPinIcon,
 };
