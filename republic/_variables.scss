@@ -4,16 +4,29 @@
 $black: #000000;
 $white: #ffffff;
 
-$slate-50: #f8fafc;
-$slate-100: #f1f5f9;
-$slate-200: #e2e8f0;
-$slate-300: #cbd5e1;
-$slate-400: #94a3b8;
-$slate-500: #64748b;
-$slate-600: #475569;
-$slate-700: #334155;
-$slate-800: #1e293b;
-$slate-900: #0f172a;
+// $slate-50: #f8fafc;
+// $slate-100: #f1f5f9;
+// $slate-200: #e2e8f0;
+// $slate-300: #cbd5e1;
+// $slate-400: #94a3b8;
+// $slate-500: #64748b;
+// $slate-600: #475569;
+// $slate-700: #334155;
+// $slate-800: #1e293b;
+// $slate-900: #0f172a;
+
+// 리브랜딩을 위한 새로운 slate color
+$slate-50: #f5f5f5;
+$slate-100: #eee;
+$slate-200: #e4e5e5;
+$slate-300: #ced0d1;
+$slate-450: #b6bbbf;
+$slate-400: #979b9e;
+$slate-500: #77797b;
+$slate-600: #575b5c;
+$slate-700: #3c4043;
+$slate-800: #282b2f;
+$slate-900: #111213;
 
 $gray-100: #f8fafc;
 //현재 gray100에 slate50값 적용되어있음
