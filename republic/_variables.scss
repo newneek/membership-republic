@@ -84,8 +84,6 @@ $emerald-900: #07c281;
 $secondary-800: $emerald-800;
 $secondary-900: $emerald-900;
 
-$gradient-primary: linear-gradient(270deg, #428eff -22.55%, #7a3bff 70.68%);
-
 $teal-50: #f0fdfa;
 $teal-50: #f0fdfa;
 $teal-100: #d5f4f2;
@@ -238,7 +236,7 @@ $theme-colors: map-merge(
     "primary-900": $primary-900,
     "secondary-800": $secondary-800,
     "secondary-900": $secondary-900,
-    "gradient-primary": $gradient-primary,
+
     "teal-50": $teal-50,
     "teal-100": $teal-100,
     "teal-200": $teal-200,
