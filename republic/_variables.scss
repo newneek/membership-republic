@@ -56,17 +56,37 @@ $coral-800: #be1e08;
 $coral-900: #7a2d22;
 
 // 리브랜딩을 위한 새로운 primary color
-$violet: #7a3bff; // basic
-$violet-700: #a57aff; // 700
-$violet-400: #c2a6ff; // 400
+$violet-015: rgba(122, 59, 255, 0.15); // 015
+$violet-100: #e9deff; // 100
+$violet-200: #e0d0ff; // 200
+$violet-300: #d7c3ff; // 300
+$violet-400: #cbb2ff; // 400
+$violet-500: #ba9aff; // 500
+$violet-600: #aa83ff; // 600
+$violet-700: #9969ff; // 700
+$violet-800: #8951ff; // 800
+$violet-900: #7a3bff; // basic
 
-$primary-100: $coral-100;
-$primary-200: $coral-200;
-$primary-300: $coral-300;
+$primary-015: $violet-015;
+$primary-100: $violet-100;
+$primary-200: $violet-200;
+$primary-300: $violet-300;
 $primary-400: $violet-400;
+$primary-500: $violet-500;
+$primary-600: $violet-600;
 $primary-700: $violet-700;
-$primary: $violet;
+$primary-800: $violet-800;
+$primary-900: $violet-900;
 
+$emerald-800: #13ab76;
+$emerald-900: #07c281;
+
+$secondary-800: $emerald-800;
+$secondary-900: $emerald-900;
+
+$gradient-primary: linear-gradient(270deg, #428eff -22.55%, #7a3bff 70.68%);
+
+$teal-50: #f0fdfa;
 $teal-50: #f0fdfa;
 $teal-100: #d5f4f2;
 $teal-200: #99f6e4;
