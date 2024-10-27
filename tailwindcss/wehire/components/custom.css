@@ -11,10 +11,10 @@
     @apply text-slate-900 w-full overflow-x-hidden;
   }
   input,
-  [type='text'],
-  [type='password'],
-  [type='date'],
-  [type='time'],
+  [type="text"],
+  [type="password"],
+  [type="date"],
+  [type="time"],
   textarea {
     @apply block w-full p-3 text-sm rounded border border-slate-300 placeholder-slate-400  disabled:bg-slate-200 disabled:text-slate-500;
   }
@@ -25,41 +25,41 @@
   input:focus[readonly] {
     @apply ring-0;
   }
-  input[type='checkbox'] {
+  input[type="checkbox"] {
     @apply hidden;
   }
-  input[type='checkbox'] + label.checkbox-label {
+  input[type="checkbox"] + label.checkbox-label {
     @apply flex justify-start items-center;
   }
-  input[type='checkbox']:checked + label.checkbox-label {
+  input[type="checkbox"]:checked + label.checkbox-label {
     @apply font-bold;
   }
-  input[type='checkbox'] + label.checkbox-label::before {
+  input[type="checkbox"] + label.checkbox-label::before {
     @apply content-[''] block flex-none mr-2 w-4 h-4 border-2 border-slate-300 rounded;
   }
-  input[type='checkbox']:checked + label.checkbox-label::before {
+  input[type="checkbox"]:checked + label.checkbox-label::before {
     @apply bg-slate-700 border-slate-700 bg-center bg-contain bg-no-repeat;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAYAAACXtf2DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACsSURBVHgB5ZTRDcIwDERvBEbIZrABbJJsmBEywmFDKgVhF4X4p+qTIlWtc46v1wJHg+RVVpNV9RqRiGDq4hsNUYjYpZ96pCIKEcv85oEIROhuiBdEYPj+skYtwyqO79osIYKT+M7PL+/neNO+G8WZOwngrO/GqNu4yaid910Kbk6TNp6MK3nvmyttsvN8Lu98v7ziNLEm/C/vutERHFnLO/ct0/th/5my5LvwBBPtbf/FMWHlAAAAAElFTkSuQmCC);
   }
-  input[type='radio'] {
+  input[type="radio"] {
     @apply hidden;
   }
-  input[type='radio'] + label.radio-label {
+  input[type="radio"] + label.radio-label {
     @apply flex justify-start items-center;
   }
-  input[type='radio'] + label.radio-label::before {
-    content: '';
+  input[type="radio"] + label.radio-label::before {
+    content: "";
     @apply block mr-2 w-5 h-5 border-2 border-slate-300 rounded-full;
   }
-  input[type='radio']:checked + label.radio-label {
+  input[type="radio"]:checked + label.radio-label {
     @apply font-bold;
   }
-  input[type='radio']:checked + label.radio-label::before {
+  input[type="radio"]:checked + label.radio-label::before {
     @apply bg-center bg-no-repeat;
     background-size: 12px 12px;
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNiIgY3k9IjYiIHI9IjYiIGZpbGw9IiMzMzQxNTUiLz4KPC9zdmc+Cg==);
   }
-  input[type='radio']:checked + label.radio-label.tabs {
+  input[type="radio"]:checked + label.radio-label.tabs {
     @apply bg-white border-transparent;
   }
 }
@@ -82,10 +82,10 @@
     @apply content-[''] absolute top-0 left-0 w-full h-full bg-slate-50 bg-opacity-10;
   }
   .btn-coral-600 {
-    @apply text-white bg-coral-600 focus:ring focus:ring-red-100;
+    @apply text-white bg-primary-900 focus:ring focus:ring-red-100;
   }
   .btn-coral-100 {
-    @apply text-coral-600 bg-coral-100 focus:ring focus:ring-red-100;
+    @apply text-primary-900 bg-coral-100 focus:ring focus:ring-red-100;
   }
   .btn-slate-200 {
     @apply text-slate-500 bg-slate-200 focus:ring focus:ring-slate-50;
@@ -94,7 +94,7 @@
     @apply text-slate-900 bg-white border border-slate-900 focus:ring focus:ring-slate-300;
   }
   .btn-ghost-coral {
-    @apply text-coral-600 bg-white border border-coral-600 focus:ring focus:ring-red-100;
+    @apply text-primary-900 bg-white border border-primary-900 focus:ring focus:ring-red-100;
   }
   .flex-center {
     @apply flex justify-center items-center;
@@ -103,8 +103,8 @@
     background-image: url("data:image/svg+xml,%3Csvg width='12' height='12' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23eeeeee' fill-opacity='0.5' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
   }
   .flat-shadow {
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.02),
-      0px 0px 4px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.01),
+      0px 0px 8px rgba(0, 0, 0, 0.02), 0px 0px 4px rgba(0, 0, 0, 0.04);
   }
 }
 
