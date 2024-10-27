@@ -3,15 +3,16 @@ export default class Variables {
   static black = "#000000";
   static white = "#ffffff";
 
-  static gray100 = "#f5f5f5";
-  static gray200 = "#eee";
-  static gray300 = "#e4e5e5";
-  static gray450 = "#b6bbbf";
-  static gray400 = "#979b9e";
-  static gray500 = "#77797b";
-  static gray600 = "#575b5c";
-  static gray700 = "#3c4043";
-  static gray800 = "#282b2f";
+  static gray50 = "#F5F5F5";
+  static gray100 = "#EEE";
+  static gray200 = "#E4E5E5";
+  static gray300 = "#CED0D1";
+  static gray450 = "#B6BBBF";
+  static gray400 = "#979B9E";
+  static gray500 = "#77797B";
+  static gray600 = "#575B5C";
+  static gray700 = "#3C4043";
+  static gray800 = "#282B2F";
   static gray900 = "#111213";
   static gray950 = "#111111";
 
@@ -74,6 +75,7 @@ export default class Variables {
   static themeColors = {
     black: Variables.black,
     white: Variables.white,
+    gray50: Variables.gray50,
     gray100: Variables.gray100,
     gray200: Variables.gray200,
     gray300: Variables.gray300,
