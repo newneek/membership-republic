@@ -57,6 +57,7 @@ $coral-900: #7a2d22;
 
 // 리브랜딩을 위한 새로운 primary color
 $violet-015: rgba(122, 59, 255, 0.15); // 015
+$violet-50: #f1ebff; // 100
 $violet-100: #e9deff; // 100
 $violet-200: #e0d0ff; // 200
 $violet-300: #d7c3ff; // 300
@@ -68,6 +69,7 @@ $violet-800: #8951ff; // 800
 $violet-900: #7a3bff; // basic
 
 $primary-015: $violet-015;
+$primary-50: $violet-50;
 $primary-100: $violet-100;
 $primary-200: $violet-200;
 $primary-300: $violet-300;
@@ -438,6 +440,7 @@ $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $font-weight-light: 200;
 $font-weight-light-semi: 300;
 $font-weight-normal: 400;
+$font-weight-bold-semi: 600;
 $font-weight-bold: 700;
 
 $h1-font-size: $font-size-base * 2;
