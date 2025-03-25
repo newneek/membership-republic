@@ -24,6 +24,8 @@ export default class Variables {
   static coral800 = "#BE1E08";
 
   static primary015 = "rgba(122, 59, 255, 0.15)";
+  static primary20 = "#F7F3FF";
+  static primary50 = "#F1EBFF";
   static primary100 = "#e9deff";
   static primary200 = "#e0d0ff";
   static primary300 = "#d7c3ff";
@@ -88,6 +90,8 @@ export default class Variables {
     gray900: Variables.gray900,
     gray950: Variables.gray950,
     primary015: Variables.primary015,
+    primary20: Variables.primary20,
+    primary50: Variables.primary50,
     primary100: Variables.primary100,
     primary200: Variables.primary200,
     primary300: Variables.primary300,
