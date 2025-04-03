@@ -1,28 +1,30 @@
 .fixed-container-xlarge {
-	@include make-container();
-	width: map-get($grid-breakpoints, "xl");
+  @include make-container();
+  // width: map-get($grid-breakpoints, "xl");
+  width: 1200px;
+  padding: 0px;
 }
 
 .fixed-container-large {
-	@include make-container();
-	width: map-get($grid-breakpoints, "lg");
+  @include make-container();
+  width: map-get($grid-breakpoints, 'lg');
 }
 
 .fixed-container-medium {
-	@include make-container();
-	width: map-get($grid-breakpoints, "md");
+  @include make-container();
+  width: map-get($grid-breakpoints, 'md');
 }
 
 .fixed-container-small {
-	@include make-container();
-	width: map-get($grid-breakpoints, "sm");
+  @include make-container();
+  width: map-get($grid-breakpoints, 'sm');
 }
 
 .fixed-container-xsmall {
-	@include make-container();
-	width: 390px;
+  @include make-container();
+  width: 390px;
 }
 
 .min-width-large {
-	min-width: map-get($grid-breakpoints, "lg");
+  min-width: map-get($grid-breakpoints, 'lg');
 }
