@@ -1,260 +1,556 @@
 .body-text {
-	& {font-size: 1.0625rem;}
-	iframe{width:100% !important}
-	p,
-	div{font-size:18px;font-weight:400;line-height:1.8;}
-	p strong,
-	div strong{display:inline}
-	img{display:block;width:100%;margin:20px 0}
-	big{display:block;margin:45px 0;padding:0 10px;text-align:center}
-	big:before,
-	big:after{display:block;width:32px;height:1px;margin:0 auto;background-color:#000;content:''}
-	big:before{margin-bottom:20px}
-	big:after{margin-top:22px}
-	big *{line-height:35px;font-size:1.24rem}
-	big tt{display:block;font-size:15px;font-weight:normal;color:#aa9478}
-	blockquote{display:block;margin:45px 0;padding-left:20px;border-left:3px solid #c3b4a0;line-height:28px;font-size:20px;color:#999}
-	blockquote tt{display:block;font-size:15px;font-weight:normal;color:#aa9478}
-	blockquote *{color:#999}
-	q{display:block;padding:30px 29px;margin:35px 0 25px;border:1px solid #ddd;color:#666}
-	q:before,
-	q:after{display:none}
-	ul{margin:40px 0 40px 20px;list-style:disc}
-	ul li{padding:0px 0;font-weight:400;}
-	ul li q{padding:0;margin:0;border:0;color:#333}
-	.img-explain{display:block;margin:5px 0 45px;color:#999;font-size:0.875em}
-	.img-explain:before{display:inline-block;width:3px;height:11px;margin-right:5px;background-color:#cdcdcd;content:''}
-	figcaption {
-		margin: 0.25rem 0 2.5rem;
-		color: #999;
-		font-size: 0.875rem;
-		line-height: 1.5;
-		&::before {
-			display: inline-block;
-			width: 0.25rem;
-			height: 0.6875rem;
-			margin-right: 0.5rem;
-			background-color: #cdcdcd;
-			content: '';
-		}
-	}
-	big{display:block;margin-bottom:40px;line-height:1.417em;font-size:1.5em}
-	hr{display:block;width:30px;height:2px;margin:50px 0 15px;background-color:#000;text-align:left}
-	p span[style*="background-color"] {padding: 3px 0;}
+  & {
+    font-size: 1.0625rem;
+  }
+  iframe {
+    width: 100% !important;
+  }
+  p,
+  div {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+  p strong,
+  div strong {
+    display: inline;
+  }
+  img {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+  }
+  big {
+    display: block;
+    margin: 45px 0;
+    padding: 0 10px;
+    text-align: center;
+  }
+  big:before,
+  big:after {
+    display: block;
+    width: 32px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #000;
+    content: '';
+  }
+  big:before {
+    margin-bottom: 20px;
+  }
+  big:after {
+    margin-top: 22px;
+  }
+  big * {
+    line-height: 35px;
+    font-size: 1.24rem;
+  }
+  big tt {
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+    color: #aa9478;
+  }
+  blockquote {
+    display: block;
+    margin: 45px 0;
+    padding-left: 20px;
+    border-left: 3px solid #c3b4a0;
+    line-height: 28px;
+    font-size: 20px;
+    color: #999;
+  }
+  blockquote tt {
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+    color: #aa9478;
+  }
+  blockquote * {
+    color: #999;
+  }
+  q {
+    display: block;
+    padding: 30px 29px;
+    margin: 35px 0 25px;
+    border: 1px solid #ddd;
+    color: #666;
+  }
+  q:before,
+  q:after {
+    display: none;
+  }
+  ul {
+    margin: 40px 0 40px 20px;
+    list-style: disc;
+  }
+  ul li {
+    padding: 0px 0;
+    font-weight: 400;
+  }
+  ul li q {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: #333;
+  }
+  .img-explain {
+    display: block;
+    margin: 5px 0 45px;
+    color: #999;
+    font-size: 0.875em;
+  }
+  .img-explain:before {
+    display: inline-block;
+    width: 3px;
+    height: 11px;
+    margin-right: 5px;
+    background-color: #cdcdcd;
+    content: '';
+  }
+  figcaption {
+    margin: 0.25rem 0 2.5rem;
+    color: #999;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    &::before {
+      display: inline-block;
+      width: 0.25rem;
+      height: 0.6875rem;
+      margin-right: 0.5rem;
+      background-color: #cdcdcd;
+      content: '';
+    }
+  }
+  big {
+    display: block;
+    margin-bottom: 40px;
+    line-height: 1.417em;
+    font-size: 1.5em;
+  }
+  hr {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 50px 0 15px;
+    background-color: #000;
+    text-align: left;
+  }
+  p span[style*='background-color'] {
+    padding: 3px 0;
+  }
 }
 
-.web-viewer .article-body{font-size:18px}
 .web-viewer .article-body {
-	.part{padding-top:10px}
-	.part:first-child{padding-top:0}
-	.headline{
-		font-size: 1.75rem;
-		line-height: 1.4;
-		margin: 2rem 0 0.75rem 0;
-	}
-	h3 {
-		font-size: 1.5rem;
-		font-weight: 400;
-		line-height: 1.5;
-		margin: 1rem 0 0.5rem 0;
-	}
-	p,
-	div{font-weight:400;line-height:1.8;}
-	p strong,
-	div strong{display:inline;font-weight:700}
-	img{display:block;width:100%;margin:40px 0 20px}
-	big{display:block;margin:45px 0;padding:0 10px;text-align:center}
-	big:before,
-	big:after{display:block;width:32px;height:1px;margin:0 auto;background-color:#000;content:''}
-	big:before{margin-bottom:20px}
-	big:after{margin-top:22px}
-	big *{line-height:35px;font-size:1.24rem}
-	big tt{display:block;font-size:15px;font-weight:normal;color:#aa9478}
-	blockquote{display:block;margin:2rem 0;padding-left:20px;border-left:3px solid #c3b4a0;font-size:18px;color:#7b7773;}
-	blockquote tt{display:block;font-size:15px;font-weight:normal;color:#aa9478}
-	blockquote {
-		* {
-			color:#7b7773;
-		}
-		a {
-			color: #ed6653;
-		}
-	}
-	q{display:block;padding:30px 29px;margin:35px 0 25px;border:1px solid #ddd;color:#666}
-	q:before,
-	q:after{display:none}
-	ul{margin:1.5rem 0 1.5rem 2.5rem;list-style:disc}
-	ul li{padding:0px 0; font-weight: 400; margin-bottom: 0.5rem;}
-	ul li q{padding:0;margin:0;border:0;color:#333}
-	.img-explain{display:block;margin:5px 0 40px;color:#999;font-size:14px;line-height:21px}
-	.img-explain:before{display:inline-block;width:3px;height:11px;margin-right:5px;background-color:#cdcdcd;content:''}
-	.img-explain img{margin:70px 0 0}
-	figcaption {
-		margin: 0.25rem 0 2.5rem;
-		color: #999;
-		font-size: 0.875rem;
-		line-height: 1.5;
-		&::before {
-			display: inline-block;
-			width: 0.25rem;
-			height: 0.6875rem;
-			margin-right: 0.5rem;
-			background-color: #cdcdcd;
-			content: '';
-		}
-	}
-	.editorial-comment {
-		color: #7f8c8d;
-		font-size: 14px;
-		margin-top: 0.3rem;
-	}
+  font-size: 18px;
+}
+.web-viewer .article-body {
+  .part {
+    padding-top: 10px;
+  }
+  .part:first-child {
+    padding-top: 0;
+  }
+  .headline {
+    font-size: 1.75rem;
+    line-height: 1.4;
+    margin: 2rem 0 0.75rem 0;
+  }
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 1rem 0 0.5rem 0;
+  }
+  p,
+  div {
+    font-weight: 400;
+    line-height: 1.8;
+  }
+  p strong,
+  div strong {
+    display: inline;
+    font-weight: 700;
+  }
+  img {
+    display: block;
+    width: 100%;
+    margin: 40px 0 20px;
+  }
+  big {
+    display: block;
+    margin: 45px 0;
+    padding: 0 10px;
+    text-align: center;
+  }
+  big:before,
+  big:after {
+    display: block;
+    width: 32px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #000;
+    content: '';
+  }
+  big:before {
+    margin-bottom: 20px;
+  }
+  big:after {
+    margin-top: 22px;
+  }
+  big * {
+    line-height: 35px;
+    font-size: 1.24rem;
+  }
+  big tt {
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+    color: #aa9478;
+  }
+  blockquote {
+    display: block;
+    margin: 2rem 0;
+    padding-left: 20px;
+    border-left: 3px solid #c3b4a0;
+    font-size: 18px;
+    color: #7b7773;
+  }
+  blockquote tt {
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+    color: #aa9478;
+  }
+  blockquote {
+    * {
+      color: #7b7773;
+    }
+    a {
+      color: #ed6653;
+    }
+  }
+  q {
+    display: block;
+    padding: 30px 29px;
+    margin: 35px 0 25px;
+    border: 1px solid #ddd;
+    color: #666;
+  }
+  q:before,
+  q:after {
+    display: none;
+  }
+  ul {
+    margin: 1.5rem 0 1.5rem 2.5rem;
+    list-style: disc;
+  }
+  ul li {
+    padding: 0px 0;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+  ul li q {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: #333;
+  }
+  .img-explain {
+    display: block;
+    margin: 5px 0 40px;
+    color: #999;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .img-explain:before {
+    display: inline-block;
+    width: 3px;
+    height: 11px;
+    margin-right: 5px;
+    background-color: #cdcdcd;
+    content: '';
+  }
+  .img-explain img {
+    margin: 70px 0 0;
+  }
+  figcaption {
+    margin: 0.25rem 0 2.5rem;
+    color: #999;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    &::before {
+      display: inline-block;
+      width: 0.25rem;
+      height: 0.6875rem;
+      margin-right: 0.5rem;
+      background-color: #cdcdcd;
+      content: '';
+    }
+  }
+  .editorial-comment {
+    color: #7f8c8d;
+    font-size: 14px;
+    margin-top: 0.3rem;
+  }
 
-	// TODO: 미디어 주석으로 사용하기 위해 임시로 추가한 클래스
-	//  나중에 figcaption 으로 대체 해야한다.
-	.media-comment {
-		color: #7f8c8d;
-		font-size: 0.875rem;
-		line-height: 1.5;
-		margin: -1rem auto 2.5rem;
-		max-width: 600px;
-		text-align: center;
-	}
+  // TODO: 미디어 주석으로 사용하기 위해 임시로 추가한 클래스
+  //  나중에 figcaption 으로 대체 해야한다.
+  .media-comment {
+    color: #7f8c8d;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin: -1rem auto 2.5rem;
+    max-width: 600px;
+    text-align: center;
+  }
 
-	.editorial-interview-question {
-		color: #2980b9;
-	}
+  .editorial-interview-question {
+    color: #2980b9;
+  }
 
-	.editorial-image-interviewee {
-		width: 250px;
-	}
+  .editorial-image-interviewee {
+    width: 250px;
+  }
 
-	/*
+  /*
 	Using custom style because of ckeditor and bootstrap css class .media(display:flex) conflict
 	Using duplicate code from '@ckeditor/ckeditor5-media-embed/theme/mediaembed.css
 	 */
-	.media {
-		/* Don't allow floated content overlap the media.
+  .media {
+    /* Don't allow floated content overlap the media.
         https://github.com/ckeditor/ckeditor5-media-embed/issues/53 */
-		clear: both;
+    clear: both;
 
-		/* Make sure there is some space between the content and the media. */
-		margin: 1em 0;
+    /* Make sure there is some space between the content and the media. */
+    margin: 1em 0;
 
-		/* Make sure media is not overriden with Bootstrap default `flex` value.
+    /* Make sure media is not overriden with Bootstrap default `flex` value.
         See: https://github.com/ckeditor/ckeditor5/issues/1373. */
-		display: block;
+    display: block;
 
-		/* Give the media some minimal width in the content to prevent them
+    /* Give the media some minimal width in the content to prevent them
         from being "squashed" in tight spaces, e.g. in table cells (#44) */
-		min-width: 15em;
-	}
+    min-width: 15em;
+  }
 }
 
 // for tablet
-@media only screen and (min-width : 960px){
-	.web-viewer .article-body{padding:0;font-size:18px;}
-	.web-viewer .article-body big *{line-height:36px;font-size:1.24rem}
-	.web-viewer .article-body blockquote{margin:70px 0;line-height:32px;font-size:20px;color:#7b7773}
-	.web-viewer .article-body img{margin:40px 0 14px}
+@media only screen and (min-width: 960px) {
+  .web-viewer .article-body {
+    padding: 0;
+    font-size: 18px;
+  }
+  .web-viewer .article-body big * {
+    line-height: 36px;
+    font-size: 1.24rem;
+  }
+  .web-viewer .article-body blockquote {
+    margin: 70px 0;
+    line-height: 32px;
+    font-size: 20px;
+    color: #7b7773;
+  }
+  .web-viewer .article-body img {
+    margin: 40px 0 14px;
+  }
 }
 // refactoring 용도 수정하지 말 것
 .editorial-design {
-	.part{padding-top:10px}
-	.part:first-child{padding-top:0}
-	.headline{
-		font-size: 1.75rem;
-		line-height: 1.4;
-		margin: 2rem 0 0.75rem 0;
-	}
-	h3 {
-		font-size: 1.5rem;
-		font-weight: 700;
-		line-height: 1.5;
-		margin: 1rem 0 0.5rem 0;
-	}
-	p{margin-bottom:1.5rem;}
-	p, div{font-weight:400;line-height:1.8;}
-	p strong,
-	div strong{display:inline;font-weight:700}
-	img{display:block;width:100%;margin:40px 0 20px}
-	big{display:block;margin:45px 0;padding:0 10px;text-align:center}
-	big:before,
-	big:after{display:block;width:32px;height:1px;margin:0 auto;background-color:#000;content:''}
-	big:before{margin-bottom:20px}
-	big:after{margin-top:22px}
-	big *{line-height:35px;font-size:24px}
-	big tt{display:block;font-size:15px;font-weight:normal;color:#aa9478}
-	blockquote{display:block;margin:2rem 0;padding-left:20px;border-left:3px solid #c3b4a0;font-size:18px;color:#7b7773;}
-	blockquote tt{display:block;font-size:15px;font-weight:normal;color:#aa9478}
-	blockquote {
-		* {
-			color:#7b7773;
-		}
-		a {
-			color: #ed6653;
-		}
-	}
-	q{display:block;padding:30px 29px;margin:35px 0 25px;border:1px solid #ddd;color:#666}
-	q:before,
-	q:after{display:none}
-	ul{margin:0 0 1.5rem 20px;list-style:disc}
-	ul li{padding:0px 0; font-weight: 400; margin-bottom: 0.5rem;}
-	ul li q{padding:0;margin:0;border:0;color:#333}
-	.img-explain{display:block;margin:5px 0 40px;color:#999;font-size:14px;line-height:21px}
-	.img-explain:before{display:inline-block;width:3px;height:11px;margin-right:5px;background-color:#cdcdcd;content:''}
-	.img-explain img{margin:70px 0 0}
-	figcaption {
-		margin: 0.25rem 0 2.5rem;
-		color: #999;
-		font-size: 0.875rem;
-		line-height: 1.5;
-		&::before {
-			display: inline-block;
-			width: 0.25rem;
-			height: 0.6875rem;
-			margin-right: 0.5rem;
-			background-color: #cdcdcd;
-			content: '';
-		}
-	}
-	.editorial-comment {
-		color: #7f8c8d;
-		font-size: 14px;
-		margin-top: 0.3rem;
-	}
+  .part {
+    padding-top: 10px;
+  }
+  .part:first-child {
+    padding-top: 0;
+  }
+  .headline {
+    font-size: 1.75rem;
+    line-height: 1.4;
+    margin: 2rem 0 0.75rem 0;
+  }
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 1rem 0 0.5rem 0;
+  }
+  p {
+    margin-bottom: 1.5rem;
+  }
+  p,
+  div {
+    font-weight: 400;
+    line-height: 1.8;
+  }
+  p strong,
+  div strong {
+    display: inline;
+    font-weight: 700;
+  }
+  img {
+    display: block;
+    width: 100%;
+    margin: 40px 0 20px;
+  }
+  big {
+    display: block;
+    margin: 45px 0;
+    padding: 0 10px;
+    text-align: center;
+  }
+  big:before,
+  big:after {
+    display: block;
+    width: 32px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #000;
+    content: '';
+  }
+  big:before {
+    margin-bottom: 20px;
+  }
+  big:after {
+    margin-top: 22px;
+  }
+  big * {
+    line-height: 35px;
+    font-size: 24px;
+  }
+  big tt {
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+    color: #aa9478;
+  }
+  blockquote {
+    display: block;
+    margin: 2rem 0;
+    padding-left: 20px;
+    border-left: 3px solid #c3b4a0;
+    font-size: 18px;
+    color: #7b7773;
+  }
+  blockquote tt {
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+    color: #aa9478;
+  }
+  blockquote {
+    * {
+      color: #7b7773;
+    }
+    a {
+      color: #ed6653;
+    }
+  }
+  q {
+    display: block;
+    padding: 30px 29px;
+    margin: 35px 0 25px;
+    border: 1px solid #ddd;
+    color: #666;
+  }
+  q:before,
+  q:after {
+    display: none;
+  }
+  ul {
+    margin: 0 0 1.5rem 20px;
+    list-style: disc;
+  }
+  ul li {
+    padding: 0px 0;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+  ul li q {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: #333;
+  }
+  .img-explain {
+    display: block;
+    margin: 5px 0 40px;
+    color: #999;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .img-explain:before {
+    display: inline-block;
+    width: 3px;
+    height: 11px;
+    margin-right: 5px;
+    background-color: #cdcdcd;
+    content: '';
+  }
+  .img-explain img {
+    margin: 70px 0 0;
+  }
+  figcaption {
+    margin: 0.25rem 0 2.5rem;
+    color: #999;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    &::before {
+      display: inline-block;
+      width: 0.25rem;
+      height: 0.6875rem;
+      margin-right: 0.5rem;
+      background-color: #cdcdcd;
+      content: '';
+    }
+  }
+  .editorial-comment {
+    color: #7f8c8d;
+    font-size: 14px;
+    margin-top: 0.3rem;
+  }
 
-	.editorial-interview-question {
-		color: #2980b9;
-	}
+  .editorial-interview-question {
+    color: #2980b9;
+  }
 
-	.editorial-image-interviewee {
-		width: 250px;
-	}
-	/*
+  .editorial-image-interviewee {
+    width: 250px;
+  }
+  /*
 	Using custom style because of ckeditor and bootstrap css class .media(display:flex) conflict
 	Using duplicate code from '@ckeditor/ckeditor5-media-embed/theme/mediaembed.css
 	 */
-	.media {
-		/* Don't allow floated content overlap the media.
+  .media {
+    /* Don't allow floated content overlap the media.
         https://github.com/ckeditor/ckeditor5-media-embed/issues/53 */
-		clear: both;
+    clear: both;
 
-		/* Make sure there is some space between the content and the media. */
-		margin: 1em 0;
+    /* Make sure there is some space between the content and the media. */
+    margin: 1em 0;
 
-		/* Make sure media is not overriden with Bootstrap default `flex` value.
+    /* Make sure media is not overriden with Bootstrap default `flex` value.
         See: https://github.com/ckeditor/ckeditor5/issues/1373. */
-		display: block;
+    display: block;
 
-		/* Give the media some minimal width in the content to prevent them
+    /* Give the media some minimal width in the content to prevent them
         from being "squashed" in tight spaces, e.g. in table cells (#44) */
-		min-width: 15em;
-	}
+    min-width: 15em;
+  }
 }
 
 // for tablet
-@media only screen and (min-width : 960px){
-	.editorial-design big *{line-height:36px;font-size:26px}
-	.editorial-design blockquote{margin:70px 0;line-height:32px;font-size:20px;color:#7b7773}
-	.editorial-design img{margin:40px 0 14px}
+@media only screen and (min-width: 960px) {
+  .editorial-design big * {
+    line-height: 36px;
+    font-size: 26px;
+  }
+  .editorial-design blockquote {
+    margin: 70px 0;
+    line-height: 32px;
+    font-size: 20px;
+    color: #7b7773;
+  }
+  .editorial-design img {
+    margin: 40px 0 14px;
+  }
 }
