@@ -30,6 +30,14 @@
     width: 100%;
     margin: 20px 0;
   }
+  // 본문 이미지는 CKEditor5가 항상 figure.image로 감싸므로, 마진을 figure에 두고
+  // img 자체는 0으로 맞춘다 (돋보기 버튼이 img 기준으로 위치하는데 img에 마진이 있으면 어긋나 보임)
+  figure.image {
+    margin: 20px 0;
+  }
+  figure.image img {
+    margin: 0;
+  }
   big {
     display: block;
     margin: 45px 0;
@@ -203,6 +211,9 @@
       color: #7b7773;
     }
     img {
+      margin: 40px 0 14px;
+    }
+    figure.image {
       margin: 40px 0 14px;
     }
   }
