@@ -185,6 +185,103 @@
   figure.image img {
     margin: 0;
   }
+  .code-block {
+    position: relative;
+    margin: 40px 0 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    background: #fff;
+  }
+  .code-block__language {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    font-size: 14px;
+    color: #999;
+    line-height: 1;
+  }
+  .code-block__actions {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .code-block__icon-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    background: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+  .code-block__icon-btn:hover {
+    background: #f5f5f5;
+  }
+  .code-block__icon-btn.is-active {
+    border-color: #7c5cff;
+    color: #7c5cff;
+  }
+  .code-block__tooltip {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px 8px;
+    border-radius: 6px;
+    background: #1f2937;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.4;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease;
+  }
+  .code-block__tooltip:before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 0 4px 4px 4px;
+    border-style: solid;
+    border-color: transparent transparent #1f2937 transparent;
+  }
+  .code-block__icon-btn:hover .code-block__tooltip,
+  .code-block__icon-btn:focus-visible .code-block__tooltip {
+    opacity: 1;
+  }
+  .code-block__pre {
+    margin: 0;
+    padding: 50px 16px 20px;
+    overflow-x: auto;
+    white-space: pre;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #1a1a1a;
+  }
+  .code-block__pre,
+  .code-block__pre code {
+    font-family: 'D2Coding', 'SF Mono', Consolas, 'Courier New', monospace;
+  }
+  .code-block__pre--wrap {
+    overflow-x: hidden;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  // details/summary 토글 내부 첫 블럭은 summary 바로 아래 붙어야 하므로 margin-top 제거
+  // .code-block 등 클래스 3개짜리 규칙(margin: 20px 0)이 특이성에서 더 높아 !important로 덮어씀
+  details > summary + * {
+    margin-top: 4px !important;
+  }
   big {
     display: block;
     margin: 45px 0;
@@ -363,6 +460,9 @@
     margin: 40px 0 14px;
   }
   .web-viewer .article-body figure.image {
+    margin: 40px 0 14px;
+  }
+  .web-viewer .article-body .code-block {
     margin: 40px 0 14px;
   }
 }
